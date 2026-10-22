@@ -66,13 +66,13 @@ def write_wav(path: Path, samples: array) -> None:
 
 # ---------------------------------------------------------------- mock
 def _mock(sentences: list[str], seed: int, pause_s: float, path: Path) -> dict:
-    """Low tone during 'words' at ~2.4 words/s, silence between; synthetic per-word timings."""
+    """Low tone during 'words' at ~2.6 words/s (Kokoro's measured rate), silence between; synthetic per-word timings."""
     samples = array("h")
     tokens, spans, t = [], [], 0.0
     freq = 160.0 + seed % 40
     for si, text in enumerate(sentences):
         words = [w for w in _strip_links(text).split() if re.sub(r"\W", "", w)]
-        dur = max(0.4, len(words) / 2.4)
+        dur = max(0.4, len(words) / 2.6)
         weights = [len(w) + 2 for w in words] or [1]
         total = float(sum(weights))
         s_start = t

@@ -99,8 +99,8 @@ def test_planner_code_fields(ctx, log, llm):
     plan = planner.make_node(ctx, log, llm)({"brief": c01, "loop": 0})["plan"]
     assert plan["rule_packs"] == ["base", "C"] and plan["mandatory_review"]
     assert (plan["width"], plan["height"]) == (1080, 1920)
-    # voice-over window = 45 s - 4 s end card - 0.3 s tail = 40.7 s at 2.4 words/s = 97.7 words, ±10 %
-    assert (plan["word_budget_min"], plan["word_budget_max"]) == (88, 107)
+    # voice-over window = 45 s - 4 s end card - 0.3 s tail = 40.7 s at 2.6 words/s = 105.8 words, ±10 %
+    assert (plan["word_budget_min"], plan["word_budget_max"]) == (95, 116)
     assert plan["shot_count_max"] == 9
     assert 8 <= len(plan["queries"]) <= 12
     assert all(i in plan["queries"] for i in c01["must_include"])

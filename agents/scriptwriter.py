@@ -20,12 +20,12 @@ from core.rules import load_packs, rules_text
 from core.schemas import HookOut, ScriptOut, ScriptSentenceOut
 from core.seeds import stage_seed
 from core.state import AgentState
-from core.textnorm import count_words, strip_unlisted_contacts, to_spoken
+from core.textnorm import count_words, short_urls, strip_unlisted_contacts, to_spoken
 
 AGENT = "scriptwriter"
 PROMPT_ID = "scriptwriter_v1"
 HOOK_STYLES = ("question", "surprising_fact", "direct_address")
-WORDS_PER_S = 2.4
+WORDS_PER_S = 2.6   # measured: Kokoro af_heart read 91 words in 34.98 s on Kaggle (2026-10-22)
 
 CONNECTIVES = [
     "Here's what the official sources say.",
@@ -206,6 +206,7 @@ def _fix_hooks(out: ScriptOut, fallback: ScriptOut) -> list[HookOut]:
 
 def _sentence(s, contacts: list[dict], urls: list[str], issues: list[str], label: str):
     display, removed = strip_unlisted_contacts(s.display.strip(), contacts, urls)
+    display = short_urls(display)
     if removed:
         issues.append(f"{label}: removed unlisted contacts {removed}")
     return s.model_copy(update={"display": display, "spoken": to_spoken(display, contacts),

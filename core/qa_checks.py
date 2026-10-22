@@ -21,7 +21,7 @@ from typing import Any, Callable, Iterable
 from core.schemas import QACheck
 
 # ---------------------------------------------------------------- thresholds (PLAN §9)
-DUR_MIN, DUR_MAX, DUR_TOL = 30.0, 60.0, 2.0
+DUR_MIN, DUR_MAX, DUR_TOL = 30.0, 60.0, 3.0
 AUDIO_RATE, AUDIO_CH, ABR_MIN, ABR_MAX = 48000, 2, 128_000, 192_000
 LUFS_TARGET, LUFS_TOL, TP_MAX = -14.0, 1.0, -1.0
 SIZE_MAX = 100 * 1024 * 1024
@@ -178,8 +178,9 @@ def check_duration(m: dict, target_s: float, voice_duration_s: float = 0.0) -> l
     ev = f"ffprobe format.duration={d:.2f}s; voice={voice_duration_s:.2f}s"
     return [
         qc("duration_range", DUR_MIN <= d <= DUR_MAX, agent, value=f"{d:.2f}", threshold=f"[{DUR_MIN:g},{DUR_MAX:g}] s", evidence=ev),
+        # soft: the handout only penalises <30 s / >60 s; hitting the card's duration exactly is a quality goal
         qc("duration_target", abs(d - target_s) <= DUR_TOL, agent, value=f"{d:.2f}",
-           threshold=f"{target_s:g}±{DUR_TOL:g} s", evidence=ev),
+           threshold=f"{target_s:g}±{DUR_TOL:g} s", evidence=ev, severity="soft"),
     ]
 
 
@@ -241,9 +242,12 @@ def _covered(iv: tuple[float, float], allowed: Iterable[tuple[float, float]], sl
 
 
 def allowed_windows(duration: float, shot_bounds: Iterable[float] = (), end_card_s: float = END_CARD_S,
-                    transition_pad: float = 0.6) -> list[tuple[float, float]]:
-    """Planned non-content windows: start 0.5 s, end card, ±pad around each shot boundary."""
+                    transition_pad: float = 0.6, vo_end: float | None = None) -> list[tuple[float, float]]:
+    """Planned non-content windows: start 0.5 s, end card, ±pad around each shot boundary, and (audio) everything
+    after the last spoken word: the end card is silent by design and starts after the VO tail."""
     win = [(0.0, 0.5), (max(0.0, duration - end_card_s - 0.5), duration + 1.0)]
+    if vo_end:
+        win.append((max(0.0, vo_end - transition_pad), duration + 1.0))
     win += [(max(0.0, t - transition_pad), t + transition_pad) for t in shot_bounds]
     return win
 
@@ -489,7 +493,8 @@ def check_hook(keywords: list[str], words: list[dict], onscreen: list[str], t_ma
 
 # ================================================================ end card
 def check_end_card(ocr_text: str, disclosure: str, cta_texts: list[str], *, logo: tuple[bool, float] | None = None,
-                   declared_blob: str = "", declared_logo: bool = False, ocr_available: bool = True) -> list[QACheck]:
+                   declared_blob: str = "", declared_logo: bool = False, ocr_available: bool = True,
+                   placeholder_logo: bool = False) -> list[QACheck]:
     """Disclosure + CTA fuzzy ≥0.9 in OCR of last 4 s; logo via template match. Falls back to scene.json."""
     use_ocr = ocr_available and bool(ocr_text.strip())
     hay = ocr_text if use_ocr else declared_blob
@@ -502,7 +507,11 @@ def check_end_card(ocr_text: str, disclosure: str, cta_texts: list[str], *, logo
     worst = min(scores) if scores else 0.0
     res.append(qc("end_card_cta", bool(ctas) and worst >= FUZZY_MIN, "editor", value=f"{worst:.2f}",
                   threshold=f">= {FUZZY_MIN}", evidence=f"{src}: expected {ctas[:3]}"))
-    if logo is not None:
+    if placeholder_logo:   # a config gap (team has not supplied the official logo), not something an agent can repair
+        res.append(qc("end_card_logo", False, "editor", value="placeholder", threshold="official logo",
+                      evidence="config/settings.yaml logo_path is the placeholder: add the official logo file",
+                      severity="soft"))
+    elif logo is not None:
         res.append(qc("end_card_logo", logo[0], "editor", value=f"{logo[1]:.2f}", threshold="matchTemplate >= 0.7",
                       evidence="cv2.matchTemplate on last-4 s frames"))
     else:

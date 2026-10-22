@@ -27,6 +27,9 @@ AGENT_PRIORITY = ["researcher", "scriptwriter", "storyboarder", "asset_generator
 SOFT_AGENTS = set(AGENT_PRIORITY)
 IMAGE_CHECKS = ("faces:", "nsfw:", "frame_judge:")
 VOICE_CHECKS = ("voice_wer",)
+# soft checks that are reported but never trigger a repair loop on their own
+COSMETIC_SOFT = {"caption_cps", "caption_min_duration", "word_budget", "duration_target", "end_card_logo",
+                 "caption_contrast", "on_screen_words"}
 
 FIX_HINTS: dict[str, str] = {
     "duration": "Fit the brief target: adjust the word budget (scriptwriter) or the timeline/end-card length (editor).",
@@ -116,6 +119,15 @@ def decide(state: AgentState, report: QAReport, *, max_loops: int,
     if not fails:
         return {"route": "human_review" if mandatory else "export", "feedback": cleared, "redo_shots": [],
                 "extra": {"redo_voice": False, "qa_summary": {**summary, "reason": "all checks passed"}}}
+
+    # Soft findings never justify an expensive repair loop on their own when they are cosmetic (a loop re-runs
+    # LLM + media stages: minutes on a T4), and other soft findings get at most one loop. They stay in the
+    # QA report and the review packet either way.
+    soft_only = not summary["hard_failures"]
+    if soft_only and (all(c.check_id in COSMETIC_SOFT for c in fails) or loop >= 1):
+        return {"route": "human_review" if mandatory else "export", "feedback": cleared, "redo_shots": [],
+                "extra": {"redo_voice": False,
+                          "qa_summary": {**summary, "reason": "only soft findings: reported, not repaired"}}}
 
     history = list(state.get("history") or [])
     researcher_used = any(h.get("routed_to") == "researcher" for h in history)
@@ -323,7 +335,9 @@ def run_hard_checks(ctx: RunContext, log: RunLogger, state: AgentState) -> tuple
             checks.append(q.check_size(m))
             wins = shot_windows(state, d)
             bounds = sorted({round(w["end"], 3) for w in wins[:-1]})
-            checks += q.check_dead_air(m, q.allowed_windows(d, bounds))
+            vwords = (state.get("voice") or {}).get("words") or []
+            vo_end = float(vwords[-1]["end"]) if vwords else float((state.get("voice") or {}).get("duration_s") or 0)
+            checks += q.check_dead_air(m, q.allowed_windows(d, bounds, vo_end=vo_end or None))
             media["windows"] = wins
             _extract_frames(ctx, log, video, wins, d, loop, media)
         except Exception as e:  # noqa: BLE001
@@ -378,7 +392,12 @@ def run_hard_checks(ctx: RunContext, log: RunLogger, state: AgentState) -> tuple
     if media.get("duration"):
         checks += _end_card(ctx, state, media, settings, script, storyboard)
 
-    checks += q.check_shot_images(state.get("shot_assets") or {}, float(models.get("qa", {}).get("nsfw", {}).get("max_score", 0.2)))
+    from core.graph import image_is_current
+
+    shots_by_id = {str(s["shot_id"]): s for s in (state.get("storyboard") or {}).get("shots", [])}
+    in_use = {sid: a for sid, a in (state.get("shot_assets") or {}).items()     # stale images are not in the video
+              if sid in shots_by_id and image_is_current(shots_by_id[sid], a)}
+    checks += q.check_shot_images(in_use, float(models.get("qa", {}).get("nsfw", {}).get("max_score", 0.2)))
     checks.append(q.check_wer(state.get("voice") or {}, float(models.get("voice", {}).get("wer_max", 0.08))))
     checks.append(q.check_licences(_manifest_rows(ctx), _licence_predicate()))
     return checks, media
@@ -446,8 +465,10 @@ def _end_card(ctx: RunContext, state: AgentState, media: dict, settings: dict, s
     logo_p = Path(logo_rel) if Path(logo_rel).is_absolute() else ROOT / logo_rel
     declared_logo = bool(end_shots) and logo_p.is_file()
     logo = q.match_logo(end_frames, logo_p) if end_frames else None     # None: svg-only logo or no cv2
+    placeholder = "placeholder" in str(brand.get("logo_path") or "") or not (ROOT / settings.get("logo_path", "")).is_file()
     return q.check_end_card(ocr_text, disclosure, cta, logo=logo, declared_blob=blob,
-                            declared_logo=declared_logo, ocr_available=media.get("ocr_available", False))
+                            declared_logo=declared_logo, ocr_available=media.get("ocr_available", False),
+                            placeholder_logo=placeholder)
 
 
 # ================================================================ soft checks

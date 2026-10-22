@@ -238,6 +238,7 @@ class ShotAsset(BaseModel):
     nsfw_score: float = 0.0
     vlm_ok: bool = True
     vlm_note: str = ""
+    visual_prompt: str = ""           # storyboard prompt this image was made for (stale if the storyboard changes)
     start: float = 0.0                # filled by the editor from voice timings
     end: float = 0.0
 

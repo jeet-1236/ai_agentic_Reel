@@ -286,7 +286,8 @@ def _process_shots(ctx: RunContext, log: RunLogger, jobs: list[dict]) -> list[di
                          "not cleared by a VLM")
         out.append(ShotAsset(shot_id=j["shot_id"], image_path=final, candidates=j["candidates"], seed=c["seed"],
                              face_count=faces, nsfw_score=float(c["check"].get("nsfw_score", 0.0)),
-                             vlm_ok=faces == 0, vlm_note="; ".join(notes)).model_dump(mode="json"))
+                             vlm_ok=faces == 0, vlm_note="; ".join(notes),
+                             visual_prompt=j["visual_prompt"]).model_dump(mode="json"))
     log.record(agent=AGENT, tool="image_batch", seed=jobs[0]["seed"], units={
         "shots": len(jobs), "images": sum(len(j["candidates"]) for j in jobs), "retried": len(retry),
         "upscale": up.get("method", ""), "size": [tw, th]})
@@ -412,8 +413,10 @@ def make_join_node(ctx: RunContext, log: RunLogger, llm) -> Callable[[AgentState
         loop = int(state.get("loop", 0) or 0)
         shots = (state.get("storyboard") or {}).get("shots", [])
         have = state.get("shot_assets") or {}
+        from core.graph import image_is_current
+
         missing = [int(s["shot_id"]) for s in shots if s.get("visual_prompt")
-                   and not ((have.get(str(s["shot_id"])) or {}).get("image_path")
+                   and not (image_is_current(s, have.get(str(s["shot_id"])))
                             and Path(have[str(s["shot_id"])]["image_path"]).exists())]
         voice_ok = bool((state.get("voice") or {}).get("wav_path"))
         ready = not missing and voice_ok

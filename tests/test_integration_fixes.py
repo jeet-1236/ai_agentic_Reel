@@ -38,3 +38,34 @@ def test_cta_with_whitelisted_url_counts_as_sourced():
                       "spoken": "", "fact_ids": []}, "word_count": 10}
     checks = {c.check_id: c for c in check_facts(script, [], None, contacts)}
     assert checks["facts_tagged"].passed
+
+
+# ---- found in the first real Kaggle run (2026-10-22)
+def test_stale_image_not_reused_after_storyboard_change():
+    from core.graph import dispatch_assets, image_is_current
+
+    shot_old = {"shot_id": 3, "visual_prompt": "a college building"}
+    shot_new = {"shot_id": 3, "visual_prompt": "an envelope icon"}
+    asset = {"shot_id": 3, "image_path": "x.png", "visual_prompt": "a college building"}
+    assert image_is_current(shot_old, asset) and not image_is_current(shot_new, asset)
+    state = {"storyboard": {"shots": [shot_new, {"shot_id": 4, "visual_prompt": ""}]},
+             "shot_assets": {"3": asset, "4": {"shot_id": 4, "image_path": "y.png", "visual_prompt": "old"}},
+             "plan": {}, "brief": {}, "voice": {"wav_path": "v.wav"}}
+    sends = dispatch_assets(state)
+    assert [s.node for s in sends] == ["image_shot"] and sends[0].arg["shot"]["shot_id"] == 3
+
+
+def test_short_urls():
+    from core.textnorm import short_urls
+
+    assert short_urls("Read https://www.somaiya.edu/en/center-of-examination/.") == "Read somaiya.edu/en/center-of-examination."
+    assert short_urls("Email helpline@antiragging.in") == "Email helpline@antiragging.in"
+
+
+def test_silence_after_voiceover_is_planned():
+    from core.qa_checks import allowed_windows, check_dead_air
+
+    m = {"silences": [(34.5, 40.28)], "blacks": [], "freezes": [], "probe": {"format": {"duration": "40.30"}}}
+    without = {c.check_id: c for c in check_dead_air(m, allowed_windows(40.3, [10.0, 20.0]))}
+    with_vo = {c.check_id: c for c in check_dead_air(m, allowed_windows(40.3, [10.0, 20.0], vo_end=34.98))}
+    assert not without["dead_air"].passed and with_vo["dead_air"].passed

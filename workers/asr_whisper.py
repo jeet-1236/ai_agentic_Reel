@@ -38,7 +38,7 @@ def _mock(req: dict) -> dict:
         t = 0.0
         for w in text.split():
             words.append({"word": w, "start": round(t, 3), "end": round(t + 0.38, 3), "probability": 1.0})
-            t += 1 / 2.4
+            t += 1 / 2.6
     return {"text": text, "words": words}
 
 

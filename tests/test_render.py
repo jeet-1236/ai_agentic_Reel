@@ -99,7 +99,8 @@ def make_state(tmp: Path, aspect: str = "9x16", shots: list[dict] | None = None,
     for s in shots:
         if s.get("visual_prompt"):
             iw, ih = (768, 1344) if aspect == "9x16" else (1344, 768)
-            assets[str(s["shot_id"])] = {"shot_id": s["shot_id"], "image_path": str(placeholder_image(tmp / f"img_{s['shot_id']}.png", iw, ih, s["shot_id"] * 40))}
+            assets[str(s["shot_id"])] = {"shot_id": s["shot_id"], "visual_prompt": s["visual_prompt"],
+                                         "image_path": str(placeholder_image(tmp / f"img_{s['shot_id']}.png", iw, ih, s["shot_id"] * 40))}
     sent = [{"display": s, "spoken": s, "fact_ids": []} for s in sentences]
     return {
         "brief": {"id": "T01", "format": "video_16x9" if aspect == "16x9" else "video_9x16", "duration_s": 30},

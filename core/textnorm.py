@@ -473,3 +473,13 @@ def strip_unlisted_contacts(text: str, contacts: Iterable[dict] | None,
         text = text[:a] + SAFE_CONTACT_TEXT[item["kind"]] + tail + text[b:]
         removed.append(item["text"])
     return text, removed[::-1]
+
+
+_URL_PREFIX = re.compile(r"\bhttps?://(?:www\.)?", re.I)
+_URL_TRAILING_SLASH = re.compile(r"(\b[\w.-]+\.[a-z]{2,}(?:/[\w%.~-]+)*)/(?=[\s.,;!?)]|$)", re.I)
+
+
+def short_urls(text: str) -> str:
+    """Display form of URLs: 'https://www.somaiya.edu/en/x/' -> 'somaiya.edu/en/x'. Shorter captions and cards;
+    the critic's whitelist check normalises URLs the same way, so verification is unaffected."""
+    return _URL_TRAILING_SLASH.sub(r"\1", _URL_PREFIX.sub("", text or ""))

@@ -280,7 +280,11 @@ def build_scene(ctx: RunContext, state: AgentState, settings: dict | None = None
     shots: list[SceneShot] = []
     for (start, end), sb in zip(shot_times(body, spans, content_end, fps), body):
         sid = int(sb["shot_id"])
-        img = (assets.get(str(sid)) or {}).get("image_path", "")
+        asset = assets.get(str(sid)) or {}
+        # only an image generated for THIS shot's current prompt (repair loops reuse shot ids)
+        img = asset.get("image_path", "") if asset.get("visual_prompt", "") == sb.get("visual_prompt", "") else ""
+        if asset.get("image_path") and not img:
+            warnings.append(f"shot {sid}: stale image (made for a different prompt) ignored")
         if img and not Path(img).is_file() and not (ROOT / img).is_file():
             warnings.append(f"shot {sid}: image {img} missing -> gradient")
             img = ""

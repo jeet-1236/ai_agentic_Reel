@@ -24,7 +24,7 @@ from core.rules import load_packs, rules_text, style_for
 from core.schemas import TEMPLATES, Script, ShotOut, StoryboardOut
 from core.seeds import stage_seed
 from core.state import AgentState
-from core.textnorm import contact_allowed, find_contacts, shorten
+from core.textnorm import contact_allowed, find_contacts, short_urls, shorten
 
 AGENT = "storyboarder"
 PROMPT_ID = "storyboarder_v1"
@@ -95,7 +95,7 @@ def contact_lines(contacts: list[dict], kinds: tuple[str, ...] = ("phone", "emai
     out = []
     for c in contacts:
         if c.get("kind") in kinds and (c.get("display") or c.get("value")):
-            label = shorten(c.get("label") or c["kind"].capitalize(), 4)
+            label = shorten(c.get("label") or KIND_LABEL.get(c["kind"], c["kind"].capitalize()), 4)
             out.append(f"{label}: {c.get('display') or c.get('value')}")
         if len(out) >= limit:
             break
@@ -111,9 +111,10 @@ def _contact_line(found: dict, contacts: list[dict]) -> str:
             found["text"].lower() in {v.lower() for v in vals}
         if same and c.get("label"):
             return f"{shorten(c['label'], 4)}: {found['text']}"
-    return f"{found['kind'].capitalize()}: {found['text']}"
+    return f"{KIND_LABEL.get(found['kind'], found['kind'].capitalize())}: {found['text']}"
 
 
+KIND_LABEL = {"url": "Website", "phone": "Call", "email": "Email"}
 DO_PREFIX, DONT_PREFIX = "Do: ", "Don't: "
 GENERIC_DO = "Do: Check the official rules first"
 _PREFIX_RX = re.compile(r"(?i)^\s*(?:(do\s*:|\+|✓)|(don'?t\s*:?|do not\s*:?|-|✗|never\s*:))\s*")
@@ -299,6 +300,11 @@ def finalize(sb: StoryboardOut, sentences: list[dict], contacts: list[dict], url
         s.fact_ids = list(dict.fromkeys(f for i in s.sentence_indices for f in sentences[i]["fact_ids"]))
         texts = []
         for t in s.on_screen_text:
+            t = short_urls(t)
+            if re.match(r"(?i)^\s*(label|value|contact)\s*:", t):   # the LLM copied the prompt's "Label: value" format
+                found = find_contacts(t, contacts)
+                t = _contact_line(found[0], contacts) if found else re.sub(r"(?i)^\s*(label|value|contact)\s*:\s*", "", t)
+                t = short_urls(t)
             bad = [c for c in find_contacts(t, contacts) if not contact_allowed(c, contacts, urls)]
             if bad:
                 notes.append(f"shot {k}: dropped unlisted contact text {t!r}")

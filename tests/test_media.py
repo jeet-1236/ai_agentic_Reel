@@ -315,13 +315,17 @@ def test_join_node(ctx, log, llm, tmp_path):
     img.write_bytes(b"x")
     shots = [{"shot_id": 1, "visual_prompt": "x"}, {"shot_id": 2, "visual_prompt": ""}, {"shot_id": 3, "visual_prompt": "y"}]
     node = make_join_node(ctx, log, llm)
-    st = {"storyboard": {"shots": shots}, "shot_assets": {"1": {"image_path": str(img)}, "3": {"image_path": str(img)}},
+    st = {"storyboard": {"shots": shots},
+          "shot_assets": {"1": {"image_path": str(img), "visual_prompt": "x"}, "3": {"image_path": str(img), "visual_prompt": "y"}},
           "voice": {"wav_path": "v.wav"}, "loop": 0}
     out = node(st)
     assert out["extra"] == {"assets_ready": True, "redo_voice": False, "missing_shots": []} and out["redo_shots"] == []
     st["shot_assets"].pop("3")
     out = node(st)
     assert out["extra"]["assets_ready"] is False and out["extra"]["missing_shots"] == [3] and out["errors"]
+    st["shot_assets"]["3"] = {"image_path": str(img), "visual_prompt": "an older prompt"}   # stale after a re-plan
+    out = node(st)
+    assert out["extra"]["missing_shots"] == [3]
 
 
 def test_image_shot_faces_persist_sets_vlm_not_ok(ctx, log, llm, monkeypatch):

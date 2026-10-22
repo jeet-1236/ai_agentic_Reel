@@ -243,8 +243,16 @@ def test_routing_pass_and_max_loops():
     s3 = {"plan": {"mandatory_review": False}, "loop": 3}
     assert decide(s3, hard, max_loops=3, sha_fn=_sha)["route"] == "human_review"
     out = decide(s3, soft, max_loops=3, sha_fn=_sha)
-    assert out["route"] == "export" and "loop" not in out and "loop cap" in out["extra"]["qa_summary"]["reason"]
+    assert out["route"] == "export" and "loop" not in out and "only soft" in out["extra"]["qa_summary"]["reason"]
     assert decide({**s3, "plan": {"mandatory_review": True}}, soft, max_loops=3, sha_fn=_sha)["route"] == "human_review"
+    # cosmetic soft findings never cost a repair loop, even on loop 0
+    s0 = {"plan": {"mandatory_review": False}, "loop": 0}
+    out = decide(s0, soft, max_loops=3, sha_fn=_sha)
+    assert out["route"] == "export" and "loop" not in out
+    # a substantive soft finding (rule-pack review) gets exactly one repair loop
+    rule = _report(("soft_review", "scriptwriter", "soft"))
+    assert decide(s0, rule, max_loops=3, sha_fn=_sha)["route"] == "scriptwriter"
+    assert decide({**s0, "loop": 1}, rule, max_loops=3, sha_fn=_sha)["route"] == "export"
 
 
 def test_regression_guard():

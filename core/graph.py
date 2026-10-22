@@ -58,6 +58,12 @@ def _make(module: str, factory: str, ctx, log, llm):
 
 
 # ---------------------------------------------------------------- routing
+def image_is_current(shot: dict, asset: dict | None) -> bool:
+    """An image belongs to a shot only while the shot's visual prompt is the one it was generated for.
+    Shot ids are reused when a repair loop re-plans the storyboard, so the id alone is not enough."""
+    return bool(asset and asset.get("image_path")) and asset.get("visual_prompt", "") == shot.get("visual_prompt", "")
+
+
 def dispatch_assets(state: AgentState) -> list[Send]:
     """Fan out one image job per shot that needs an image, plus the voice job when needed."""
     shots = state["storyboard"]["shots"]
@@ -67,7 +73,7 @@ def dispatch_assets(state: AgentState) -> list[Send]:
         Send("image_shot", {"shot": s, "plan": state["plan"], "brief": state["brief"],
                             "loop": state.get("loop", 0), "feedback": state.get("feedback", {})})
         for s in shots
-        if s.get("visual_prompt") and (str(s["shot_id"]) not in have or s["shot_id"] in redo)
+        if s.get("visual_prompt") and (not image_is_current(s, have.get(str(s["shot_id"]))) or s["shot_id"] in redo)
     ]
     if not state.get("voice") or (state.get("extra") or {}).get("redo_voice"):
         sends.append(Send("voice", state))
