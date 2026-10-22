@@ -134,13 +134,19 @@ def check_hyperframes(ctx, log, real: bool) -> str:
         return "SKIP renderer/node_modules missing (run setup_kaggle.sh)"
     fixture = ROOT / "renderer" / "fixtures" / "smoke_scene.json"
     worker = ROOT / "renderer" / "render_hyperframes.mjs"
-    if real and fixture.exists() and worker.exists():
-        from core.workers import run_worker
+    if real and worker.exists():
+        from agents import editor
+        from tests.test_render import make_state   # same 8 s, 2-shot scene the render tests use
 
-        out = run_worker(ctx, log, agent="smoke", worker="render_hyperframes.mjs", gpu=None,
-                         request={"task": "render", "scene_path": str(fixture),
-                                  "out_path": str(ctx.out_dir / "smoke_hf.mp4"), "mock": False})
-        return f"rendered {out.get('video_path')}"
+        scene, _ = editor.build_scene(ctx, make_state(ctx.out_dir / "hf_fixture"))
+        scene_path = ctx.artifact("smoke_scene.json")
+        scene.save(scene_path)
+        out = editor.render(ctx, log, scene_path, scene, "hyperframes")
+        resp = sorted((ctx.out_dir / "workers").glob("*render_hyperframes*.out.json"))[-1]
+        units = json.loads(resp.read_text(encoding="utf-8")).get("units", {})
+        fps = units.get("render_fps") or (scene.total_frames / max(units.get("render_s", 0) or 1e-9, 1e-9))
+        return (f"rendered {Path(out['video_path']).name}: {scene.total_frames} frames at {fps:.1f} fps "
+                f"(45 s video ~ {45 * 30 / max(fps, 0.1) / 60:.1f} min)")
     npx = shutil.which("npx") or "npx"
     r = subprocess.run([npx, "--no-install", "hyperframes", "doctor"], cwd=ROOT / "renderer",
                        capture_output=True, text=True, timeout=180)
