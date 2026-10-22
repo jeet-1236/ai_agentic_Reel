@@ -22,6 +22,6 @@ onnxruntime==1.31.0         # faster-whisper Silero VAD import (VAD itself is of
 spandrel==0.4.2
 einops==0.8.2               # spandrel dependency
 jiwer==4.0.0                # WER (also in requirements.txt)
-pillow==13.0.0
-numpy==2.5.4
-opencv-python-headless==5.0.0.93   # FaceDetectorYN (YuNet 2023mar needs OpenCV >= 4.8)
+# provided by the Kaggle image (do not override: its torch depends on them): pillow==13.0.0
+# provided by the Kaggle image (do not override: its torch depends on them): numpy==2.5.4
+# provided by the Kaggle image (do not override: its torch depends on them): opencv-python-headless==5.0.0.93   # FaceDetectorYN (YuNet 2023mar needs OpenCV >= 4.8)

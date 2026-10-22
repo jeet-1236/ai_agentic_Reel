@@ -239,7 +239,8 @@ else
   fi
 fi
 if [ -x "$VPY" ]; then
-  CUDA_VISIBLE_DEVICES=1 "$VPY" -c "import kokoro, misaki, torch, soundfile; print('kokoro ok, cuda', torch.cuda.is_available())" \
+  # workers/tts_kokoro.py writes WAVs with the stdlib `wave` module, so soundfile is not required
+  CUDA_VISIBLE_DEVICES=1 "$VPY" -c "import kokoro, misaki, torch; print('kokoro ok, cuda', torch.cuda.is_available(), torch.cuda.get_device_capability(0) if torch.cuda.is_available() else '')" \
     && ok "kokoro imports in .venv-voice" || bad "kokoro import failed in .venv-voice"
 fi
 
@@ -249,13 +250,20 @@ ff_ok() {
   have ffmpeg || return 1
   local f e
   f="$(ffmpeg -hide_banner -filters 2>/dev/null)"; e="$(ffmpeg -hide_banner -encoders 2>/dev/null)"
-  echo "$f" | grep -qE ' loudnorm ' && echo "$f" | grep -qE ' subtitles ' && echo "$f" | grep -qE ' ass ' \
-    && echo "$e" | grep -q libx264 && echo "$e" | grep -qE ' aac '
+  # here-strings, not `echo | grep -q`: grep -q exits early -> SIGPIPE on echo -> false failure under pipefail
+  grep -qE ' loudnorm ' <<<"$f" && grep -qE ' subtitles ' <<<"$f" && grep -qE ' ass ' <<<"$f" \
+    && grep -q libx264 <<<"$e" && grep -qE ' aac ' <<<"$e"
 }
 if ff_ok; then
   ok "system ffmpeg has loudnorm/subtitles/ass/libx264/aac ($(ffmpeg -version | head -n 1 | cut -c1-40))"
 else
   FTX="$(bin_file 'ffmpeg-*linux64-gpl*.tar.xz')"
+  if [ -z "$FTX" ] && online; then   # BtbN static GPL build (libass, x264, loudnorm)
+    FTX="$SCRATCH/dl/ffmpeg-n8.1-latest-linux64-gpl-8.1.tar.xz"
+    [ -f "$FTX" ] || curl -fsSL --retry 3 -o "$FTX" \
+      "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n8.1-latest-linux64-gpl-8.1.tar.xz" \
+      || { rm -f "$FTX"; FTX=""; }
+  fi
   if [ -n "$FTX" ]; then
     mkdir -p "$BIN/ffmpeg" && tar -xJf "$FTX" -C "$BIN/ffmpeg" --strip-components=1
     $SUDO ln -sf "$BIN/ffmpeg/bin/ffmpeg" /usr/local/bin/ffmpeg && $SUDO ln -sf "$BIN/ffmpeg/bin/ffprobe" /usr/local/bin/ffprobe

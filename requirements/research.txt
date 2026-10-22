@@ -8,9 +8,9 @@ lxml-html-clean==0.4.5
 pypdf==6.21.1
 pypdfium2==5.14.0        # OCR fallback: render scanned PDF pages
 pytesseract==0.3.13      # OCR fallback: needs the tesseract binary (preinstalled on Kaggle); skipped if missing
-pillow==13.0.0
+# provided by the Kaggle image (do not override: its torch depends on them): pillow==13.0.0
 bm25s==0.3.14
-numpy==2.5.4
+# provided by the Kaggle image (do not override: its torch depends on them): numpy==2.5.4
 phonenumbers==9.0.41
 rapidfuzz==3.14.6
 tavily-python==0.8.5
