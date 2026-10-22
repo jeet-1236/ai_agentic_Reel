@@ -42,6 +42,35 @@ def _mock(req: dict) -> dict:
     return {"text": text, "words": words}
 
 
+def load_wav_16k(path: str):
+    """PCM WAV -> mono float32 at 16 kHz, without PyAV.
+
+    faster-whisper decodes file paths with av.open(..., metadata_errors=...), which PyAV >= 19 rejects. Passing
+    an array skips that decoder. Our TTS writes plain PCM WAVs, so the stdlib `wave` module is enough."""
+    import numpy as np
+
+    with wave.open(path, "rb") as w:
+        sr, ch, width, n = w.getframerate(), w.getnchannels(), w.getsampwidth(), w.getnframes()
+        raw = w.readframes(n)
+    dtype = {1: np.uint8, 2: np.int16, 4: np.int32}[width]
+    x = np.frombuffer(raw, dtype=dtype).astype(np.float32)
+    x = (x - 128.0) / 128.0 if width == 1 else x / float(np.iinfo(dtype).max)
+    if ch > 1:
+        x = x.reshape(-1, ch).mean(axis=1)
+    if sr != 16000:
+        try:
+            from math import gcd
+
+            from scipy.signal import resample_poly
+
+            g = gcd(sr, 16000)
+            x = resample_poly(x, 16000 // g, sr // g).astype(np.float32)
+        except ImportError:
+            t = np.arange(int(len(x) * 16000 / sr)) * (sr / 16000)
+            x = np.interp(t, np.arange(len(x)), x).astype(np.float32)
+    return np.ascontiguousarray(x, dtype=np.float32)
+
+
 def handle(req: dict) -> dict:
     cfg = models_cfg()
     asr = cfg.get("voice", {}).get("asr", {})
@@ -67,7 +96,7 @@ def handle(req: dict) -> dict:
         kw["revision"] = asr["revision"]
     model = WhisperModel(src, **kw)
     segments, info = model.transcribe(
-        wav,
+        load_wav_16k(wav),
         language=req.get("language", "en"),
         beam_size=5,
         temperature=0.0,
