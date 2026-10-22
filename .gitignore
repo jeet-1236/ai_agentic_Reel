@@ -17,3 +17,7 @@ models/
 !workers/*.onnx.txt
 outputs/*mock*/
 outputs/test-*/
+
+# run logs are produced on Kaggle and exported by notebook cell 8; force-add them for the v1.0-final tag
+logs/*
+!logs/.gitkeep
