@@ -1,0 +1,25 @@
+{
+ "endpoint": "https://www.somaiya.edu/kjsieit/getNotices_by_filter/",
+ "institute_id": 21,
+ "crawled_at": "2026-10-21T18:29:03+05:30",
+ "entries": [
+  {
+   "url": "https://svu-files.somaiya.edu/Mandatory+Disclosure/UGC/9408061_Public-notice-Fee-Nivaran.pdf",
+   "title": "Strict Compliance of UGC Notification / Guideliness regarding Fee Refund Policy",
+   "kind": "notice",
+   "referrer": "https://www.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://svu-files.somaiya.edu/Mandatory+Disclosure/UGC/UGC+Public+Notice+26,+May+2023.pdf",
+   "title": "UGC Public Notice",
+   "kind": "notice",
+   "referrer": "https://www.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://drive.google.com/file/d/1Zw-uXRXCDlW8cpeEZ2Z1YJO17oLsDf2d/view?usp=sharing",
+   "title": "Notices, Circulars and MOMs (For Internal Circulation Only)",
+   "kind": "notice",
+   "referrer": "https://www.somaiya.edu/en/notices/"
+  }
+ ]
+}

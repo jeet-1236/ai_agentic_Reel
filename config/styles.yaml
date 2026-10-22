@@ -1,0 +1,65 @@
+# Visual / voice / caption presets (owner: creative). Read through core/rules.py:
+#   style_for(category) -> preset dict, voice_for(category), caption_style(), negative_prompt(category)
+# Rule packs name their preset in `style_preset`; `categories` below is the fallback mapping.
+
+default_preset: flat_vector
+sensitive_categories: [A, C]            # objects / silhouettes / symbols only
+sensitive_suffix: "objects, silhouettes and symbols only, no people, no faces, no realistic humans"
+
+# Somaiya brand colours (brand.somaiya.edu.in). Hex values are for the renderer; `prompt_hint` is the
+# wording that SDXL understands (hex codes in a prompt do little).
+palette:
+  power_red: "#B7202E"
+  vitality_red: "#ED1C24"
+  cool_gray: "#58595B"
+  dark_gray: "#231F20"
+  white: "#FFFFFF"
+  prompt_hint: "colour palette of deep crimson red, bright scarlet accents, cool slate gray, charcoal and off-white"
+
+negative_prompt: >-
+  photorealistic, photograph, photo, realistic face, realistic skin, person portrait, close-up face,
+  celebrity, real person likeness, text, letters, words, typography, caption, watermark, signature, logo,
+  brand mark, qr code, gore, blood, injury, wound, weapon, gun, knife, violence, nsfw, nudity, alcohol,
+  cigarette, drugs, handcuffs, distorted, deformed, extra limbs, blurry, low quality, jpeg artifacts, noisy
+
+presets:
+  flat_vector:
+    prefix: "flat vector illustration, clean geometric shapes, bold simple forms,"
+    suffix: "minimal uncluttered background, soft gradients, high contrast, vertical composition, calm empty space in the lower third"
+    negative_extra: "3d render, photo texture"
+  isometric:
+    prefix: "isometric 3d-style vector illustration, clean low-poly objects, soft shadows,"
+    suffix: "tidy composition on a light background, playful and bright, empty space in the lower third"
+    negative_extra: "photo texture, messy"
+  editorial_paper:
+    prefix: "editorial paper cut-out illustration, layered paper textures, subtle grain,"
+    suffix: "elegant composition, warm light, generous negative space in the lower third"
+    negative_extra: "glossy 3d render"
+  silhouette_symbolic:
+    prefix: "symbolic flat illustration with simple silhouettes and meaningful objects,"
+    suffix: "hopeful warm light, gentle shapes, calm mood, empty space in the lower third"
+    negative_extra: "dark horror mood, distress, crying, victim, injury, shadowy threat"
+
+# category -> preset + Kokoro voice (af_* = US English, bf_* = UK English) + speaking speed
+categories:
+  A: {preset: silhouette_symbolic, voice: bf_emma, speed: 0.95, mood: "calm, warm, reassuring"}
+  B: {preset: flat_vector,        voice: af_heart, speed: 1.0,  mood: "clear, helpful"}
+  C: {preset: flat_vector,        voice: af_heart, speed: 1.0,  mood: "clear, friendly, non-judgemental"}
+  D: {preset: isometric,          voice: af_heart, speed: 1.05, mood: "energetic, inclusive"}
+  E: {preset: editorial_paper,    voice: bf_emma,  speed: 1.0,  mood: "proud, factual"}
+  P: {preset: isometric,          voice: af_heart, speed: 1.05, mood: "energetic, curious"}
+
+caption:
+  font: "Fira Sans"
+  weight: 700
+  size_px: 64
+  outline_px: 6
+  outline_color: "#231F20"
+  text_color: "#FFFFFF"
+  highlight_color: "#B7202E"        # active word
+  band_9x16: [1150, 1500]           # y range of the caption band
+  band_16x9: [820, 1000]
+  max_lines: 2
+  max_chars_per_line: 32
+  max_cps: 17
+  min_page_s: 0.83

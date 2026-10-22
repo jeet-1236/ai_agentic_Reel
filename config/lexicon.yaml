@@ -1,0 +1,34 @@
+# Pronunciation lexicon for Kokoro (misaki G2P), applied by workers/tts_kokoro.py to the `spoken` text.
+#
+# Format
+#   respell:  Word -> plain text substituted BEFORE G2P (whole word, case-sensitive).
+#             Use for acronyms/initialisms that must be read letter by letter, or for spelling tricks.
+#   words:    Word -> misaki phonemes (US-English set, lang_code "a"), applied as misaki markdown
+#             "[Word](/phonemes/)" (whole word, case-insensitive; possessive "'s" is kept outside the link).
+#             Stress marks: ˈ primary, ˌ secondary. Misaki US vowels: A=eɪ I=aɪ O=oʊ W=aʊ Y=ɔɪ ᵊ=reduced schwa,
+#             plus ə ɪ i u ʊ ɛ æ ɑ ɔ ʌ ɜ; consonants: b d f h j k l m n p s t v w z ɡ ŋ ɹ ʃ ʒ ð θ ʤ ʧ T(flap).
+#             Check a new entry by ear in the Day-0 smoke test before relying on it.
+#   The Critic may propose patches (feedback["asset_generator"] items {"lexicon": {"Word": "/phonemes/"}});
+#   those are merged over `words` for that run only and logged.
+#
+# Note: Kokoro spells out ALL-CAPS words; the Scriptwriter's `spoken` form already writes "K J S C E".
+version: 1
+
+respell:
+  KJSCE: K J S C E
+  KJSSE: K J S S E
+  SVU: S V U
+  CoE: C O E
+  MANAS: Manas            # Tele-MANAS: say the word, do not spell the caps
+  "Tele-MANAS": Tele Manas
+  AgentReel: Agent Reel
+
+words:
+  Somaiya: sOmˈIjə
+  Vidyavihar: vˌɪdjəvɪhˈɑɹ
+  Kaggle: kˈæɡᵊl
+  Manas: mˈʌnəs
+  Ghatkopar: ɡˈʌtkOpəɹ
+  Mumbai: mʊmbˈI
+  Kokoro: kˈOkəɹO
+  Tavily: tˈævəli

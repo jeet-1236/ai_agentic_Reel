@@ -1,0 +1,20 @@
+name: quote_card
+description: A short verbatim quote from an official source with an attribution line (source title or host).
+aspects: ["9x16", "16x9"]
+min_duration_s: 2.0
+max_duration_s: 12.0
+image: optional
+zone: content
+from_on_screen_text: "[0] -> quote (must be verbatim from the fact's quote); attribution = title or host of the first fact's source"
+slots_schema:
+  type: object
+  additionalProperties: false
+  required: [quote]
+  properties:
+    quote: {type: string, minLength: 1, maxLength: 160}
+    attribution: {type: string, maxLength: 80}
+text:
+  quote: {weight: 700, line_height: 1.18, wrap_quotes: true,
+          "9x16": {w: 780, h: 520, max_px: 84, min_px: 48}, "16x9": {w: 1380, h: 400, max_px: 80, min_px: 48}}
+  attribution: {weight: 400, line_height: 1.15, max_lines: 2, prefix: "— ",
+                "9x16": {w: 780, h: 130, max_px: 48, min_px: 48}, "16x9": {w: 1380, h: 64, max_px: 48, min_px: 48}}

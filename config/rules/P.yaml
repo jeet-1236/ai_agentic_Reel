@@ -1,0 +1,20 @@
+pack: P
+description: Practice brief (lab showcase)
+mandatory_review: false
+style_preset: isometric
+rules:
+  - id: P.no_invented_projects
+    text: No invented project names, results, metrics, tools or student names; describe only activities found in the sources.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: P.real_activity
+    text: Include at least one real lab activity from the sources, with its fact_id.
+    applies_to: script
+    check: code
+    responsible_agent: scriptwriter
+  - id: P.curious_tone
+    text: Energetic and curious; invite the viewer to explore and never overstate outcomes.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter

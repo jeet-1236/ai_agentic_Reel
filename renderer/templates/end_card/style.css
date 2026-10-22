@@ -1,0 +1,11 @@
+.t-end_card .ar-bg { background: linear-gradient(180deg, #FFFFFF 0%, #F4F1F0 100%); }
+.tpl-end { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; gap: 56px; }
+.ar-16x9 .tpl-end { gap: 36px; }
+.tpl-end .row { width: 100%; }
+.ec-logo-box { display: flex; align-items: center; justify-content: center; }
+/* the official logo is shown unaltered: only scaled to fit, aspect ratio kept */
+.ec-logo { max-width: 100%; max-height: 100%; object-fit: contain; }
+.tpl-end .ec-cta { color: var(--dark); }
+.tpl-end .ec-url { color: #FFFFFF; background: var(--red); border-radius: 12px; padding: 4px 22px; }
+.tpl-end .ec-disc { color: #3a3637; }
+.t-end_card .ar-accent { display: none; }

@@ -1,0 +1,74 @@
+[
+  {
+    "fact_id": "F1",
+    "claim": "- Library facility is restricted to current students & staff of the KJSSE having valid identification issued by K J Somaiya School of Engineering.",
+    "quote": "- Library facility is restricted to current students & staff of the KJSSE having valid identification issued by K J Somaiya School of Engineering",
+    "chunk_id": "S4#c1",
+    "source_id": "S4",
+    "url": "https://kjsce.somaiya.edu/en/library/rules",
+    "nli_score": 1.0
+  },
+  {
+    "fact_id": "F2",
+    "claim": "Once a late fine reaches Rs.500/- and above then the system automatically locks the student's account and the student will not be allowed to issue the next book.",
+    "quote": "Once a late fine reaches Rs.500/- and above then the system automatically locks the student's account and the student will not be allowed to issue the next book",
+    "chunk_id": "S4#c2",
+    "source_id": "S4",
+    "url": "https://kjsce.somaiya.edu/en/library/rules",
+    "nli_score": 1.0
+  },
+  {
+    "fact_id": "F3",
+    "claim": "- All the official communication related to placement from/to the TPO will be through Official Somaiya Email i.e.",
+    "quote": "- All the official communication related to placement from/to the TPO will be through Official Somaiya Email i.e",
+    "chunk_id": "S13#c1",
+    "source_id": "S13",
+    "url": "https://kjsce.somaiya.edu/en/placement/rulesregulations/",
+    "nli_score": 1.0
+  },
+  {
+    "fact_id": "F4",
+    "claim": "Somaiya Vidyavihar University (Center of Examination) University Prevention of Unfair Means Committee (UPUMC) Unfair Means - Circular 133, 134 and 221 (To be shared with students before examination) Link UPUMC Committee Sr.",
+    "quote": "Somaiya Vidyavihar University (Center of Examination) University Prevention of Unfair Means Committee (UPUMC) Unfair Means - Circular 133, 134 and 221 (To be shared with students before examination) Link UPUMC Committee Sr",
+    "chunk_id": "S17#c1",
+    "source_id": "S17",
+    "url": "https://drive.google.com/file/d/1nRpz5W10pNESA5sfxX1QU_A2TNEWxgft/view",
+    "nli_score": 1.0
+  },
+  {
+    "fact_id": "F5",
+    "claim": "Reference: Circulars, notices and trailing emails We all as a student dream about our career and we do all necessary efforts to get admission to desired programme of the University.",
+    "quote": "Reference: Circulars, notices and trailing emails We all as a student dream about our career and we do all necessary efforts to get admission to desired programme of the University",
+    "chunk_id": "S18#c3",
+    "source_id": "S18",
+    "url": "https://drive.google.com/file/d/1X4faYrMSurNA70QucDms3W1GCluFh7SN/view?usp=sharing",
+    "nli_score": 1.0
+  },
+  {
+    "fact_id": "F6",
+    "claim": "At our university level we talk about such unfair means during examinations right f rom the orientation to time to time instructions.",
+    "quote": "At our university level we talk about such unfair means during examinations right f rom the orientation to time to time instructions",
+    "chunk_id": "S18#c4",
+    "source_id": "S18",
+    "url": "https://drive.google.com/file/d/1X4faYrMSurNA70QucDms3W1GCluFh7SN/view?usp=sharing",
+    "nli_score": 1.0
+  },
+  {
+    "fact_id": "F7",
+    "claim": "If any supervisor/faculty/staff/authority finds that any student or group of students are involved doing unfair means in examination hall it should be immediately reported to chief conduct or/ senior supervisor 2.",
+    "quote": "If any supervisor/faculty/staff/authority finds that any student or group of students are involved doing unfair means in examination hall it should be immediately reported to chief conduct or/ senior supervisor 2",
+    "chunk_id": "S18#c8",
+    "source_id": "S18",
+    "url": "https://drive.google.com/file/d/1X4faYrMSurNA70QucDms3W1GCluFh7SN/view?usp=sharing",
+    "nli_score": 1.0
+  },
+  {
+    "fact_id": "F8",
+    "claim": "We have section s 20 and 47 of exam manual which clearly mentions about the guidelines relevant to unfair means during any type of examination.",
+    "quote": "We have section s 20 and 47 of exam manual which clearly mentions about the guidelines relevant to unfair means during any type of examination",
+    "chunk_id": "S18#c11",
+    "source_id": "S18",
+    "url": "https://drive.google.com/file/d/1X4faYrMSurNA70QucDms3W1GCluFh7SN/view?usp=sharing",
+    "nli_score": 1.0
+  }
+]

@@ -1,0 +1,20 @@
+name: step_list
+description: Optional heading plus 1-5 numbered steps that appear one after another.
+aspects: ["9x16", "16x9"]
+min_duration_s: 2.0
+max_duration_s: 15.0
+image: none
+zone: content
+from_on_screen_text: "if [0] ends with ':' it is the title (colon stripped) and the rest are steps; otherwise every item is a step"
+slots_schema:
+  type: object
+  additionalProperties: false
+  required: [steps]
+  properties:
+    title: {type: string, maxLength: 60}
+    steps: {type: array, minItems: 1, maxItems: 5, items: {type: string, minLength: 1, maxLength: 60}}
+text:
+  title: {weight: 800, line_height: 1.1,
+          "9x16": {w: 860, h: 150, max_px: 76, min_px: 48}, "16x9": {w: 1500, h: 100, max_px: 72, min_px: 48}}
+  steps: {list: true, weight: 700, line_height: 1.12, gap: 22, pad_y: 32,
+          "9x16": {w: 730, h: 600, max_px: 64, min_px: 48}, "16x9": {w: 1380, h: 500, max_px: 60, min_px: 48}}

@@ -1,0 +1,2 @@
+.tpl-ill { display: flex; flex-direction: column; justify-content: flex-start; height: 100%; }
+.tpl-ill .panel { background: var(--card); border-left: 12px solid var(--red); border-radius: 18px; padding: 26px 30px; }

@@ -1,0 +1,20 @@
+.tpl-dd { display: flex; gap: 36px; height: 100%; }
+.ar-9x16 .tpl-dd { flex-direction: column; }
+.ar-16x9 .tpl-dd { flex-direction: row; }
+.dd-panel { flex: 1 1 0; background: var(--card); border-radius: 22px; padding: 22px 36px; overflow: visible;
+            display: flex; flex-direction: column; justify-content: flex-start; }
+.dd-do { border-top: 10px solid #2E9E5B; }
+.dd-dont { border-top: 10px solid var(--red); }
+.dd-head { display: flex; align-items: center; gap: 22px; margin-bottom: 14px; }
+.dd-icon { position: relative; width: 64px; height: 64px; border-radius: 50%; flex: 0 0 64px; }
+.dd-tick { background: #2E9E5B; }
+.dd-tick::after { content: ""; position: absolute; left: 22px; top: 10px; width: 16px; height: 32px; border: solid #fff;
+                  border-width: 0 8px 8px 0; transform: rotate(45deg); }
+.dd-cross { background: var(--red); }
+.dd-cross::before, .dd-cross::after { content: ""; position: absolute; left: 28px; top: 13px; width: 8px; height: 38px;
+                  background: #fff; border-radius: 3px; }
+.dd-cross::before { transform: rotate(45deg); }
+.dd-cross::after { transform: rotate(-45deg); }
+.dd-items { display: flex; flex-direction: column; gap: 14px; }
+.dd-item { display: flex; align-items: flex-start; gap: 18px; }
+.dd-dot { flex: 0 0 14px; width: 14px; height: 14px; border-radius: 50%; background: #fff; margin-top: 22px; opacity: 0.85; }

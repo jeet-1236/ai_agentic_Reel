@@ -1,0 +1,25 @@
+pack: E
+description: Institutional image and achievements
+mandatory_review: false
+style_preset: editorial_paper
+rules:
+  - id: E.no_unquoted_rankings
+    text: No rankings, placement figures, packages or awards unless quoted from an official page with the year.
+    applies_to: script
+    check: code
+    responsible_agent: scriptwriter
+  - id: E.year_attached
+    text: Every ranking or achievement states its year and the awarding body, as quoted.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: E.no_comparison
+    text: Never disparage or compare against other institutions.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: E.illustrative_campus
+    text: Campus visuals are illustrative, never presented as photos of real buildings or people.
+    applies_to: storyboard
+    check: llm
+    responsible_agent: storyboarder

@@ -1,0 +1,22 @@
+[
+  {
+    "item": "what counts as unfair means in exams",
+    "fact_ids": [
+      "F4",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "status": "covered"
+  },
+  {
+    "item": "who decides on unfair-means cases",
+    "fact_ids": [
+      "F4",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "status": "covered"
+  }
+]

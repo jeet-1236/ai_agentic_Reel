@@ -1,0 +1,104 @@
+# Official-source allowlist (owner: research). A host is allowed when it equals an entry or ends with
+# "." + entry (suffix match on the registered domain). Hosts were checked by scripts/crawl_sitemaps.py
+# (results: data/sitemaps/hosts_check.json). Authority: gov > somaiya > other (contact precedence).
+
+somaiya:
+  - somaiya.edu            # www, kjsce, kjsce-files, svu-files, kjsse-files, financialaid, admissions, grievances, ...
+  - somaiya.edu.in         # brand.somaiya.edu.in
+  - riidl.org
+
+gov:
+  - gov.in                 # any Indian government host (handout: "official Somaiya / government page")
+  - nic.in                 # NIC-hosted government sites (indiacode.nic.in, ...)
+  - ugc.gov.in
+  - ugc.ac.in
+  - aicte.gov.in
+  - aicte-india.org
+  - education.gov.in
+  - antiragging.in
+  - pib.gov.in             # incl. static.pib.gov.in, factcheck.pib.gov.in
+  - mha.gov.in             # incl. i4c.mha.gov.in
+  - cybercrime.gov.in
+  - mohfw.gov.in           # incl. telemanas.mohfw.gov.in
+  - ncw.gov.in
+  - wcd.gov.in             # incl. shebox.wcd.gov.in, missionshakti.wcd.gov.in
+  - ncbmanas.gov.in
+  - meity.gov.in
+  - indiaai.gov.in
+  - cetcell.mahacet.org
+  - mahadbt.maharashtra.gov.in
+  - abc.gov.in
+  - apaar.education.gov.in
+  - digilocker.gov.in
+  - sancharsaathi.gov.in
+  - ndma.gov.in
+  - cert-in.org.in
+  - mygov.in
+  - indiacode.nic.in
+
+# Suffixes that make an (already allowlisted) host count as government for authority ranking.
+gov_suffixes: [gov.in, nic.in]
+
+# Off-allowlist document hosts reachable only through a link on an official page (referrer logged).
+# Somaiya publishes its circulars on Google Drive, and the CoE index PDF links on to the circulars, so
+# documents on these hosts may link to further documents on the same hosts (max_offlist_hops total).
+document_hosts:
+  - drive.google.com
+  - docs.google.com
+  - drive.usercontent.google.com
+max_offlist_hops: 2
+
+# Free discovery sources (catalogue built by scripts/crawl_sitemaps.py into data/sitemaps/).
+sitemaps:
+  - https://www.somaiya.edu/sitemap.xml
+  - https://kjsce.somaiya.edu/sitemap.xml
+notices:
+  - {endpoint: "https://kjsce.somaiya.edu/kjsieit/getNotices_by_filter/", institute_id: 16, referrer: "https://kjsce.somaiya.edu/en/notices/"}
+  - {endpoint: "https://www.somaiya.edu/kjsieit/getNotices_by_filter/", institute_id: 21, referrer: "https://www.somaiya.edu/en/notices/"}
+
+# Hosts probed by scripts/crawl_sitemaps.py to confirm they respond.
+probe_hosts:
+  - www.somaiya.edu
+  - kjsce.somaiya.edu
+  - kjsce-files.somaiya.edu
+  - svu-files.somaiya.edu
+  - kjsse-files.somaiya.edu
+  - financialaid.somaiya.edu
+  - admissions.somaiya.edu
+  - grievances.somaiya.edu
+  - svu-iqac.somaiya.edu
+  - svv-public-data.somaiya.edu
+  - scholarships.somaiya.edu
+  - somaiya.edu.in
+  - brand.somaiya.edu.in
+  - riidl.org
+  - www.ugc.gov.in
+  - www.aicte.gov.in
+  - www.aicte-india.org
+  - www.education.gov.in
+  - www.antiragging.in
+  - pib.gov.in
+  - static.pib.gov.in
+  - www.mha.gov.in
+  - i4c.mha.gov.in
+  - cybercrime.gov.in
+  - telemanas.mohfw.gov.in
+  - www.mohfw.gov.in
+  - www.ncw.gov.in
+  - shebox.wcd.gov.in
+  - wcd.gov.in
+  - missionshakti.wcd.gov.in
+  - www.ncbmanas.gov.in
+  - www.meity.gov.in
+  - indiaai.gov.in
+  - cetcell.mahacet.org
+  - mahadbt.maharashtra.gov.in
+  - www.abc.gov.in
+  - apaar.education.gov.in
+  - www.digilocker.gov.in
+  - www.sancharsaathi.gov.in
+  - ndma.gov.in
+  - www.cert-in.org.in
+  - factcheck.pib.gov.in
+  - www.mygov.in
+  - www.indiacode.nic.in

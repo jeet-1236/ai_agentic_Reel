@@ -1,0 +1,102 @@
+{
+  "brief_id": "C01",
+  "category": "C",
+  "rule_packs": [
+    "base",
+    "C"
+  ],
+  "aspect": "9x16",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration_s": 45,
+  "word_budget_min": 97,
+  "word_budget_max": 119,
+  "shot_count_min": 6,
+  "shot_count_max": 9,
+  "mandatory_review": true,
+  "queries": [
+    "College AI policy explainer: what is allowed vs not allowed in assignments and exams",
+    "what counts as unfair means in exams",
+    "who decides on unfair-means cases",
+    "College AI policy explainer: what is allowed vs not allowed in assignments and exams rules",
+    "Responsible AI Usage official notice",
+    "Read the examination rules on the official Somaiya website",
+    "College AI policy explainer: what is allowed vs not allowed in assignments and exams official circular",
+    "Responsible AI Usage official guidelines students"
+  ],
+  "audience_insight": "all students want a short, clear answer about: College AI policy explainer: what is allowed vs not allowed in assignments and exams.",
+  "success_criteria": [
+    "Covers: what counts as unfair means in exams",
+    "Covers: who decides on unfair-means cases",
+    "Avoids: claiming a college AI policy exists if no official document says so",
+    "Avoids: fear-based imagery",
+    "Ends with CTA: Read the examination rules on the official Somaiya website"
+  ],
+  "topic_keywords": [
+    "College",
+    "policy",
+    "explainer",
+    "what",
+    "allowed",
+    "assignments",
+    "exams"
+  ],
+  "budgets": [
+    {
+      "stage": "planner",
+      "minutes": 1.0,
+      "max_retries": 1
+    },
+    {
+      "stage": "researcher",
+      "minutes": 5.0,
+      "max_retries": 1
+    },
+    {
+      "stage": "fact_curator",
+      "minutes": 5.0,
+      "max_retries": 1
+    },
+    {
+      "stage": "scriptwriter",
+      "minutes": 3.0,
+      "max_retries": 3
+    },
+    {
+      "stage": "hook_judge",
+      "minutes": 1.0,
+      "max_retries": 1
+    },
+    {
+      "stage": "storyboarder",
+      "minutes": 2.0,
+      "max_retries": 3
+    },
+    {
+      "stage": "asset_generator",
+      "minutes": 8.0,
+      "max_retries": 2
+    },
+    {
+      "stage": "editor",
+      "minutes": 6.0,
+      "max_retries": 2
+    },
+    {
+      "stage": "critic",
+      "minutes": 5.0,
+      "max_retries": 3
+    },
+    {
+      "stage": "human_review",
+      "minutes": 10.0,
+      "max_retries": 1
+    },
+    {
+      "stage": "export",
+      "minutes": 15.0,
+      "max_retries": 1
+    }
+  ]
+}

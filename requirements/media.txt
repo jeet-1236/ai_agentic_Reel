@@ -1,0 +1,27 @@
+# AssetGenerator media workers (system env, Kaggle Python 3.13). Exact pins; installed by setup_kaggle.sh.
+#   workers/image_sdxl.py   diffusers SDXL + SDXL-Lightning (fp16, CUDA)
+#   workers/image_checks.py OpenCV YuNet + transformers image-classification (Falconsai NSFW)
+#   workers/upscale.py      spandrel Real-ESRGAN x2 (falls back to Pillow Lanczos)
+#   workers/asr_whisper.py  faster-whisper large-v3-turbo
+#   workers/tts_kokoro.py   -> separate Py3.12 venv: requirements-voice312.txt
+#
+# Kaggle-preinstalled GPU stack, used as-is (do NOT reinstall: torch is CUDA-matched to the image).
+# Versions the code was written against (resolved for py3.13 / manylinux on 2026-10-21); run_manifest.json
+# records the actual ones:
+#   torch==2.11.0  torchvision==0.26.0  transformers==5.20.2  tokenizers==0.23.3  huggingface-hub==1.33.0
+# If the image lacks any of these, install exactly:
+diffusers==0.41.0
+accelerate==1.15.0
+safetensors==0.8.0
+
+# ---- not preinstalled
+faster-whisper==1.2.1
+ctranslate2==4.8.3          # VERIFY on Kaggle: its CUDA/cuDNN build must match the image (CUDA 12/13 + cuDNN 9)
+av==19.0.2                  # faster-whisper audio decoding
+onnxruntime==1.31.0         # faster-whisper Silero VAD import (VAD itself is off); same pin as requirements/critic.txt
+spandrel==0.4.2
+einops==0.8.2               # spandrel dependency
+jiwer==4.0.0                # WER (also in requirements.txt)
+pillow==13.0.0
+numpy==2.5.4
+opencv-python-headless==5.0.0.93   # FaceDetectorYN (YuNet 2023mar needs OpenCV >= 4.8)

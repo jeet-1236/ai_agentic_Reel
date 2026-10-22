@@ -1,0 +1,5 @@
+.tpl-contact { display: flex; flex-direction: column; justify-content: center; height: 100%; gap: 30px; }
+.cc-list { display: flex; flex-direction: column; gap: 24px; }
+.cc-item { background: #FFFFFF; color: var(--dark); border-radius: 22px; padding: 18px 40px; border-left: 14px solid var(--red); }
+.cc-item .txt { color: var(--dark); }
+.cc-item .cc-value { color: var(--red); }

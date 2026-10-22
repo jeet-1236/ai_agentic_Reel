@@ -1,0 +1,53 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	planner(planner)
+	researcher(researcher)
+	fact_curator(fact_curator)
+	scriptwriter(scriptwriter)
+	hook_judge(hook_judge)
+	storyboarder(storyboarder)
+	asset_dispatch(asset_dispatch)
+	image_shot(image_shot)
+	voice(voice)
+	assets_join(assets_join<hr/><small><em>defer = True</em></small>)
+	editor(editor)
+	critic(critic)
+	human_review(human_review)
+	export(export)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> planner;
+	asset_dispatch -.-> assets_join;
+	asset_dispatch -.-> image_shot;
+	asset_dispatch -.-> voice;
+	assets_join --> editor;
+	critic -. &nbsp;asset_generator&nbsp; .-> asset_dispatch;
+	critic -.-> editor;
+	critic -.-> export;
+	critic -.-> human_review;
+	critic -.-> researcher;
+	critic -.-> scriptwriter;
+	critic -.-> storyboarder;
+	editor --> critic;
+	fact_curator --> scriptwriter;
+	hook_judge --> storyboarder;
+	human_review -. &nbsp;asset_generator&nbsp; .-> asset_dispatch;
+	human_review -.-> editor;
+	human_review -.-> export;
+	human_review -.-> researcher;
+	human_review -.-> scriptwriter;
+	human_review -.-> storyboarder;
+	image_shot --> assets_join;
+	planner --> researcher;
+	researcher --> fact_curator;
+	scriptwriter --> hook_judge;
+	storyboarder --> asset_dispatch;
+	voice --> assets_join;
+	export --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

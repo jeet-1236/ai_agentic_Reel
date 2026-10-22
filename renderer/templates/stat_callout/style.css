@@ -1,0 +1,4 @@
+.tpl-stat { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; gap: 26px; }
+.tpl-stat .row { width: 100%; }
+.sc-stat { color: #FFFFFF; background: var(--red); border-radius: 28px; padding: 0 36px; text-shadow: 0 4px 0 rgba(0,0,0,0.18); }
+.sc-source { opacity: 0.9; background: rgba(0,0,0,0.35); border-radius: 10px; padding: 0 16px; }

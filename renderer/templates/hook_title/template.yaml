@@ -1,0 +1,23 @@
+name: hook_title
+description: Opening hook. Big title (optionally a small kicker above and a subtitle below) over the shot image or the brand gradient.
+aspects: ["9x16", "16x9"]
+min_duration_s: 1.0
+max_duration_s: 10.0
+image: optional            # required | optional | none
+zone: content              # content (captions may show below) | end (no captions)
+from_on_screen_text: "[0] -> title, [1] -> subtitle (optional); kicker is left empty"
+slots_schema:
+  type: object
+  additionalProperties: false
+  required: [title]
+  properties:
+    kicker: {type: string, maxLength: 40}
+    title: {type: string, minLength: 1, maxLength: 90}
+    subtitle: {type: string, maxLength: 90}
+text:
+  kicker: {weight: 700, line_height: 1.1, max_lines: 1, upper: true,
+           "9x16": {w: 900, h: 64, max_px: 52, min_px: 48}, "16x9": {w: 1400, h: 64, max_px: 52, min_px: 48}}
+  title: {weight: 800, line_height: 1.06,
+          "9x16": {w: 900, h: 540, max_px: 124, min_px: 56}, "16x9": {w: 1500, h: 400, max_px: 120, min_px: 56}}
+  subtitle: {weight: 700, line_height: 1.15,
+             "9x16": {w: 900, h: 150, max_px: 60, min_px: 48}, "16x9": {w: 1400, h: 120, max_px: 56, min_px: 48}}

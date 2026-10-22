@@ -1,0 +1,6 @@
+.tpl-steps { display: flex; flex-direction: column; justify-content: center; height: 100%; }
+.st-title-row { margin-bottom: 28px; border-left: 12px solid var(--red); padding-left: 24px; }
+.st-list { display: flex; flex-direction: column; gap: 22px; }
+.st-item { display: flex; align-items: center; gap: 28px; background: var(--card); border-radius: 18px; padding: 16px 22px; }
+.st-num { flex: 0 0 76px; width: 76px; height: 76px; border-radius: 50%; background: var(--red); display: flex;
+          align-items: center; justify-content: center; }

@@ -1,0 +1,7 @@
+<div class="tpl tpl-contact">
+  {{#title}}<div class="row"><span class="txt w800 shadow cc-title" data-text="title" style="font-size:{{title.px}}px;line-height:{{title.lh}}">{{{title.html}}}</span></div>{{/title}}
+  <div class="cc-list">{{#contacts}}<div class="cc-item">
+    {{#label}}<div class="row"><span class="txt w400 cc-label" data-text="contact_label" style="font-size:{{label.px}}px;line-height:{{label.lh}}">{{{label.html}}}</span></div>{{/label}}
+    <div class="row"><span class="txt w800 cc-value" data-text="contact_value" style="font-size:{{value.px}}px;line-height:{{value.lh}}">{{{value.html}}}</span></div>
+  </div>{{/contacts}}</div>
+</div>

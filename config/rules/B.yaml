@@ -1,0 +1,25 @@
+pack: B
+description: Admissions and academic processes
+mandatory_review: false
+style_preset: flat_vector
+rules:
+  - id: B.no_invented_numbers
+    text: No numbers, dates, deadlines, fees, seats or quotas unless quoted from an official notice and cited with its fact_id.
+    applies_to: script
+    check: code
+    responsible_agent: scriptwriter
+  - id: B.official_channels
+    text: Frame every action as "only through official channels" (official website, portal or office); never mention agents or third parties.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: B.notice_url
+    text: When a number or date is shown, the official notice URL appears on screen (stat_callout or end_card).
+    applies_to: storyboard
+    check: code
+    responsible_agent: storyboarder
+  - id: B.no_guarantees
+    text: Never promise admission, seats, scholarships or outcomes.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter

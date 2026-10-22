@@ -1,0 +1,357 @@
+{
+ "checked_at": "2026-10-21T18:29:28+05:30",
+ "hosts": [
+  {
+   "host": "www.somaiya.edu",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.somaiya.edu/en/",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "kjsce.somaiya.edu",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://kjsce.somaiya.edu/en",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "kjsce-files.somaiya.edu",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://kjsce-files.somaiya.edu/",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "svu-files.somaiya.edu",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://svu-files.somaiya.edu/",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "kjsse-files.somaiya.edu",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://kjsse-files.somaiya.edu/",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "financialaid.somaiya.edu",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://financialaid.somaiya.edu/en",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "admissions.somaiya.edu",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://admissions.somaiya.edu/",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "grievances.somaiya.edu",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://grievances.somaiya.edu/",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "svu-iqac.somaiya.edu",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://svu-iqac.somaiya.edu/",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "svv-public-data.somaiya.edu",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://svv-public-data.somaiya.edu/",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "scholarships.somaiya.edu",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://scholarships.somaiya.edu/en/",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "somaiya.edu.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.somaiya.edu.in/en",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "brand.somaiya.edu.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://brand.somaiya.edu.in/en",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "riidl.org",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://riidl.org/",
+   "allowed": true,
+   "authority": "somaiya"
+  },
+  {
+   "host": "www.ugc.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.ugc.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.aicte.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.aicte.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.aicte-india.org",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.aicte.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.education.gov.in",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://www.education.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.antiragging.in",
+   "status": 200,
+   "tls_verified": false,
+   "final_url": "https://www.antiragging.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "pib.gov.in",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://www.pib.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "static.pib.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://static.pib.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.mha.gov.in",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://www.mha.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "i4c.mha.gov.in",
+   "status": 200,
+   "tls_verified": false,
+   "final_url": "https://i4c.mha.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "cybercrime.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://cybercrime.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "telemanas.mohfw.gov.in",
+   "status": 200,
+   "tls_verified": false,
+   "final_url": "https://telemanas.mohfw.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.mohfw.gov.in",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://www.mohfw.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.ncw.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.ncw.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "shebox.wcd.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://shebox.wcd.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "wcd.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://wcd.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "missionshakti.wcd.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://missionshakti.wcd.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.ncbmanas.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.ncbmanas.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.meity.gov.in",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://www.meity.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "indiaai.gov.in",
+   "status": 200,
+   "tls_verified": false,
+   "final_url": "https://indiaai.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "cetcell.mahacet.org",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://cetcell.mahacet.org/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "mahadbt.maharashtra.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://mahadbt.maharashtra.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.abc.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.abc.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "apaar.education.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://apaar.education.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.digilocker.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.digilocker.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.sancharsaathi.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.sancharsaathi.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "ndma.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://ndma.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.cert-in.org.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.cert-in.org.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "factcheck.pib.gov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://factcheck.pib.gov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.mygov.in",
+   "status": 200,
+   "tls_verified": true,
+   "final_url": "https://www.mygov.in/",
+   "allowed": true,
+   "authority": "gov"
+  },
+  {
+   "host": "www.indiacode.nic.in",
+   "status": 403,
+   "tls_verified": true,
+   "final_url": "https://www.indiacode.nic.in/",
+   "allowed": true,
+   "authority": "gov"
+  }
+ ]
+}

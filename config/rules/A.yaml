@@ -1,0 +1,40 @@
+pack: A
+description: Safety and wellbeing (anti-ragging, mental health, harassment, cyber safety)
+mandatory_review: true
+style_preset: silhouette_symbolic
+rules:
+  - id: A.safe_messaging
+    text: Follow WHO-style safe messaging - no methods, means or graphic detail of harm, no sensational words, a hopeful tone, and help-seeking framed as normal and effective.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: A.helpline_card
+    text: Show a helpline card (contact_card) with a verified helpline as the last informational shot, right before the end card.
+    applies_to: storyboard
+    check: code
+    responsible_agent: storyboarder
+  - id: A.contacts_zero_tolerance
+    text: Zero tolerance for contact errors - every helpline, email or URL must exactly match the whitelist; if none was verified, point to the official page and show no number.
+    applies_to: contacts
+    check: code
+    responsible_agent: scriptwriter
+  - id: A.no_victim_portrayal
+    text: Never depict victims, injuries, distress, weapons or the act of harm; use objects, silhouettes and symbols only, with no faces.
+    applies_to: storyboard
+    check: llm
+    responsible_agent: storyboarder
+  - id: A.no_fear_imagery
+    text: Generated frames contain no fear, threat or victim imagery.
+    applies_to: frames
+    check: llm
+    responsible_agent: asset_generator
+  - id: A.no_blame
+    text: Never blame or shame survivors or any group (gender, caste, religion, region, year of study); address behaviour, not identity.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: A.legal_as_stated
+    text: Describe laws, penalties, sections and procedures only as stated in the quoted sources; give no legal advice beyond them.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter

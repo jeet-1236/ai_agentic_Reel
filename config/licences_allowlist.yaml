@@ -1,0 +1,40 @@
+# Licences an asset (or the model that generated it) may carry. Checked by core/manifest.py for every
+# row of outputs/<run_id>/assets/manifest.csv and by the Critic's "licences" hard check (PLAN §9).
+# Compare is case-insensitive after alias mapping. Compound licences ("X AND Y", "X; Y") must have every
+# part allowed.
+allowed:
+  - Apache-2.0
+  - MIT
+  - BSD-2-Clause
+  - BSD-3-Clause
+  - CreativeML-OpenRAIL++-M        # SDXL 1.0 base + SDXL-Lightning
+  - OFL-1.1                        # Fira Sans, Noto Sans
+  - GSAP-Standard-No-Charge        # GSAP "Standard No-Charge License"
+  - CC0-1.0
+  - CC-BY-4.0
+  - official                       # university-provided logo / brand asset, used unaltered (source_url required)
+  - own-work                       # text/caption/scene files written by this pipeline itself
+
+# Spellings seen in model cards / package metadata -> canonical id above.
+aliases:
+  apache 2.0: Apache-2.0
+  apache-2: Apache-2.0
+  apache license 2.0: Apache-2.0
+  mit license: MIT
+  bsd-3: BSD-3-Clause
+  bsd 3-clause: BSD-3-Clause
+  openrail++: CreativeML-OpenRAIL++-M
+  creativeml openrail++-m: CreativeML-OpenRAIL++-M
+  openrail++-m: CreativeML-OpenRAIL++-M
+  sil ofl 1.1: OFL-1.1
+  ofl: OFL-1.1
+  standard no-charge license: GSAP-Standard-No-Charge
+  gsap standard no-charge license: GSAP-Standard-No-Charge
+  cc0: CC0-1.0
+
+# Explicitly rejected (PLAN §5) - listed so a reviewer sees why they would fail.
+rejected:
+  - CC-BY-NC-4.0        # DMD2, FLUX.2-klein-9B style non-commercial terms
+  - SAI-NC-Community    # SDXL-Turbo
+  - CPML                # XTTS-v2 (Coqui Public Model License)
+  - AGPL-3.0            # PyMuPDF

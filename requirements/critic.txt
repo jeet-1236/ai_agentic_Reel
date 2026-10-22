@@ -1,0 +1,12 @@
+# Critic / QA / HumanReview / Export (agents/critic.py, core/qa_checks.py). Exact pins (dev .venv, Python 3.13).
+langgraph==1.2.16
+pydantic==2.14.1
+PyYAML==6.0.3
+numpy==2.5.4
+pillow==13.0.0                    # WCAG contrast sampling
+opencv-python-headless==5.0.0.93  # end-card logo cv2.matchTemplate (optional at runtime)
+rapidfuzz==3.14.6                 # fuzzy end-card match (difflib fallback)
+rapidocr==3.10.0                  # OCR of end card / on-screen text (optional; falls back to scene.json "declared")
+onnxruntime==1.31.0               # rapidocr engine. On Kaggle keep the preinstalled onnxruntime(-gpu); do not install both.
+static-ffmpeg==3.0; sys_platform == "win32"   # dev only; Kaggle uses system ffmpeg/ffprobe
+pytest==9.1.1

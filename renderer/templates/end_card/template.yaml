@@ -1,0 +1,25 @@
+name: end_card
+description: Closing card (3-5 s, after the voice-over) with the official logo (unaltered), the CTA, an optional official URL and the mandatory disclosure line.
+aspects: ["9x16", "16x9"]
+min_duration_s: 3.0
+max_duration_s: 5.0
+image: none
+zone: end
+from_on_screen_text: "[0] -> cta (fallback: script CTA display text); url = whitelisted URL contact; disclosure from config/settings.yaml"
+slots_schema:
+  type: object
+  additionalProperties: false
+  required: [cta, disclosure, logo]
+  properties:
+    cta: {type: string, minLength: 1, maxLength: 120}
+    url: {type: string, maxLength: 80}
+    disclosure: {type: string, minLength: 10, maxLength: 80}
+    logo: {type: string, minLength: 1}
+logo_box: {"9x16": {w: 460, h: 240}, "16x9": {w: 400, h: 200}}
+text:
+  cta: {weight: 800, line_height: 1.08,
+        "9x16": {w: 900, h: 420, max_px: 96, min_px: 56}, "16x9": {w: 1500, h: 260, max_px: 88, min_px: 56}}
+  url: {weight: 700, line_height: 1.1, max_lines: 2,
+        "9x16": {w: 840, h: 130, max_px: 60, min_px: 48}, "16x9": {w: 1440, h: 70, max_px: 56, min_px: 48}}
+  disclosure: {weight: 400, line_height: 1.2, max_lines: 2,
+               "9x16": {w: 900, h: 130, max_px: 48, min_px: 48}, "16x9": {w: 1500, h: 64, max_px: 48, min_px: 48}}

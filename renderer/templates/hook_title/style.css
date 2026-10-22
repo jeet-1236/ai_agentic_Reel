@@ -1,0 +1,3 @@
+.tpl-hook { display: flex; flex-direction: column; justify-content: center; height: 100%; }
+.tpl-hook .kicker { background: #fff; padding: 0 18px; border-radius: 8px; margin-bottom: 18px; }
+.tpl-hook .subtitle { opacity: 0.95; }

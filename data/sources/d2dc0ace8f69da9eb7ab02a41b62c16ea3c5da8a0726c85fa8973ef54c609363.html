@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js" data-ng-app="MyAccountApp"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js" data-ng-app="MyAccountApp"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" data-ng-app="MyAccountApp">
+<!--<![endif]-->
+
+<!-- BEGIN HEAD -->
+
+<head>
+  <title data-ng-bind="'My Account | Somaiya Vidyavihar  ' + $state.current.data.pageTitle"></title>
+
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+
+   
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="Access and manage your faculty, student, and staff accounts at Somaiya Vidyavihar University."
+    name="description" />
+  <meta content="Somaiya Vidyavihar" name="author" />
+
+  <!-- BEGIN GLOBAL MANDATORY STYLES -->
+  <link rel="stylesheet" type="text/css"
+    href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/select2/css/select2.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/select2/css/select2-bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="../assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/ng-img-crop/ng-img-crop.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/ej/css/bootstrap-theme/ej.web.all.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/angular-sweetalert/sweet-alert.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/bootstrap-datatable/bootstrap-table.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/plugins/nvd3/nv.d3.min.css" />
+  <!-- END GLOBAL MANDATORY STYLES -->
+
+  <!-- BEGIN DYMANICLY LOADED CSS FILES(all plugin and page related styles must be loaded between GLOBAL and THEME css files ) -->
+  <link id="ng_load_plugins_before" />
+  <!-- END DYMANICLY LOADED CSS FILES -->
+
+  <!-- BEGIN THEME STYLES -->
+  <!-- DOC: To use 'rounded corners' style just load 'components-rounded.css' stylesheet instead of 'components.css' in the below style tag -->
+  <link rel="stylesheet" type="text/css" href="../assets/global/css/components.min.css" id="style_components" />
+  <link rel="stylesheet" type="text/css" href="../assets/global/css/plugins.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/layouts/layout/css/layout.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/layouts/layout/css/themes/darkblue.min.css" id="style_color" />
+  <link rel="stylesheet" type="text/css" href="../styles/custom.min.css" />
+  <link rel="stylesheet" type="text/css" href="../styles/responsive.css" />
+  <link rel="stylesheet" type="text/css"
+    href="../assets/global/plugins/angular-bootstrap-toggle/angular-bootstrap-toggle.min.css" />
+  <!-- END THEME STYLES -->
+
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-WGZWJS6");
+  </script>
+  <!-- End Google Tag Manager -->
+  
+  <script>
+    const date = new Date();
+    let unique_identifier = "2026.08.14.01";
+
+    //Disable right click
+    //document.addEventListener('contextmenu', event => event.preventDefault());
+  </script>
+
+</head>
+
+<body ng-controller="AppController" class="page-header-fixed page-sidebar-closed-hide-logo"
+  ng-class="((settings.layout.pageIsLogin)? {'login' : settings.layout.pageIsLogin} : {'page-content-white': settings.layout.pageContentWhite,'page-container-bg-solid': settings.layout.pageBodySolid, 'page-sidebar-closed': settings.layout.pageSidebarClosed})">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGZWJS6" height="0" width="0"
+      style="display: none; visibility: hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- BEGIN PAGE SPINNER -->
+  <div ng-spinner-bar class="page-spinner-bar">
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+  </div>
+  <!-- END PAGE SPINNER -->
+
+  <div class="fade-in-up" data-ui-view></div>
+
+  <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+  <!-- BEGIN CORE JQUERY PLUGINS -->
+  <!--[if lt IE 9]>
+      <script src="../assets/global/plugins/respond.min.js"></script>
+      <script src="../assets/global/plugins/excanvas.min.js"></script>
+    <![endif]-->
+
+  <script type="text/javascript" src="../assets/global/plugins/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+    integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="../assets/global/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript"
+    src="../assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  <script type="text/javascript"
+    src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/jquery.blockui.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/js.cookie.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/select2/js/select2.full.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/ckeditor/ckeditor.js"></script>
+  <!-- END CORE JQUERY PLUGINS -->
+
+  <!-- BEGIN CORE ANGULARJS PLUGINS -->
+  
+  <script src="../assets/global/plugins/angularjs/angular.min.js?v=2025.08.18.02"></script>
+<script src="../assets/global/plugins/angularjs/angular-sanitize.min.js?v=2025.08.18.02"></script>
+<script src="../assets/global/plugins/angularjs/angular-touch.min.js?v=2025.08.18.02"></script>
+<script src="../assets/global/plugins/angularjs/plugins/angular-ui-router.min.js?v=2025.08.18.02"></script>
+<script src="../assets/global/plugins/angularjs/plugins/ocLazyLoad.min.js?v=2025.08.18.02"></script>
+<script src="../assets/global/plugins/angularjs/plugins/ui-bootstrap-tpls.min.js?v=2025.08.18.02"></script>
+<script src="../assets/global/plugins/angularjs/angular-cookies.min.js?v=2025.08.18.02"></script>
+ 
+  <script type="text/javascript" src="../assets/global/plugins/ng-img-crop/ng-img-crop.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/angularjs/angular-ckeditor.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/angularjs/angular-filter.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/aws-sdk-js/aws-sdk-2.7.20.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+  <script type="text/javascript"
+    src="../assets/global/plugins/bootstrap-tagsinput/bootstrap-tagsinput-angular.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/angular-sweetalert/sweet-alert.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/angular-sweetalert/SweetAlert.js"></script>
+  <!-- <script type="text/javascript" src="../assets/global/plugins/angular-ui-calendar/src/calendar.js"></script> -->
+  <script type="text/javascript" src="../assets/global/plugins/drag-drop/angular-drag-and-drop-lists.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/pdfmake.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/html2canvas.min.js"></script>
+
+  <script type="text/javascript" src="../assets/global/plugins/ej/js/jsrender.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/ej/js/ej.web.all.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/ej/js/ej.widget.angular.min.js"></script>
+  <script type="text/javascript"
+    src="../assets/global/plugins/angularjs-social-login/angularjs-social-login.js"></script>
+
+  <!-- END CORE ANGULARJS PLUGINS -->
+
+  <!-- BEGIN APP LEVEL ANGULARJS SCRIPTS -->
+  
+  
+  <script type="text/javascript" src="scripts/appModules.js?v=2025.08.18.02"></script>
+  <script type="text/javascript" src="scripts/app.js?v=2026.08.14.01"></script>
+  <script type="text/javascript" src="scripts/directives/directives.js?v=1.0.107"></script>
+  <script type="text/javascript" src="scripts/filters/filters.js?v=1.0.107"></script>
+  <script type="text/javascript" src="scripts/services/resources.js?v=1.0.107"></script>
+  <script type="text/javascript" src="scripts/services/alertService.js?v=1.0.107"></script>
+  <script type="text/javascript" src="scripts/services/authService.js?v=1.0.107"></script>
+  <script type="text/javascript" src="scripts/services/authInterceptorService.js?v=1.0.109"></script>
+  <script type="text/javascript" src="scripts/services/globalService.js?v=1.0.107"></script>
+  <script type="text/javascript" src="scripts/controllers/appController.js?v=1.0.107"></script>
+  <script type="text/javascript" src="scripts/controllers/partial/footerController.js?v=1.0.107"></script>
+  <script type="text/javascript" src="scripts/controllers/partial/sidebarController.js?v=1.0.108"></script>
+  <script type="text/javascript" src="scripts/controllers/partial/headerController.js?v=1.0.107"></script>
+
+  <!-- END APP LEVEL ANGULARJS SCRIPTS -->
+
+  <!-- BEGIN APP LEVEL JQUERY SCRIPTS -->
+  <script type="text/javascript" src="../assets/global/scripts/app.min.js"></script>
+  <script type="text/javascript" src="../assets/layouts/layout/scripts/layout.min.js"></script>
+  <script type="text/javascript" src="../assets/layouts/layout/scripts/demo.min.js"></script>
+  <script type="text/javascript" src="../assets/layouts/global/scripts/quick-sidebar.min.js"></script>
+  <script type="text/javascript" src="../assets/layouts/global/scripts/quick-nav.min.js"></script>
+
+  <script type="text/javascript" src="../bower_components/moment/min/moment.min.js"></script>
+
+  <!-- <script type="text/javascript" src="../assets/global/scripts/datatable.js"></script> -->
+  <script type="text/javascript" src="../assets/global/plugins/datatables/datatables.min.js"></script>
+  <script type="text/javascript"
+    src="../assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js"></script>
+
+  <script type="text/javascript" src="../assets/global/plugins/bootstrap-datatable/bootstrap-table.min.js"></script>
+  <script type="text/javascript"
+    src="../assets/global/plugins/bootstrap-datatable/bootstrap-table-en-US.min.js"></script>
+  <script type="text/javascript"
+    src="../assets/global/plugins/bootstrap-datatable/bootstrap-table-angular.min.js"></script>
+  <script type="text/javascript"
+    src="../assets/global/plugins/angular-bootstrap-toggle/angular-bootstrap-toggle.min.js"></script>
+  <!-- D3.js -->
+  <script type="text/javascript"
+    src="../assets/global/plugins/angularjs-nvd3-directives/dist/angularjs-nvd3-directives.min.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/d3/d3.js"></script>
+  <script type="text/javascript" src="../assets/global/plugins/nvd3/nv.d3.min.js"></script>
+  <!-- D3.js -->
+
+  <!-- #region amcharts-->
+  <script src="//cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="//cdn.amcharts.com/lib/4/charts.js"></script>
+  <!-- #endregion amcharts-->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-28288822-7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-28288822-7");
+
+    // close select2 container on scroll
+
+    $(window).on("scroll", function () {
+      // if ($('.select2').data('select2') !== undefined) {
+      //     console.log($('select').data('select2').isOpen());
+      //     if ($('.select2').data('select2').isOpen()) {
+      //         $('.select2').select2('close');
+      //     }
+      // }
+      // if($('select').hasClass('select2')){
+      //     // console.log("select2 present");
+      //     $(this).find('.select2-container--below').removeClass('select2-container--open');
+      // }
+      // $(".js-programmatic-close").on("click", function () {
+      //     $example.select2("close");
+      // });
+      // $('select').select2('close');
+      // $('select').select2({
+      //     closeOnSelect: true
+      // });
+    });
+  </script>
+
+  <!-- END APP LEVEL JQUERY SCRIPTS -->
+
+  <script>
+    class CookieMonitor { constructor(e = 1e3) { this.interval = e, this.previousCookies = document.cookie, this.callbacks = new Set } start() { this.timerId = setInterval(() => { const e = document.cookie; if (this.previousCookies !== e) { const o = this.detectChanges(this.previousCookies, e); this.callbacks.forEach(e => e(o)), this.previousCookies = e } }, this.interval) } stop() { clearInterval(this.timerId) } onChange(e) { this.callbacks.add(e) } detectChanges(e, o) { const i = this.parseCookies(e), t = this.parseCookies(o), s = { added: {}, removed: {}, modified: {} }; for (const [e, o] of Object.entries(t)) e in i ? i[e] !== o && (s.modified[e] = { oldValue: i[e], newValue: o }) : s.added[e] = o; for (const e in i) e in t || (s.removed[e] = i[e]); return s } parseCookies(e) { return Object.fromEntries(e.split(";").map(e => e.trim().split("=")).map(([e, o]) => [e, decodeURIComponent(o)])) } } function findDifferences(e, o) { const i = { added: {}, removed: {}, modified: {} }; for (const t in o) t in e ? JSON.stringify(e[t]) !== JSON.stringify(o[t]) && (i.modified[t] = { oldValue: e[t], newValue: o[t] }) : i.added[t] = o[t]; for (const t in e) t in o || (i.removed[t] = e[t]); return i } function hasModifiedValues(e) { return ["svvNetId", "loginCd", "memberId", "memberType"].some(o => { if (e[o]) { const { oldValue: i, newValue: t } = e[o]; return String(i) !== String(t) } return !1 }) } const monitor = new CookieMonitor(1e3); monitor.onChange(e => { if (Object.keys(e.added).length, Object.keys(e.modified).length > 0) { if (void 0 !== e.modified.SomaiyaAuthData) { const o = findDifferences(JSON.parse(e.modified.SomaiyaAuthData.oldValue), JSON.parse(e.modified.SomaiyaAuthData.newValue)); Object.keys(o.modified).length > 0 && hasModifiedValues(o.modified) && (document.cookie.split(";").forEach(e => { const [o] = e.split("="); document.cookie = o + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;" }), localStorage.removeItem("SVVauthorizationData"), setTimeout(() => { location.reload() }, 1e3)) } } Object.keys(e.removed).length }), monitor.start();
+  </script>
+
+  <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY 123 -->
+
+</html>

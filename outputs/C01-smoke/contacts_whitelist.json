@@ -1,0 +1,123 @@
+[
+  {
+    "kind": "email",
+    "value": "avanir@somaiya.edu",
+    "display": "avanir@somaiya.edu",
+    "label": "",
+    "source_ids": [
+      "S11"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  },
+  {
+    "kind": "email",
+    "value": "dipanwita.d@somaiya.edu",
+    "display": "dipanwita.d@somaiya.edu",
+    "label": "",
+    "source_ids": [
+      "S16"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  },
+  {
+    "kind": "email",
+    "value": "eic.engg@somaiya.edu",
+    "display": "eic.engg@somaiya.edu",
+    "label": "",
+    "source_ids": [
+      "S1"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  },
+  {
+    "kind": "email",
+    "value": "oualitv-ohd@usc.qov.in",
+    "display": "oualitv-ohd@usc.qov.in",
+    "label": "HEIs may kindly be sent to the following address",
+    "source_ids": [
+      "S14"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  },
+  {
+    "kind": "email",
+    "value": "praneeth@somaiya.edu",
+    "display": "praneeth@somaiya.edu",
+    "label": "",
+    "source_ids": [
+      "S10"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  },
+  {
+    "kind": "email",
+    "value": "secy.ugr@nir.in",
+    "display": "secy.ugr@nir.in",
+    "label": "E-moil",
+    "source_ids": [
+      "S14"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  },
+  {
+    "kind": "email",
+    "value": "tpo.engg@somaiya.edu",
+    "display": "tpo.engg@somaiya.edu",
+    "label": "",
+    "source_ids": [
+      "S13"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  },
+  {
+    "kind": "phone",
+    "value": "+912266449025",
+    "display": "022 6644 9025",
+    "label": "Tel",
+    "source_ids": [
+      "S1"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  },
+  {
+    "kind": "phone",
+    "value": "+912269246089",
+    "display": "022 692 46089",
+    "label": "Tel",
+    "source_ids": [
+      "S10"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  },
+  {
+    "kind": "phone",
+    "value": "+917012855710",
+    "display": "7012855710",
+    "label": "Mobile",
+    "source_ids": [
+      "S10"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  },
+  {
+    "kind": "url",
+    "value": "somaiya.edu/en/center-of-examination",
+    "display": "https://www.somaiya.edu/en/center-of-examination",
+    "label": "",
+    "source_ids": [
+      "S18"
+    ],
+    "authority": "somaiya",
+    "conflict_note": ""
+  }
+]

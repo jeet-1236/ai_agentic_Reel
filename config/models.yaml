@@ -1,0 +1,71 @@
+# Every model the pipeline uses. Revisions = HF commit SHAs verified via the HF API on 2026-10-21; file sha256s are
+# recorded by scripts/prefetch_models.py in config/models.lock.yaml. Do not change after the v1.0-build tag.
+llm:
+  text:
+    alias: qwen3.5-9b                      # name passed as `model` to llama-server
+    repo: unsloth/Qwen3.5-9B-GGUF
+    file: Qwen3.5-9B-Q8_0.gguf
+    revision: "3885219b6810b007914f3a7950a8d1b469d598a5"   # HF commit SHA (pinned 2026-10-21)
+    sha256: ""
+    licence: Apache-2.0
+    server: {port: 8001, gpu: "0", ctx: 16384, parallel: 1, extra: ["-fa", "on", "--jinja"]}
+  vision:
+    alias: qwen3-vl-8b
+    repo: Qwen/Qwen3-VL-8B-Instruct-GGUF
+    file: Qwen3VL-8B-Instruct-Q4_K_M.gguf
+    mmproj: mmproj-Qwen3VL-8B-Instruct-F16.gguf
+    revision: "f982a07559d4a2f6c8744d840bf6fccab30eea96"
+    sha256: ""
+    licence: Apache-2.0
+    server: {port: 8002, gpu: "1", ctx: 8192, parallel: 1, extra: ["--jinja"]}
+  fallback_text:
+    alias: qwen3-14b
+    repo: unsloth/Qwen3-14B-GGUF
+    file: Qwen3-14B-Q4_K_M.gguf
+    revision: "a04a82c4739b3ef5fa6da7d10261db2c67dd1985"
+    licence: Apache-2.0
+
+decoding:
+  json_steps: {temperature: 0.0, thinking: false, max_tokens: 3072}
+  creative_steps: {temperature: 0.7, thinking: false, max_tokens: 3072}
+
+retrieval:
+  embedding: {repo: Qwen/Qwen3-Embedding-0.6B, revision: "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3", licence: Apache-2.0}
+  reranker: {repo: Qwen/Qwen3-Reranker-0.6B, revision: "e61197ed45024b0ed8a2d74b80b4d909f1255473", licence: Apache-2.0}
+  fallback_embedding: {repo: BAAI/bge-m3, revision: "5617a9f61b028005a4858fdac845db406aefb181", licence: MIT}
+  fallback_reranker: {repo: BAAI/bge-reranker-v2-m3, revision: "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e", licence: Apache-2.0}
+  nli: {repo: vectara/hallucination_evaluation_model, revision: "de9a5e6ba9ba49531a022dba17e35ffeb2a6fad8", licence: Apache-2.0, threshold: 0.5}
+
+image:
+  base: {repo: stabilityai/stable-diffusion-xl-base-1.0, revision: "462165984030d82259a11f4367a4eed129e94a7b", licence: CreativeML-OpenRAIL++-M}
+  lightning: {repo: ByteDance/SDXL-Lightning, file: sdxl_lightning_4step_unet.safetensors, revision: "c9a24f48e1c025556787b0c58dd67a091ece2e44", licence: CreativeML-OpenRAIL++-M}
+  vae: {repo: madebyollin/sdxl-vae-fp16-fix, revision: "207b116dae70ace3637169f1ddd2434b91b3a8cd", licence: MIT}
+  upscaler: {repo: ai-forever/Real-ESRGAN, file: RealESRGAN_x2.pth, revision: "8110204ebf8d25c031b66c26c2d1098aa831157e", licence: BSD-3-Clause}
+  steps: 4
+  guidance_scale: 0.0
+  size_9x16: [768, 1344]
+  size_16x9: [1344, 768]
+  candidates_per_shot: 2
+  batch_window_s: 0.75          # concurrent image_shot nodes within this window share one SDXL load
+  kenburns_headroom: 0.12       # 9:16 images are delivered at 1210x2150 (16:9: 2150x1210)
+# Any model entry may add `path:` pointing at a staged copy (e.g. /kaggle/input/agentreel-models/...);
+# workers resolve: path -> $AGENTREEL_MODELS_DIR / models/ -> HF cache.
+
+voice:
+  tts: {repo: hexgrad/Kokoro-82M, revision: "f3ff3571791e39611d31c381e3a41a3af07b4987", licence: Apache-2.0, voice: af_heart, speed: 1.0, lang_code: a}
+  python: ".venv-voice/bin/python"          # Py3.12 venv on Kaggle (kokoro requires <3.13)
+  asr: {repo: mobiuslabsgmbh/faster-whisper-large-v3-turbo, revision: "0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf", licence: MIT, compute_type: float16}
+  wer_max: 0.08
+
+qa:
+  face_detector: {file: face_detection_yunet_2023mar.onnx, licence: MIT, score_threshold: 0.6}
+  nsfw: {repo: Falconsai/nsfw_image_detection, revision: "96cb0d0342c7afb80cab76ecc58b265fa44da256", licence: Apache-2.0, max_score: 0.2}
+  ocr: {package: rapidocr, licence: Apache-2.0}
+
+render:
+  engine: hyperframes                        # hyperframes | ffmpeg
+  hyperframes_version: "0.8.183"
+  fps: 30
+  crf: 20
+  audio_bitrate: 160k
+  loudness: {I: -14, TP: -1.5, LRA: 11}

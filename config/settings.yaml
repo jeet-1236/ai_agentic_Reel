@@ -1,0 +1,9 @@
+# Team / run defaults. TEAM_ID and the official logo are provided by the team later.
+team_id: TXX
+renderer: hyperframes            # hyperframes | ffmpeg (fallback)
+logo_path: assets/official/logo.svg   # placeholder until the team supplies the official file
+logo_source_url: ""
+disclosure_line: "Created with AI agents — LY Agentic AI Lab"
+max_loops: 3
+time_limit_min: 180
+degrade_after_min: 120           # core/budget.py switches to cheaper settings past this

@@ -1,0 +1,22 @@
+# Research stack (planner / researcher / fact_curator / core.sources / core.retrieval / core.contacts).
+# Merged into requirements.txt by the platform owner. Exact pins from the dev .venv (Python 3.13).
+requests==2.34.2
+urllib3==2.8.0
+trafilatura==2.3.1
+lxml==6.1.3
+lxml-html-clean==0.4.5
+pypdf==6.21.1
+pypdfium2==5.14.0        # OCR fallback: render scanned PDF pages
+pytesseract==0.3.13      # OCR fallback: needs the tesseract binary (preinstalled on Kaggle); skipped if missing
+pillow==13.0.0
+bm25s==0.3.14
+numpy==2.5.4
+phonenumbers==9.0.41
+rapidfuzz==3.14.6
+tavily-python==0.8.5
+ddgs==9.16.0
+pyyaml==6.0.3
+pydantic==2.14.1
+# workers/retrieval_models.py (Kaggle system env, GPU1; not installed locally, imported only inside the worker):
+#   torch (Kaggle preinstalled), transformers>=4.51 (Qwen3-Embedding/Reranker), HHEM-2.1-Open via
+#   trust_remote_code also downloads the google/flan-t5-base tokenizer -> pre-stage it in agentreel-models.

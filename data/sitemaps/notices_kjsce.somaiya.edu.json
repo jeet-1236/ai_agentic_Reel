@@ -1,0 +1,85 @@
+{
+ "endpoint": "https://kjsce.somaiya.edu/kjsieit/getNotices_by_filter/",
+ "institute_id": 16,
+ "crawled_at": "2026-10-21T18:29:03+05:30",
+ "entries": [
+  {
+   "url": "https://kjsse-files.somaiya.edu/Time+Table+NOV-DEC+2026/19COE_ESE+Examination+TT+ND+2026.pdf",
+   "title": "ESE NOV-DEC 2026 Time Tables",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsse-files.somaiya.edu/Time+Table+-+May-2026/19COE_+ESE+Examination+TT+MJ+2026_Rev303.pdf",
+   "title": "ESE MAY-JUNE 2026 Time Tables",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsse-files.somaiya.edu/Admission+2026-27/Notice+of+commencement+of+admission+2026-27.pdf",
+   "title": "Commencement of F Y B Tech Admission 2026-27",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsse-files.somaiya.edu/Admission+2026-27/Notice+of+No+Agent+for+Admission+2026-27.pdf",
+   "title": "Disclaimer - Notice of No agent.",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsse-files.somaiya.edu/EXAM/TT/ESE-TT-JAN-26-Ph.D.+(SVU-2020)-SEM-I-REG.pdf",
+   "title": "PhD Course work SEM I",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsse-files.somaiya.edu/EXAM/TT/19COE_+ESE+Examination+TT+Upload+on+Website_ND+2025+(1).pdf",
+   "title": "ESE-TT (2025-26) ND 2025",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsse-files.somaiya.edu/EXAM/TT/ESE-TT-NOV-25-TY-MINORS+(SVU-2020)-SEM-V-KT.pdf",
+   "title": "ESE NOV-DEC 2025",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsce-files.somaiya.edu/Admission+2025/Ph.+D+Fees+Strcture+for+2025-26.pdf",
+   "title": "Fee Structure for Ph. D. for the Academic Year 2025-26",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsce-files.somaiya.edu/Admission+2024/Notices/Notice_Degree+Distribution+Ceremony_2023+Pass-out.pdf",
+   "title": "Degree Distribution Ceremony of May 2023 Pass-out Students",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsce-files.somaiya.edu/Exam/TimbTable/ESE+TT_SEM+V+(KJSCE+2018)_ND+2021.pdf",
+   "title": "ESE TT SEM V",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsce-files.somaiya.edu/Exam/TimbTable/ESE+TT_SEM+III(+SVU+2020)_ND+2021.pdf",
+   "title": "SE TT SEM III",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsce-files.somaiya.edu/Exam/TimbTable/ESE+TT_SEM+VII+(KJSCE+2018)_ND+2021.pdf",
+   "title": "ESE TT SEM  VII",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  },
+  {
+   "url": "https://kjsce-files.somaiya.edu/Exam/Notices/Notice_ESE_of_Final_Year_students.pdf",
+   "title": "ESE  of Final Year Students",
+   "kind": "notice",
+   "referrer": "https://kjsce.somaiya.edu/en/notices/"
+  }
+ ]
+}

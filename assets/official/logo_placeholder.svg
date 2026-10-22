@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240">
+  <!-- Placeholder only. The team supplies the official logo via config/settings.yaml logo_path. -->
+  <rect x="6" y="6" width="468" height="228" rx="18" fill="#FFFFFF" stroke="#B7202E" stroke-width="12"/>
+  <text x="240" y="150" text-anchor="middle" font-family="Fira Sans, Noto Sans, Arial, sans-serif" font-size="96" font-weight="800" fill="#B7202E">LOGO</text>
+</svg>

@@ -1,0 +1,12 @@
+# Copy to briefs/<ID>.yaml on Live Run day and fill from the brief card.
+id: ""            # e.g. A03 (first letter = category A-E)
+category: ""      # as printed on the card
+topic: ""
+audience: ""
+format: video_9x16   # video_9x16 | video_16x9
+duration_s: 45       # 30-60
+tone: ""
+language: English
+must_include: []
+must_avoid: []
+cta: ""

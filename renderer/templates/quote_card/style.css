@@ -1,0 +1,5 @@
+.tpl-quote { display: flex; flex-direction: column; justify-content: center; height: 100%; }
+.qc-card { background: var(--card); border-radius: 26px; padding: 34px 60px 40px 60px; border-bottom: 12px solid var(--red); }
+.qc-mark { display: block; margin-bottom: 12px; }
+.qc-attr-row { margin-top: 26px; }
+.qc-attr { opacity: 0.92; }

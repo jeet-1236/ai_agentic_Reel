@@ -1,0 +1,80 @@
+pack: base
+description: Always-on rules for every brief (handout 7.1)
+mandatory_review: false
+style_preset: flat_vector
+rules:
+  - id: base.fact_ids
+    text: Every factual sentence carries fact_ids of verified facts; only connective, non-factual lines may have none.
+    applies_to: script
+    check: code
+    responsible_agent: scriptwriter
+  - id: base.no_fabrication
+    text: Never state a fact, number, date, name, fee, deadline or result that is not in the facts list; if a requested item is MISSING, say "check the official page" instead of inventing it.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: base.claims_entailed
+    text: Each sentence must be entailed by the quotes of the facts it cites (quote match and NLI score >= 0.5).
+    applies_to: script
+    check: code
+    responsible_agent: scriptwriter
+  - id: base.contacts_whitelist
+    text: Every phone number, email and URL, spoken or on screen, exactly matches the contacts whitelist (source precedence applied).
+    applies_to: contacts
+    check: code
+    responsible_agent: scriptwriter
+  - id: base.hook_3s
+    text: The topic is clear within the first 3 seconds; the first 7 words of the hook include a topic keyword.
+    applies_to: script
+    check: code
+    responsible_agent: scriptwriter
+  - id: base.cta_sourced
+    text: End with one clear call to action that points only to an official channel or URL found in the sources.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: base.word_budget
+    text: Total length stays inside the plan word budget (about 2.4 spoken words per second).
+    applies_to: script
+    check: code
+    responsible_agent: scriptwriter
+  - id: base.tone
+    text: Speak to the viewer in the second person, one idea per sentence, respectful and non-judgemental; no fear, shame or sensationalism.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: base.disclosure
+    text: The end card shows the disclosure line "Created with AI agents — LY Agentic AI Lab".
+    applies_to: frames
+    check: code
+    responsible_agent: editor
+  - id: base.no_real_likeness
+    text: No realistic people, faces or likeness of any real person; illustration styles only.
+    applies_to: frames
+    check: code
+    responsible_agent: asset_generator
+  - id: base.visual_prompts_safe
+    text: Visual prompts describe illustrated scenes, objects and symbols; they never ask for text, logos, real people or photorealism.
+    applies_to: storyboard
+    check: llm
+    responsible_agent: storyboarder
+  - id: base.licensed_assets
+    text: Every asset has a manifest row with a licence on the allowlist.
+    applies_to: frames
+    check: code
+    responsible_agent: asset_generator
+  - id: base.logo_unaltered
+    text: The official logo is used unaltered (no recolouring, stretching, cropping or effects).
+    applies_to: frames
+    check: code
+    responsible_agent: editor
+  - id: base.on_screen_words
+    text: Each on-screen text item has at most 7 words.
+    applies_to: storyboard
+    check: code
+    responsible_agent: storyboarder
+  - id: base.safe_zone
+    text: All on-screen text and captions stay inside the safe zone (y in [250, 1570] for 9:16).
+    applies_to: frames
+    check: code
+    responsible_agent: storyboarder

@@ -1,0 +1,25 @@
+pack: D
+description: Fests and campus events
+mandatory_review: false
+style_preset: isometric
+rules:
+  - id: D.safe_fest
+    text: Include a safe-fest message (carry your pass and ID, no substances, find the help desk) only where the sources support it.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: D.no_invented_details
+    text: No artist names, dates, venues, prices or prizes unless quoted from an official page with a fact_id.
+    applies_to: script
+    check: code
+    responsible_agent: scriptwriter
+  - id: D.inclusive
+    text: Inclusive, energetic tone; no peer pressure and no glamorising risky behaviour.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: D.no_substance_imagery
+    text: No alcohol, smoking, drugs or crowd-crush imagery.
+    applies_to: frames
+    check: llm
+    responsible_agent: asset_generator

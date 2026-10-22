@@ -1,0 +1,35 @@
+pack: C
+description: Responsible AI and academic integrity
+mandatory_review: true
+style_preset: flat_vector
+rules:
+  - id: C.policy_quoted
+    text: Policy statements only as quoted in sources; never imply a policy exists if none was found.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: C.no_implied_policy
+    text: Do not say "the college AI policy" or similar unless a fact quotes such a document; label interpretations as such (e.g. "software tools prohibited by the examiner").
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: C.allowed_items_sourced
+    text: Every "allowed" or "not allowed" item, spoken or in a do_dont_split shot, carries a fact_id.
+    applies_to: storyboard
+    check: code
+    responsible_agent: storyboarder
+  - id: C.law_as_stated
+    text: Mention the DPDP Act, IT Rules or UGC regulations only as stated in the sources and with their scope (e.g. never present postgraduate rules as undergraduate rules).
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: C.non_judgemental
+    text: Non-judgemental and practical - encourage asking the instructor or examiner first; no fear-based framing.
+    applies_to: script
+    check: llm
+    responsible_agent: scriptwriter
+  - id: C.no_fear_imagery
+    text: No fear-based imagery (handcuffs, alarms, punishment scenes); symbolic objects only, no faces.
+    applies_to: frames
+    check: llm
+    responsible_agent: asset_generator

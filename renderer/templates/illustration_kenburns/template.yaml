@@ -1,0 +1,16 @@
+name: illustration_kenburns
+description: Full-bleed illustration with a seeded Ken Burns move and an optional short headline panel at the top of the content zone.
+aspects: ["9x16", "16x9"]
+min_duration_s: 1.0
+max_duration_s: 12.0
+image: required
+zone: content
+from_on_screen_text: "[0] -> headline (optional)"
+slots_schema:
+  type: object
+  additionalProperties: false
+  properties:
+    headline: {type: string, maxLength: 80}
+text:
+  headline: {weight: 800, line_height: 1.1,
+             "9x16": {w: 820, h: 300, max_px: 84, min_px: 48}, "16x9": {w: 1400, h: 200, max_px: 80, min_px: 48}}

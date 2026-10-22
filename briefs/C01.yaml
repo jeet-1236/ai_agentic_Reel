@@ -1,0 +1,12 @@
+# Team practice brief (topic C01). Card fields other than the topic are our best guess of a typical card.
+id: C01
+category: Responsible AI Usage
+topic: "College AI policy explainer: what is allowed vs not allowed in assignments and exams"
+audience: all students
+format: video_9x16
+duration_s: 45
+tone: clear, friendly, non-judgemental
+language: English
+must_include: [what counts as unfair means in exams, who decides on unfair-means cases]
+must_avoid: [claiming a college AI policy exists if no official document says so, fear-based imagery]
+cta: "Read the examination rules on the official Somaiya website"

@@ -1,0 +1,236 @@
+{
+  "queries": [
+    "what counts as unfair means in exams",
+    "who decides on unfair-means cases",
+    "College AI policy explainer: what is allowed vs not allowed in assignments and exams",
+    "College AI policy explainer: what is allowed vs not allowed in assignments and exams rules",
+    "Responsible AI Usage official notice",
+    "Read the examination rules on the official Somaiya website",
+    "College AI policy explainer: what is allowed vs not allowed in assignments and exams official circular",
+    "Responsible AI Usage official guidelines students"
+  ],
+  "offline": true,
+  "replayed_batch": "C01-smoke@2026-10-21T18:49:29+05:30#L0",
+  "fetched": [
+    {
+      "url": "https://kjsce.somaiya.edu/en/exam-cell/",
+      "final_url": "https://kjsce.somaiya.edu/en/exam-cell/",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 689
+    },
+    {
+      "url": "https://kjsce.somaiya.edu/en/view-publication/1993?type=research&id=160631",
+      "final_url": "https://kjsce.somaiya.edu/en/view-publication/1993?type=research&id=160631",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 1404
+    },
+    {
+      "url": "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-ai-computer-vision-and-robotics/",
+      "final_url": "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-ai-computer-vision-and-robotics/",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 1307
+    },
+    {
+      "url": "https://kjsce.somaiya.edu/en/library/rules",
+      "final_url": "https://kjsce.somaiya.edu/en/library/rules",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 2529
+    },
+    {
+      "url": "https://somaiya.edu/en/social-responsibility/",
+      "final_url": "https://www.somaiya.edu:443/en/social-responsibility/",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 1872
+    },
+    {
+      "url": "https://kjsce.somaiya.edu/en/contact-us/",
+      "final_url": "https://kjsce.somaiya.edu/en/contact-us/",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 11218
+    },
+    {
+      "url": "https://somaiya.edu/en/notices/",
+      "final_url": "https://www.somaiya.edu:443/en/notices/",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 204
+    },
+    {
+      "url": "https://www.somaiya.edu/en/mandatory-disclosure/aishe",
+      "final_url": "https://www.somaiya.edu/en/mandatory-disclosure/aishe",
+      "referrer": "",
+      "via": "ddgs",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 204
+    },
+    {
+      "url": "https://repository.somaiya.edu/handle/123456789/5562/browse",
+      "final_url": "https://repository.somaiya.edu/handle/123456789/5562/browse",
+      "referrer": "",
+      "via": "ddgs",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 849
+    },
+    {
+      "url": "https://somaiya.edu/en/center-of-examination/",
+      "final_url": "https://www.somaiya.edu:443/en/center-of-examination/",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 296
+    },
+    {
+      "url": "https://kjsim.somaiya.edu/en/view-member/170062",
+      "final_url": "https://kjsim.somaiya.edu/en/view-member/170062",
+      "referrer": "",
+      "via": "ddgs",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 635
+    },
+    {
+      "url": "https://somaiya.edu/en/iqac-policies/",
+      "final_url": "https://www.somaiya.edu:443/en/iqac-policies/",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 629
+    },
+    {
+      "url": "https://kjsce.somaiya.edu/en/placement/rulesregulations/",
+      "final_url": "https://kjsce.somaiya.edu/en/placement/rulesregulations/",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 7760
+    },
+    {
+      "url": "https://svu-files.somaiya.edu/Mandatory+Disclosure/UGC/UGC+Public+Notice+26,+May+2023.pdf",
+      "final_url": "https://svu-files.somaiya.edu/Mandatory+Disclosure/UGC/UGC+Public+Notice+26,+May+2023.pdf",
+      "referrer": "https://www.somaiya.edu/en/notices/",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "pypdf",
+      "chars": 2081
+    },
+    {
+      "url": "https://somaiya.edu/en/code-of-conduct/",
+      "final_url": "https://www.somaiya.edu:443/en/code-of-conduct/",
+      "referrer": "",
+      "via": "catalogue",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 1303
+    },
+    {
+      "url": "https://kjsce.somaiya.edu/en/view-member/161038/",
+      "final_url": "https://kjsce.somaiya.edu/en/view-member/161038/",
+      "referrer": "",
+      "via": "ddgs",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 563
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nRpz5W10pNESA5sfxX1QU_A2TNEWxgft/view",
+      "final_url": "https://drive.usercontent.google.com/download?id=1nRpz5W10pNESA5sfxX1QU_A2TNEWxgft&export=download",
+      "referrer": "https://somaiya.edu/en/center-of-examination/",
+      "via": "link",
+      "authority": "somaiya",
+      "hop": 1,
+      "method": "pypdf",
+      "chars": 1362
+    },
+    {
+      "url": "https://www.somaiya.edu/en/iqac-sign-in/aHR0cHM6Ly9zdnUtaXFhYy5zb21haXlhLmVkdS9Vbml2ZXJzaXR5K1BvbGljaWVzLzExLlBvbGljeSstK1JlY3J1aXRtZW50K3NlcnZpY2UrUnVsZXMrYW5kK1Byb21vdGlvbmFsK2ZvcitUZWFjaGluZythbmQrTm9uLVRlYWNoaW5nK1N0YWZmLnBkZg/ba82d42cc04d54167d9788a80b4aace4a365d50d761287a475c4febb8c975281/iqac-policies",
+      "final_url": "https://myaccount.somaiya.edu/#/login?login_from_lms=1&site_url=https://www.somaiya.edu/en/iqac-signin-response/aHR0cHM6Ly9zdnUtaXFhYy5zb21haXlhLmVkdS9Vbml2ZXJzaXR5K1BvbGljaWVzLzExLlBvbGljeSstK1JlY3J1aXRtZW50K3NlcnZpY2UrUnVsZXMrYW5kK1Byb21vdGlvbmFsK2ZvcitUZWFjaGluZythbmQrTm9uLVRlYWNoaW5nK1N0YWZmLnBkZg/ba82d42cc04d54167d9788a80b4aace4a365d50d761287a475c4febb8c975281/iqac-policies",
+      "referrer": "https://somaiya.edu/en/iqac-policies/",
+      "via": "link",
+      "authority": "somaiya",
+      "hop": 0,
+      "method": "trafilatura",
+      "chars": 0
+    },
+    {
+      "url": "https://drive.google.com/file/d/1X4faYrMSurNA70QucDms3W1GCluFh7SN/view?usp=sharing",
+      "final_url": "https://drive.usercontent.google.com/download?id=1X4faYrMSurNA70QucDms3W1GCluFh7SN&export=download",
+      "referrer": "https://drive.google.com/file/d/1nRpz5W10pNESA5sfxX1QU_A2TNEWxgft/view",
+      "via": "link",
+      "authority": "somaiya",
+      "hop": 2,
+      "method": "pypdf",
+      "chars": 11141
+    },
+    {
+      "url": "https://drive.google.com/file/d/1n2JVfjt3Lah99bcySy2GKsyf6678kR9O/view?usp=sharing",
+      "final_url": "https://drive.usercontent.google.com/download?id=1n2JVfjt3Lah99bcySy2GKsyf6678kR9O&export=download",
+      "referrer": "https://drive.google.com/file/d/1nRpz5W10pNESA5sfxX1QU_A2TNEWxgft/view",
+      "via": "link",
+      "authority": "somaiya",
+      "hop": 2,
+      "method": "pypdf",
+      "chars": 5700
+    },
+    {
+      "url": "https://drive.google.com/file/d/1m_VRiQiOrCoa61x_URVmoNw99zxM_zeO/view?usp=sharing",
+      "final_url": "https://drive.usercontent.google.com/download?id=1m_VRiQiOrCoa61x_URVmoNw99zxM_zeO&export=download",
+      "referrer": "https://drive.google.com/file/d/1nRpz5W10pNESA5sfxX1QU_A2TNEWxgft/view",
+      "via": "link",
+      "authority": "somaiya",
+      "hop": 2,
+      "method": "pypdf",
+      "chars": 1034
+    },
+    {
+      "url": "https://drive.google.com/file/d/1OcmsyibqAuc2PAbpXDbKT2-mqcSH0IPM/view?usp=sharing",
+      "final_url": "https://drive.usercontent.google.com/download?id=1OcmsyibqAuc2PAbpXDbKT2-mqcSH0IPM&export=download",
+      "referrer": "https://drive.google.com/file/d/1nRpz5W10pNESA5sfxX1QU_A2TNEWxgft/view",
+      "via": "link",
+      "authority": "somaiya",
+      "hop": 2,
+      "method": "pypdf",
+      "chars": 618
+    }
+  ]
+}

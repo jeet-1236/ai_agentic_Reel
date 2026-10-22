@@ -1,0 +1,3300 @@
+{
+ "sitemap": "https://kjsce.somaiya.edu/sitemap.xml",
+ "crawled_at": "2026-10-21T18:29:03+05:30",
+ "entries": [
+  {
+   "url": "https://kjsce.somaiya.edu/en/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K J Somaiya School of Engineering | KJSSE",
+   "description": "KJSSE is one of the best engineering colleges in India, ranking in the top amongst B.Tech and M.Tech colleges for its excellent education.",
+   "h1": "K J Somaiya School of Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/covid-19-updates/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Get the Latest COVID-19 News and Updates – Stay Safe!",
+   "description": "At K J Somaiya School of Engineering  we have created Covid-19 Fake News Detector app to control fake Covid-19 rumors & were declared as winners in the 'COVID-19 Impact’",
+   "h1": "covid",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/director-message/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Director's Message | K J Somaiya School of Engineering",
+   "description": "Message from Director of K J Somaiya School of Engineering.",
+   "h1": "Director's Message",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/ranking/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K.J. Somaiya School of Engineering Ranking | Recognitions and Achievements",
+   "description": "Explore K.J. Somaiya School of Engineering's rankings and accolades, validating our commitment to excellence in education and research.",
+   "h1": "Ranking",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/contact-us/contact-directory/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Contact Directory | K J Somaiya School of Engineering",
+   "description": "You can contact any faculty member of Somaiya Vidyavihar with just one click.  Browse & get in touch with us by referring to the customize contact directory.",
+   "h1": "Contact Directory",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/library/overview/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "KJSSE Library Overview | K J Somaiya School of Engineering",
+   "description": "Learn more about our library services, resources, activities, infrastructure & more.  To get quick help on how to Use the Library contacts us.",
+   "h1": "Library Overview",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/national-institute-ranking-framework/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Positions Details of Somaiya KJSSE in NIRF",
+   "description": "Learn about K.J Somaiya College of Engineering's standing in the National Institute Ranking Framework. Explore the factors that contribute to our excellence.",
+   "h1": "National Institute Ranking Framework - NIRF",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/documents/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Academic Documents | K J Somaiya College of Engineering",
+   "description": "Get easy access & download all-important Academic Documents Like Syllabus, Time Table, Forms, etc   for your reference.",
+   "h1": "documents",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/mandatory-disclosure/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Mandatory Disclosures |K J Somaiya School of Engineering",
+   "description": "Check out K J Somaiya School of Engineering's Mandatory Disclosure files to keep track of mandatory terms and conditions.",
+   "h1": "Mandatory Disclosure",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme-finder/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Find a Programme | K J Somaiya School of Engineering",
+   "description": "Find more than 200 programmes offered through 34 Colleges & schools on 8 beautiful campuses of Somaiya Vidyavihar University.",
+   "h1": "Programme Finder",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/btech-in-artificial-intelligence-data-science/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B Tech in AI and & Data Science - Somaiya (KJSSE)",
+   "description": "B.Tech in Artificial Intelligence & Data Science equips students to analyze, design, and solve problems using AI/ML-based solutions across different domains.",
+   "h1": "Bachelor of Technology in Artificial Intelligence & Data Science",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-computer-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Best B.Tech Computer Engineering College |K J Somaiya School of Engineering",
+   "description": "B.Tech Computer engineering programme of KJSSE makes it one of the best B.Tech Computer engineering college in India. The faculty is experienced and knowledgeable.",
+   "h1": "BACHELOR OF TECHNOLOGY COMPUTER ENGINEERING",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/btech-in-computer-and-communication-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B.Tech in Computer and Communication Engineering | KJSSE Mumbai, India",
+   "description": "BTech program in Computer and Communication Engineering is 4 year degree course focuses on innovation and technology. Enquire now for eligibility & admission at KJSSE in Mumbai.",
+   "h1": "B.Tech in Computer and Communication Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-computer-science-and-business-systems/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B.Tech Computer Science and Business Systems Course at KJSSE",
+   "description": "Combine technical skills with business acumen in the B.Tech in Computer Science and Business Systems course at K J Somaiya School of Engineering.",
+   "h1": "Bachelor of Technology Computer Science and Business Systems",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-in-electronics-computer-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology in Electronics and Computer Engineering (B.Tech)",
+   "description": "K J Somaiya School of Engineering offers a 4-year degree course in B.Tech in Electronics and Computer Engineering. Learn at the best engineering college in Maharashtra.",
+   "h1": "Bachelor of Technology in Electronics and Computer Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-electronic-telecommunication/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B.Tech in Electronics & Telecommunication | K J Somaiya School of Engineering",
+   "description": "B.Tech in electronics & telecommunication engineering course is tailored to build skilled engineers that disrupt the electronics & communications industry.",
+   "h1": "BACHELOR OF TECHNOLOGY ELECTRONICS AND TELECOMMUNICATION ENGINEERING",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-electronics-Engineering-VLSI-design-technology/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B.Tech Electronics Engineering | B.tech in VLSI Design",
+   "description": "Study VLSI Design Technology in the B.Tech Electronics Engineering program at K J Somaiya School of Engineering. Learn about semiconductor technologies and design.",
+   "h1": "Bachelor of Technology Electronics Engineering (VLSI Design and Technology)",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-information-technology/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Best B.Tech Information Technlogy College",
+   "description": "B.Tech in Information Technology opens up various options for the student. KJSSE is one of the most renowned college for this course.",
+   "h1": "BACHELOR OF TECHNOLOGY INFORMATION TECHNOLOGY",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-mechanical-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B.Tech in Mechanical Engineering - Somaiya (KJSSE)",
+   "description": "Somaiya's B.Tech Programme in Mechanical Engineering, accredited by NBA Delhi, equips students with skills in design, manufacturing, and thermal sciences.",
+   "h1": "BACHELOR OF TECHNOLOGY MECHANICAL ENGINEERING",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/btech-in-robotics-artificial-intelligence/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B Tech in Robotics and Automation | K J Somaiya School of Engineering",
+   "description": "B.Tech in Automation & robotics is a specialized course for the students to learn robot principles and design; robot intelligence control, AI & mobile robots.",
+   "h1": "Bachelor of Technology in Robotics and Artificial Intelligence",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/it/honours-in-high-performance-computing/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in High Performance Computing |KJSSE Best B.Tech IT College",
+   "description": "The Honours in High Performance Computing B.Tech degree programme aims to cover all the other aspects of high performance computing & Quantum computing. Enquire now.",
+   "h1": "Honours in High Performance Computing | Honours in High Performance Computing",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/ai-ds/honours-in-spatial-analytics/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Spatial Analytics | Spatial Data Analysis course at KJSSE",
+   "description": "Explore the field of spatial data analytics with an honours program at K J Somaiya School of Engineering. Study geographic data, GIS, and applications.",
+   "h1": "Honours in Spatial Analytics | Honours in Spatial Analytics",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/ai-ds/honours-in-applied-cyber-security/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Applied Cyber Security | Cyber Security Degree at KJSSE",
+   "description": "Gain expertise in applied cyber security with an honors program at K J Somaiya School of Engineering, the best cyber security college in Mumbai.",
+   "h1": "Artificial Intelligence & Data Science | B.Tech (AI & DS) | Honours in Applied Cyber Security",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/ai-ds/honours-in-data-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Data Engineering| Data Engineering Course at KJSSE",
+   "description": "Specialize in data engineering with an honours program at K J Somaiya School of Engineering. In this data engineering course learn data systems & analytics.",
+   "h1": "Honours in Data Engineering | Honours in Data Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/comp/honours-in-geospatial-computing/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Geospatial Computing Course at KJSSE",
+   "description": "KJSSE provides an Honours in Geospatial Computing degree programme which includes study of the use of geographic or location-connected spatial data. Enquire now.",
+   "h1": "Honours in Geospatial Computing | Honours in Geospatial Computing",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/comp/honours-in-cyber-security-forensics/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours Cyber Security Forensics Course at KJSSE",
+   "description": "The Honours in Cyber Security Forensics Course focuses on the basics of security goals, vulnerabilities, threat & control for blockchain.",
+   "h1": "Honours in Cyber Security Forensics | Honours in Cyber Security & Forensics",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/comp/honours-in-data-science-analytics/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in data science and analytics course at KJSSE",
+   "description": "The Honours in data science and analytics course includes topics like data processing technique & algorithms for representation of data in a meaningful way for human intelligence.",
+   "h1": "Honours in Data Science & Analytics | Honours in Data Science & Analytics",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/comp/honours-in-software-project-management/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Software Project Management| Best B.Tech Computer Engineering College",
+   "description": "This Project Management degree programme will equip students with the skills required for effective management of software projects in accordance with industry standards.",
+   "h1": "Honours in Software Project Management | Honours in Software Project Management",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/comp/honours-in-software-application-development/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Software Application Development Course At KJSSE",
+   "description": "Enhance your skills in software development with an honours program at K J Somaiya School of Engineering. Learn coding, design, and project management.",
+   "h1": "Honours in Software & Application Development | Honours in Software and Mobile Application Development",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/extc/honours-in-networking/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Networking | Best B.Tech. (EXTC) college",
+   "description": "An honour in Networking is a specialization in B.Tech (EXTC) which focuses on networking using optical fiber, embedded technologies, security, and other related areas. Enquire now",
+   "h1": "Honours in Networking | Honours in Networking",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/cce/honours-in-metaverse/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Metaverse| Metaverse Course at KJSSE",
+   "description": "Enter the world of the metaverse with an honours program at K J Somaiya School of Engineering. With this Metaverse course Study virtual environments, blockchain, and AR/VR technol",
+   "h1": "Honours in Metaverse | Honours in Metaverse",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/excp/honours-in-internet-of-things/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Internet of Things course at K J Somaiya School of Engineering  Honours in Internet of Things | Honours in Internet of Things",
+   "description": "Dive into the Internet of Things with an honours program at K J Somaiya School of Engineering. Explore connected devices, data analytics, and system design.",
+   "h1": "Honours in Internet of Things | Honours in Internet of Things Honours in Internet of Things | Honours in Internet of Things",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-ai-computer-vision-and-robotics/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in AI, Computer Vision and Robotics| KJSCE Best B.Tech College",
+   "description": "K J Somaiya College of Engineering offers a B.Tech in Artificial Intelligence that covers most aspects of artificial intelligence& robotics, sensor data, perception.",
+   "h1": "Honours in AI, Computer Vision and Robotics | Honours in AI, Computer Vision and Robotics",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/excp/honours-in-vlsi/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in VLSI Course At K J Somaiya School of Engineering",
+   "description": "Specialize in VLSI with an honours program at K J Somaiya School of Engineering. Study integrated circuit design",
+   "h1": "Honours in VLSI | Honours in VLSI",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/extc/honours-in-applied-signal-processing/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B.Tech. (EXTC) Honours in Applied Signal Processing at K J Somaiya College",
+   "description": "Honours in Applied Signal Processing is a 4-year degree program for studying and understanding techniques of random signal processing and data compression. Enquire now.",
+   "h1": "Honours in Applied Signal Processing | Honours in Applied Signal Processing",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/extc/honours-in-advanced-telecommunications/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Advanced Telecommunications | K J Somaiya School of Engineering",
+   "description": "KJSSE is one of the best colleges for B.Tech in Electronic Telecommunication Engineering. It offers specialization with Honours in Advanced Telecommunications.",
+   "h1": "Honours in Advanced Telecommunications | Honours in Advanced Telecommunications",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/extc/honours-in-data-science-for-emerging-analytics/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Data Science & Analytics Course at K J Somaiya School of Engineering",
+   "description": "Advance your career with an Honours in Data Science and Analytics at K J Somaiya School of Engineering. Learn cutting-edge data analytics skills and methodologies.",
+   "h1": "Honours in Data Science for Emerging Analytics | Honours in Data Science for Emerging Analytics",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/it/honours-in-cyber-security/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Cyber Security | KJSSE Best B.Tech IT College",
+   "description": "The Honours in Cyber Security B.Tech degree program is for developing analytical and investigative skills to manage the evolving threat landscape through well-formulated curriculum",
+   "h1": "Honours in Cyber Security | Honours in Cyber Security",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/it/honours-in-artificial-intelligence/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Artificial Intelligence| Best B.Tech Information Technology College",
+   "description": "Honours in Artificial Intelligence is a 4-year degree programme that gives insight into Network architecture design, regularization & optimization. KJSSE is the Best IT College.",
+   "h1": "Honours in Artificial Intelligence | Honours in Artificial Intelligence",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/it/honours-in-computer-application-development/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Computer Application Development | K J Somaiya School of Engineering",
+   "description": "The Honours in Computer Application Development programme provides programming experience and the skills necessary to analyze and design Information Technology (IT) based solutions",
+   "h1": "Honours in Computer Application Development | Honours in Computer Application Development",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/mech/honours-in-energy-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Energy Engineering | B.Tech in Energy Engineering",
+   "description": "Somaiya engineering college in India offer Honours in Energy Engineering Course includes Design & analyze energy systems conventional & renewable energy sources.",
+   "h1": "Honours in Energy Engineering | Honours in Energy Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/mech/honours-in-design-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B.Tech. Honours in Design Engineering| B.Tech. (Mech) at K J Somaiya School",
+   "description": "B.Tech. Honours in Design Engineering is one of the leading fields in Mechanical Engineering. K J Somaiya offers B.Tech. Honours in Design Engineering",
+   "h1": "Honours in Design Engineering | Honours in Design Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/mech/honours-in-aerospace-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B.Tech Honours in Aerospace Engineering at K J Somaiya College",
+   "description": "A B.Tech honour in Aerospace Engineering is a specialized course in Mechanical Engineering that covers knowledge of the Aerospace field along with the major program.",
+   "h1": "Honours in Aerospace Engineering | Honours in Aerospace Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/rai/honours-in-computer-aided-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Computer Aided Engineering Program in India",
+   "description": "K J Somaiya School of Engineering offers honors program in computer aided engineering. The honors in computer-aided engineering includes conceptualizing, design modeling software.",
+   "h1": "Computer Aided Engineering | Honours in Computer Aided Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/mech/honours-in-automobile-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B.Tech Honours in Automobile Engineering at K J Somaiya College",
+   "description": "K J Somaiya offers an Honours program in Automobile Engineering that provides an opportunity for students with specialist knowledge of automotive technology. Enquire now",
+   "h1": "Honours in Automobile Engineering | Honours in Automobile Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/rai/honours-in-smart-manufacturing",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Smart Manufacturing | Smart Manufacturing Course at KJSSE",
+   "description": "Study smart manufacturing course program at K J Somaiya School of Engineering. Learn about the latest technologies in automated and intelligent production.",
+   "h1": "Smart Manufacturing | Honours in Smart Manufacturing",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/rai/honours-in-data-driven-analytics/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Data-Driven Analytics at K J Somaiya School of Engineering",
+   "description": "Dive into data-driven analytics with an Honours program at K J Somaiya School of Engineering. Focus on robotics, AI, and big data analytics for advanced careers.",
+   "h1": "Honours in Data Driven Analytics | Honours in Data Driven Analytics",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-computer-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Best M.Tech Computer Engineering  College",
+   "description": "Looking for the best M.Tech Computer Engineering college? Look no further, KJSSE has an unique syllabus which will open up many opportunities for you.",
+   "h1": "MASTER OF TECHNOLOGY COMPUTER ENGINEERING",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-electronics-engineering-vlsi-design/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "M.Tech in VLSI Design |K J Somaiya School of Engineering, Mumbai",
+   "description": "Specialize in VLSI Design with an M.Tech program at K J Somaiya School of Engineering. Gain advanced knowledge in semiconductor technologies and circuit design.",
+   "h1": "Master of Technology Electronics Engineering (VLSI Design and Technology)",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-information-security/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Best M.Tech Information Technlogy Engineering College",
+   "description": "KJSSE is touted to be one of the Best M.Tech Information Technology Engineering College in the country, thanks to the all rounder syllabus.",
+   "h1": "MASTER OF TECHNOLOGY INFORMATION SECURITY",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/mtech-in-it-ai-data-science/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "M.Tech in Artificial Intelligence & Data Science Course in India| KJSSE",
+   "description": "K J Somaiya School of Engineering provides an M.Tech. in AIDS. This artificial intelligence and data science engineering course is for those who want to make a career as AI .",
+   "h1": "Master of Technology Information Technology with Specialization in Artificial Intelligence & Data Sc",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-digital-agriculture/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "M.Tech in Agricultural Engineering | K J Somaiya School of Engineering",
+   "description": "Pursue an M.Tech in Digital Agriculture at K J Somaiya School of Engineering . Learn about the latest technologies and practices in agricultural engineering.",
+   "h1": "Master Of Technology Digital Agriculture",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-cad-cam-robotics/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Best M.Tech Mechanical Engineering College",
+   "description": "K J Somaiya School of Engineering  is one of the college to feature in the best M.Tech Mechanical Engineering college in India.",
+   "h1": "MASTER OF TECHNOLOGY CAD/ CAM & ROBOTICS",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-in-robotics-automation-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology in Robotics and Automation Engineering| KJSSE",
+   "description": "K J Somaiya School of Engineering is one of the best M.Tech colleges in Mumbai, India. We offer a 4-year Master of Technology in Robotics and Automation Engineering.",
+   "h1": "Master of Technology in Robotics and Automation Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/mtech-phdprogramme/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Engineering & Technology M.Tech/PhD Programs at KJSSE",
+   "description": "Discover specialized M.Tech and PhD courses in engineering and technology. Join K.J Somaiya School of Engineering to advance your career in high-demand fields.",
+   "h1": "M Tech +PhD (Dual Degree) Programme",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-electronics-telecommunication/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "M.Tech. Electronics & Telecommunication Engineering |KJSSE",
+   "description": "Masters in Electronics & communication, a 2 years’ program offers knowledge in core electronics. Know your electronics eligibility at M. tech colleges in Mumbai",
+   "h1": "MASTER OF TECHNOLOGY ELECTRONICS AND TELECOMMUNICATION ENGINEERING",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-energy-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Best M.Tech Energy Engineering College",
+   "description": "K J Somaiya School of Engineering  is one of the college to feature in the best M.Tech Energy Engineering college in India.",
+   "h1": "MASTER OF TECHNOLOGY ENERGY ENGINEERING",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/phd-in-computer-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PhD in Computer Science in Mumbai | Doctorate in Computer Science",
+   "description": "Start Ph.D. in information technology at Somaiya University the best institute for a Ph.D. Enquire for eligibility & admission to Information Technology College",
+   "h1": "Ph.D. in Computer Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/phd-in-information-technology/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PhD in Information Technology in Mumbai | KJSSE",
+   "description": "Start Ph.D. in information technology at Somaiya University the best institute for a Ph.D. Enquire for eligibility & admission to Information Technology College",
+   "h1": "Ph.D. in Information Technology",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/phd-in-energy-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PhD in Energy Engineering Course| KJSSE Mumbai, India",
+   "description": "Pursue your passion for Energy Engineering with our PhD program. Join the research elite at K J Somaiya School of Engineering  one of the top PhD college in Mumbai.",
+   "h1": "Ph.D. IN ENERGY ENGINEERING",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/doctor-of-philosophy-in-electronics-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Ph.D. in Electronics Engineering | K J Somaiya School of Engineering",
+   "description": "Ph.D. in Electronics Engineering is a Doctorate programme. This Ph.D. Programme offers research career in Electronics engineering.",
+   "h1": "Ph.D. in Electronics Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/phd-in-mechanical-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PhD in Mechanical Engineering | Mechanical Engineering College",
+   "description": "KJSSE offers Ph.D. in mechanical engineering for students who want to do research & development. Start Ph.D. in mechanical engineering in Maharashtra.",
+   "h1": "Ph.D. in Mechanical Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/phd-in-electronics-and-telecommunication-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PhD in Electronics and Communication engineering at KJSSE",
+   "description": "Learn Ph.D. in electronics and communication at top Ph.D. colleges in Mumbai. Enquire now for eligibility, scope & admission in Ph.D. colleges.",
+   "h1": "Ph.D. in Electronics and Telecommunication Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-aerospace-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Aerospace Engineering | K J Somaiya School of Engineering",
+   "description": "The Program offers special challenges and opportunities to academically talented and highly motivated undergraduate students.",
+   "h1": "Minor in Aerospace Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-artificial-intelligence-machine-learning/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Artificial Intelligence & Machine Learning | KJSSE",
+   "description": "Minor in machine learning is a 3 years degree program in Artificial Intelligence Engineering. Minor in AI programme offers direct admission. Enquire for eligibility.",
+   "h1": "Minor in Artificial Intelligence & Machine Learning",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-augmented-and-virtual-reality/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Augmented & Virtual Reality A&V| KJSSE",
+   "description": "Virtual reality course – A 3 years minor degree course offering technical skill in 3D Computer Graphics, Animation, Visual Effects & image processing.",
+   "h1": "Minor in Augmented & Virtual Reality",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-programme-in-computer-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Computer Engineering | Minor courses In India",
+   "description": "At KJCSE, we offer a Minor in Computer Engineering program in India. The minor in engineering includes the fundamentals of computer hardware design, FPGA, and more.",
+   "h1": "Minor Programme in Computer Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-computer-networking-and-security/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Computer Networking and Security | K J Somaiya School of Engineering",
+   "description": "Network security course is 3 Years minor degree program focusing on digital communication, Computer networking along security.  For more info enquire now.",
+   "h1": "Minor in Computer Networking and Security",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-cyber-security/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Cyber Security degree programme |KJSSE",
+   "description": "We offer our students with complimentary cyber security degree course which is a 3 Years minor degree program at K J Somaiya School of Engineering.",
+   "h1": "Minor in Cyber Security",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-data-science/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Data Science at K J Somaiya School of Engineering",
+   "description": "Data science minor degree is a popular course for students to improve their skills and knowledge in the Data Science field. Enquire at data science colleges in Mumbai.",
+   "h1": "Minor in Data Science",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-drone-technology/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Drone Technology | Drone Technology Courses at KJSSE",
+   "description": "Join the Minor in Drone Technology at K J Somaiya School of Engineering . Learn about drone design, applications, and the future of aerial technology.",
+   "h1": "Minor in Drone Technology",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-electric-vehicle/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Electric Vehicle Course in Mumbai | KJSSE",
+   "description": "Minor in Electric Vehicle is a 3 years degree program at KJSSE.   These courses are an electric vehicle technology certificate program for our Students.",
+   "h1": "Minor in Electric Vehicle",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-enterpreneurship/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor In Entrepreneurship |Minor courses in India",
+   "description": "The Minor in Entrepreneurship program will explore the various facets of entrepreneurship and small business ownership.",
+   "h1": "Minor In Enterpreneurship",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-information-technology/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Information Technology Degree Program | KJSSE",
+   "description": "Information technology minor degree course in Information Technology College in Mumbai. Help students to learn the development of IT applications",
+   "h1": "Minor in Information Technology",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-iot-and-real-time-embedded-systems/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in IoT and Real Time Embedded Systems at KJSSE",
+   "description": "Learn the Minor in IoT and Real-Time Embedded Systems at the best-embedded training institute. We offer IoT and Real-Time Embedded Systems course to KJSSE students.",
+   "h1": "Minor in IoT and Real Time Embedded Systems",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-intelligent-systems/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Intelligent Systems | K J Somaiya School of Engineering",
+   "description": "Advance your skills with a Minor in Intelligent Systems at  K J Somaiya School of Engineering. Explore AI, ML & automation to boost your career in tech. Apply today!",
+   "h1": "Minor in Intelligent Systems",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-industrial-engineering-and-management/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Industrial Engineering and Management | KJSSE",
+   "description": "At K J Somaiya School of Engineering, we provide industrial engineering courses for our students. Enquire now for minors in industrial engineering and management .",
+   "h1": "Minor in Industrial Engineering and Management",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-mechatronics/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Mechatronics Degree Programme | KJSSE",
+   "description": "A degree in Mechatronics is a 3 years program focused on sensors, actuators, PLC, System Interfacing, Data Acquisition, Robotics, and Industry at Mechatronics degree colleges",
+   "h1": "Minor in Mechatronics",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-maker-technology/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Maker Technology | K J Somaiya School of Engineering",
+   "description": "Explore the Minor in Maker Technology at K J Somaiya School of Engineering. Develop creative skills and hands-on experience in innovative tech projects.",
+   "h1": "Minor in Maker Technology",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-power-electronics-industrial-drives/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Power Electronics and Industrial Drives | Minor Degree Course",
+   "description": "This minor course in power electronics covers the study of telecommunications, signal processing, and control systems. Check eligibility and the application process in India.",
+   "h1": "Minor in Power Electronics & Industrial Drives",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-robotics-artificial-intelligence/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Robotics & Artificial Intelligence at KJSSE",
+   "description": "Learn Robotics & Artificial Intelligence in 3 years full-time minor degree program at K J Somaiya School of Engineering. Get the best artificial intelligence course in Mumbai.",
+   "h1": "Minor in Robotics & Artificial Intelligence",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-robotics-and-automation/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Robotics & Automation |K J Somaiya School of Engineering",
+   "description": "Enroll in the Minor in Robotics & Automation at K J Somaiya School of Engineering. With robotics and automation course hands-on experience and knowledge in  robotics technology.",
+   "h1": "Minor in Robotics and Automation",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-sound-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Sound Engineering course at best Sound Engineering College in India - KJSSE",
+   "description": "Study sound engineering at one of the top colleges in India. K J Somaiya School of Engineering offers a comprehensive program in sound engineering.",
+   "h1": "Minor in Sound Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-vlsi-design/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in VLSI Design | Minor in VLSI in India",
+   "description": "KJSSE offers a minor in VLSI courses in India. The course covers the design of electronic components like microprocessors and more. Check for eligibility here.",
+   "h1": "Minor in VLSI Design",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/certificate-program-in-mechatronics/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/certificate-program-in-data-science/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/certificate-course-in-rf-antennas/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/certificate-program-in-cyber-security-level-1/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/certificate-course-industrial-automation-and-robotics/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/certificate-program-in-space-science-technology/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/certificate-course-in-cyber-security-level-2-1/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/certificate-course-industrial-control-drives-1/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/pg-diploma-program-in-artificial-intelligence-data-science/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs1",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology | Admission in B.tech",
+   "description": "The Admission in B.tech for First Year Bachelor of Technology at KJSSE is very seamless and easy. Bachelor of Technology programme admission is described in detail.",
+   "h1": "B.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs3",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology | Admission in B.tech",
+   "description": "The Admission in B.tech for First Year Bachelor of Technology at KJSSE is very seamless and easy. Bachelor of Technology programme admission is described in detail.",
+   "h1": "B.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs6",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology | Admission in B.tech",
+   "description": "The Admission in B.tech for First Year Bachelor of Technology at KJSSE is very seamless and easy. Bachelor of Technology programme admission is described in detail.",
+   "h1": "B.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/notices?cat_id=13",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Notice Board of K J Somaiya School of Engineering",
+   "description": "Check our notice board digitally to get more information about the latest announcements, exam schedule, events, and educational updates.",
+   "h1": "Notices",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs4",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology | Admission in B.tech",
+   "description": "The Admission in B.tech for First Year Bachelor of Technology at KJSSE is very seamless and easy. Bachelor of Technology programme admission is described in detail.",
+   "h1": "B.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs7",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology | Admission in B.tech",
+   "description": "The Admission in B.tech for First Year Bachelor of Technology at KJSSE is very seamless and easy. Bachelor of Technology programme admission is described in detail.",
+   "h1": "B.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs2",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology | Admission in B.tech",
+   "description": "The Admission in B.tech for First Year Bachelor of Technology at KJSSE is very seamless and easy. Bachelor of Technology programme admission is described in detail.",
+   "h1": "B.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs5",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology | Admission in B.tech",
+   "description": "The Admission in B.tech for First Year Bachelor of Technology at KJSSE is very seamless and easy. Bachelor of Technology programme admission is described in detail.",
+   "h1": "B.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs8",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology | Admission in B.tech",
+   "description": "The Admission in B.tech for First Year Bachelor of Technology at KJSSE is very seamless and easy. Bachelor of Technology programme admission is described in detail.",
+   "h1": "B.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs1",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Admission for Bachelor of Technology in Direct Second Year",
+   "description": "K J Somaiya School of Engineering is one of the best B.tech colleges in India. Get more information about the admission for Bachelor of Technology in Direct Second Year.",
+   "h1": "Direct Second Year",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/notices?cat_id=221",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Notice Board of K J Somaiya School of Engineering",
+   "description": "Check our notice board digitally to get more information about the latest announcements, exam schedule, events, and educational updates.",
+   "h1": "Notices",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs6",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Admission for Bachelor of Technology in Direct Second Year",
+   "description": "K J Somaiya School of Engineering is one of the best B.tech colleges in India. Get more information about the admission for Bachelor of Technology in Direct Second Year.",
+   "h1": "Direct Second Year",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs9",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Admission for Bachelor of Technology in Direct Second Year",
+   "description": "K J Somaiya School of Engineering is one of the best B.tech colleges in India. Get more information about the admission for Bachelor of Technology in Direct Second Year.",
+   "h1": "Direct Second Year",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs2",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Admission for Bachelor of Technology in Direct Second Year",
+   "description": "K J Somaiya School of Engineering is one of the best B.tech colleges in India. Get more information about the admission for Bachelor of Technology in Direct Second Year.",
+   "h1": "Direct Second Year",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs4",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Admission for Bachelor of Technology in Direct Second Year",
+   "description": "K J Somaiya School of Engineering is one of the best B.tech colleges in India. Get more information about the admission for Bachelor of Technology in Direct Second Year.",
+   "h1": "Direct Second Year",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs7",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Admission for Bachelor of Technology in Direct Second Year",
+   "description": "K J Somaiya School of Engineering is one of the best B.tech colleges in India. Get more information about the admission for Bachelor of Technology in Direct Second Year.",
+   "h1": "Direct Second Year",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs10",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Admission for Bachelor of Technology in Direct Second Year",
+   "description": "K J Somaiya School of Engineering is one of the best B.tech colleges in India. Get more information about the admission for Bachelor of Technology in Direct Second Year.",
+   "h1": "Direct Second Year",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs3",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Admission for Bachelor of Technology in Direct Second Year",
+   "description": "K J Somaiya School of Engineering is one of the best B.tech colleges in India. Get more information about the admission for Bachelor of Technology in Direct Second Year.",
+   "h1": "Direct Second Year",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs5",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Admission for Bachelor of Technology in Direct Second Year",
+   "description": "K J Somaiya School of Engineering is one of the best B.tech colleges in India. Get more information about the admission for Bachelor of Technology in Direct Second Year.",
+   "h1": "Direct Second Year",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs8",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Admission for Bachelor of Technology in Direct Second Year",
+   "description": "K J Somaiya School of Engineering is one of the best B.tech colleges in India. Get more information about the admission for Bachelor of Technology in Direct Second Year.",
+   "h1": "Direct Second Year",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs1",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology M Tech Programme | KJSSE",
+   "description": "We offer M. tech courses in various Streams like Computer, IT, Electronics, Mechanical & more. Enquire now for the M.tech admission process, eligibility & scope",
+   "h1": "M.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs3",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology M Tech Programme | KJSSE",
+   "description": "We offer M. tech courses in various Streams like Computer, IT, Electronics, Mechanical & more. Enquire now for the M.tech admission process, eligibility & scope",
+   "h1": "M.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs6",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology M Tech Programme | KJSSE",
+   "description": "We offer M. tech courses in various Streams like Computer, IT, Electronics, Mechanical & more. Enquire now for the M.tech admission process, eligibility & scope",
+   "h1": "M.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/mtech-phdprogramme",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Engineering & Technology M.Tech/PhD Programs at KJSSE",
+   "description": "Discover specialized M.Tech and PhD courses in engineering and technology. Join K.J Somaiya School of Engineering to advance your career in high-demand fields.",
+   "h1": "M Tech +PhD (Dual Degree) Programme",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/notices?cat_id=14",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Notice Board of K J Somaiya School of Engineering",
+   "description": "Check our notice board digitally to get more information about the latest announcements, exam schedule, events, and educational updates.",
+   "h1": "Notices",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs4",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology M Tech Programme | KJSSE",
+   "description": "We offer M. tech courses in various Streams like Computer, IT, Electronics, Mechanical & more. Enquire now for the M.tech admission process, eligibility & scope",
+   "h1": "M.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs7",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology M Tech Programme | KJSSE",
+   "description": "We offer M. tech courses in various Streams like Computer, IT, Electronics, Mechanical & more. Enquire now for the M.tech admission process, eligibility & scope",
+   "h1": "M.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs2",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology M Tech Programme | KJSSE",
+   "description": "We offer M. tech courses in various Streams like Computer, IT, Electronics, Mechanical & more. Enquire now for the M.tech admission process, eligibility & scope",
+   "h1": "M.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs5",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology M Tech Programme | KJSSE",
+   "description": "We offer M. tech courses in various Streams like Computer, IT, Electronics, Mechanical & more. Enquire now for the M.tech admission process, eligibility & scope",
+   "h1": "M.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs8",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology M Tech Programme | KJSSE",
+   "description": "We offer M. tech courses in various Streams like Computer, IT, Electronics, Mechanical & more. Enquire now for the M.tech admission process, eligibility & scope",
+   "h1": "M.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/minor-in-information-processing-and-intelligent-systems/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Minor in Information Processing and Intelligent Systems | KJSSE",
+   "description": "Information Processing & Intelligent is a 3 years minor degree program focused on the physical nature of information & processing for intelligent systems.",
+   "h1": "Minor in Information Processing and Intelligent Systems",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/phd/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PhD Programs and Research - Somaiya KJSSE",
+   "description": "Find all the information and related links to apply for the Somaiya KJSSE Ph.D. entrance examination, Enquire now for Ph.D admission",
+   "h1": "PhD",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/notices?cat_id=406",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Notice Board of K J Somaiya School of Engineering",
+   "description": "Check our notice board digitally to get more information about the latest announcements, exam schedule, events, and educational updates.",
+   "h1": "Notices",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs1",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K J Somaiya School of Engineering | KJSSE",
+   "description": "KJSSE is one of the best engineering colleges in India, ranking in the top amongst B.Tech and M.Tech colleges for its excellent education.",
+   "h1": "K J Somaiya School of Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs3",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K J Somaiya School of Engineering | KJSSE",
+   "description": "KJSSE is one of the best engineering colleges in India, ranking in the top amongst B.Tech and M.Tech colleges for its excellent education.",
+   "h1": "K J Somaiya School of Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs6",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K J Somaiya School of Engineering | KJSSE",
+   "description": "KJSSE is one of the best engineering colleges in India, ranking in the top amongst B.Tech and M.Tech colleges for its excellent education.",
+   "h1": "K J Somaiya School of Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs4",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K J Somaiya School of Engineering | KJSSE",
+   "description": "KJSSE is one of the best engineering colleges in India, ranking in the top amongst B.Tech and M.Tech colleges for its excellent education.",
+   "h1": "K J Somaiya School of Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs7",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K J Somaiya School of Engineering | KJSSE",
+   "description": "KJSSE is one of the best engineering colleges in India, ranking in the top amongst B.Tech and M.Tech colleges for its excellent education.",
+   "h1": "K J Somaiya School of Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs2",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K J Somaiya School of Engineering | KJSSE",
+   "description": "KJSSE is one of the best engineering colleges in India, ranking in the top amongst B.Tech and M.Tech colleges for its excellent education.",
+   "h1": "K J Somaiya School of Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs5",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K J Somaiya School of Engineering | KJSSE",
+   "description": "KJSSE is one of the best engineering colleges in India, ranking in the top amongst B.Tech and M.Tech colleges for its excellent education.",
+   "h1": "K J Somaiya School of Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs1",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PG Diploma Admission 2024 | K J Somaiya School of Engineering, Mumbai",
+   "description": "Apply for PG Diploma programs at K.J. Somaiya School of Engineering, Mumbai. Explore advanced curriculum, industry-relevant courses, and state-of-the-art facilities. Enquire now!",
+   "h1": "Admission PG Diploma",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs3",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PG Diploma Admission 2024 | K J Somaiya School of Engineering, Mumbai",
+   "description": "Apply for PG Diploma programs at K.J. Somaiya School of Engineering, Mumbai. Explore advanced curriculum, industry-relevant courses, and state-of-the-art facilities. Enquire now!",
+   "h1": "Admission PG Diploma",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs6",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PG Diploma Admission 2024 | K J Somaiya School of Engineering, Mumbai",
+   "description": "Apply for PG Diploma programs at K.J. Somaiya School of Engineering, Mumbai. Explore advanced curriculum, industry-relevant courses, and state-of-the-art facilities. Enquire now!",
+   "h1": "Admission PG Diploma",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs4",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PG Diploma Admission 2024 | K J Somaiya School of Engineering, Mumbai",
+   "description": "Apply for PG Diploma programs at K.J. Somaiya School of Engineering, Mumbai. Explore advanced curriculum, industry-relevant courses, and state-of-the-art facilities. Enquire now!",
+   "h1": "Admission PG Diploma",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs7",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PG Diploma Admission 2024 | K J Somaiya School of Engineering, Mumbai",
+   "description": "Apply for PG Diploma programs at K.J. Somaiya School of Engineering, Mumbai. Explore advanced curriculum, industry-relevant courses, and state-of-the-art facilities. Enquire now!",
+   "h1": "Admission PG Diploma",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs2",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PG Diploma Admission 2024 | K J Somaiya School of Engineering, Mumbai",
+   "description": "Apply for PG Diploma programs at K.J. Somaiya School of Engineering, Mumbai. Explore advanced curriculum, industry-relevant courses, and state-of-the-art facilities. Enquire now!",
+   "h1": "Admission PG Diploma",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs5",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PG Diploma Admission 2024 | K J Somaiya School of Engineering, Mumbai",
+   "description": "Apply for PG Diploma programs at K.J. Somaiya School of Engineering, Mumbai. Explore advanced curriculum, industry-relevant courses, and state-of-the-art facilities. Enquire now!",
+   "h1": "Admission PG Diploma",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/academic-programme/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Academic Programme | K J Somaiya School of Engineering",
+   "description": "We provide a range of undergraduate programmes with the Academic Flexibility option. These professional degree courses help transform you into a competent Engineer",
+   "h1": "Academic Programme",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/academic-flexibility/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Academic & Curricular Flexibility| K J Somaiya College",
+   "description": "At K J Somaiya College we offer academic flexibility for encouraging students to   explore different ways to earn their degrees with flexible learning systems.",
+   "h1": "Academic flexibility",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/majors-minors-graduates/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Major, Minor & Graduate Programme at K J Somaiya College",
+   "description": "We provide a range of minors degree programme that the student can prefer along with the major.   Browse our Major, Minor, Graduate & Certificate Fields programme.",
+   "h1": "Majors , Minors and Graduates",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/contact-us/faculty-directory/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Faculty Directory | KJSSE",
+   "description": "KJSSE maintains the faculty directory for the students to easily contact the faculty whenever they have any doubts or queries.",
+   "h1": "Faculty Directory",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/notices/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Notice Board of K J Somaiya School of Engineering",
+   "description": "Check our notice board digitally to get more information about the latest announcements, exam schedule, events, and educational updates.",
+   "h1": "Notices",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/exam-cell/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Exam Cell | K J Somaiya School of Engineering",
+   "description": "Exam Cell at KJSSE is responsible to execute an examination of all programmes offered by the KJSSE.",
+   "h1": "Exam Cell",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/project-listing/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Projects | K J Somaiya College of Engineering",
+   "description": "Explore the top educational projects, research & developments done at K J Somaiya College of Engineering.",
+   "h1": "Project Listing",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/accomplishment/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Research Accomplishment | KJSSE",
+   "description": "The research accomplishment of the KJSSE college encourages research in every aspect of each course to make the world a better place.",
+   "h1": "Accomplishment",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/placement/overview",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Placements Cell | K J Somaiya School of Engineering",
+   "description": "Learn about the Placements Cell at KJSSE. How we provide training & placement services to students through campus interviews, counseling.",
+   "h1": "Placement Overview",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/placement/about/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "About Placements Cell | K J Somaiya School of Engineering",
+   "description": "Get an overview of our placement cell how we prepare & help students to get placed with top corporate organizations in national & international markets.",
+   "h1": "Placement About",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/placement/rulesregulations/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Rules & Regulations by Placements Cell at KJSSE",
+   "description": "Learn more about our Rules & Regulations by Placements Cell at K J Somaiya College. Know about our rules and regulations for students, faculty & more.",
+   "h1": "Rules & Regulations",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/placement/activities/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Training & Placements Activities at KJSSE",
+   "description": "Our Placement Cell timely conducts training Activities & workshops for final year students. This aims to prepare students for the upcoming campus drive.",
+   "h1": "Activities",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/placement/commitees/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Placement Committee |K J Somaiya School of Engineering",
+   "description": "Learn more about top placement committee member, Faculty Representatives & placement committee structure at K J Somaiya School of Engineering.",
+   "h1": "Placement commitees",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/placement/highlight/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Placements Highlights | K J Somaiya School of Engineering",
+   "description": "Get the top Placements Cell’s Highlights like number of placements done, average package, visiting companies for recruitment at K J Somaiya School of Engineering.",
+   "h1": "Highlight",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/placement/looking-back/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Looking Back | KJSSE",
+   "description": "Learn more about our placement and campus activities Most of the students of KJSSE are placed before they actually complete their graduation.",
+   "h1": "Looking Back",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/institutions-innovation-council/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Institutions Innovation Council | K J Somaiya School of Engineering",
+   "description": "Institutions Innovation Council is a unique Open Innovation mock-up for identifying new   and unsettling technology innovations to solve the challenges faced by our nation.",
+   "h1": "Institutions Innovation Council",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/internship-cell/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Internship Cell |K J Somaiya School of Engineering",
+   "description": "At KJSSE we have a dedicated Internship Cell for providing educational and career development opportunities, improving practical experience in a field or discipline.",
+   "h1": "Internship Cell",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/industry-academic-interface/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Industry Academia Interface | KJSSE",
+   "description": "We believe in building a strong institution for corporate interface through excellent innovative practices. At KJSSE we help students grow!",
+   "h1": "Industry Academic Interface",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/students-council/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Student Council | K.J. Somaiya College of Engineering Mumbai",
+   "description": "Engage, lead, and make a difference at K.J. Somaiya College of Engineering. Learn about our dynamic Student Council and its initiatives.",
+   "h1": "Student's Council",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/students-association/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Student Associations | K J Somaiya School of Engineering",
+   "description": "We have Students’ Associations for every department that voice the opinions and bring to reality the dreams of our students.",
+   "h1": "Students association",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/multidisciplinary-activities/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Multidisciplinary Activities (MDA) at KJSSE",
+   "description": "Interdisciplinary Teaching Activities are designed and taught by faculty from different departments. Learn more about the wide choice of multidisciplinary activities at KJSSE.",
+   "h1": "Wide choice of Multidisciplinary Activities",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/cultural-teams/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Cultural Teams | K J Somaiya School of Engineering",
+   "description": "At K J Somaiya School of Engineering we help students to strike a balance between technical skills & passion for art with our Cultural Teams.",
+   "h1": "Cultural Teams",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/annual-events/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Annual Events at K J Somaiya School of Engineering",
+   "description": "Explore Life at K J Somaiya School of Engineering. KJSSE hosts top Mega Events annually for the better technical and cultural growth of students.",
+   "h1": "Annual Events",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/projects/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "KJSSE Mega Projects | K J Somaiya School of Engineering",
+   "description": "Check out our Mega Projects of student innovation at K J Somaiya School of Engineering.",
+   "h1": "Projects",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/alumni-overview/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Alumni Overview - Somaiya KJSSE",
+   "description": "Discover the vibrant alumni network of K J Somaiya School of Engineering. Connect with former students and explore career opportunities, mentorship, and more.",
+   "h1": "Alumni",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/transcript-and-services-to-alumni/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Transcript and Services to Alumni | K J Somaiya School of Engineering, Mumbai",
+   "description": "Access transcript services and support for alumni from K J Somaiya School of Engineering. Stay connected with your alma mater.",
+   "h1": "Transcript and Services to Alumni",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/events-and-updates/events/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Events and Updates | K J Somaiya School of Engineering",
+   "description": "Browse our latest event updates and information of upcoming and past Events  at K J Somaiya School of Engineering.",
+   "h1": "Events",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/news-media/announcement/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Announcements | K J Somaiya School of Engineering",
+   "description": "Find college announcements, new updates on the campus, and graduation announcements at K J Somaiya School of Engineering. Get quick access to our monthly magazine.",
+   "h1": "Announcement",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/events-and-updates/gallery/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Media & Galleries | K J Somaiya College of Engineering",
+   "description": "Get a glimpse of Life at KJSSE through these photos of all events & workshops held.",
+   "h1": "Gallery",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/media/newsletters/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Newsletter | K J Somaiya School of Engineering",
+   "description": "Subscribe and stay updated with our K J Somaiya School of Engineering college newsletter. Stay tuned for all top updates & news .",
+   "h1": "News Letter",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/news-media/press-releases/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Press Releases | KJSSE",
+   "description": "The news media of K J Somaiya School of Engineering is archived on this page. For easy reference, you can browse them here.",
+   "h1": "Press Releases",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/news-media/media-coverage/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Media Coverage | K J Somaiya School of Engineering",
+   "description": "Know about media coverage of K J Somaiya College by different newspapers & Digital channels. Stay tuned to our student's achievement, events & programs update",
+   "h1": "Media Coverage",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-events/2130",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "2nd International Conference on Technologies for Energy, Agriculture and Healthcare | K J Somaiya School of Engineering",
+   "description": "2nd International Conference on Technologies for Energy, Agriculture and Healthcare",
+   "h1": "2nd International Conference on Technologies for Energy, Agriculture and Healthcare",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-events/2141",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Prakalpa'25 : Innovate to Elevate | K J Somaiya School of Engineering",
+   "description": "Join PRAKALPA 2025 on April 4th! A national-level competition for UG/PG engineering students to showcase innovative projects & research papers.",
+   "h1": "Prakalpa'25 : Innovate to Elevate",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-events/2140",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Agri-Tech Hackathon 2025 | Innovate & Transform Agriculture | K J Somaiya School of Engineering",
+   "description": "Join Agri-Tech Hackathon  on March 27-28. Innovate with AI, IoT, and Blockchain to solve real-world agricultural challenges Register now!",
+   "h1": "Agri-Tech Hackathon 2025 | Innovate & Transform Agriculture",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-post-details/426",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "NIRF Overall 2025 | POST",
+   "description": "NIRF Overall 2025",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-post-details/427",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "NIRF Engineering 2025 | POST",
+   "description": "NIRF Engineering 2025",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-post-details/428",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "NIRF Innovation 2025 | POST",
+   "description": "NIRF Innovation 2025",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-post-details/429",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "NIRF SDG Institution 2025 | POST",
+   "description": "NIRF SDG Institution 2025",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/678",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Congratulations to K J Somaiya School of Engineering on their remarkable achievement at Climate Hackathon 2024! | K J Somaiya School of Engineering",
+   "description": "Congratulations to K J Somaiya School of Engineering on their remarkable achievement at Climate Hackathon 2024!",
+   "h1": "Congratulations to K J Somaiya School of Engineering on their remarkable achievement at Climate Hackathon 2024!",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/placement/overview/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Placements Cell | K J Somaiya School of Engineering",
+   "description": "Learn about the Placements Cell at KJSSE. How we provide training & placement services to students through campus interviews, counseling.",
+   "h1": "Placement Overview",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-media-coverage/1464",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Significance and career opportunities for students pursuing space science and technology in India | K J Somaiya School of Engineering",
+   "description": "Significance and career opportunities for students pursuing space science and technology in India",
+   "h1": "Significance and career opportunities for students pursuing space science and technology in India",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-media-coverage/1404",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Somaiya Vidyavihar University's Orion Racing India team secures 25th place at Formula Student Austria 2024 | K J Somaiya School of Engineering",
+   "description": "Somaiya Vidyavihar University's Orion Racing India team secures 25th place at Formula Student Austria 2024",
+   "h1": "Somaiya Vidyavihar University's Orion Racing India team secures 25th place at Formula Student Austria 2024",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-media-coverage/1435",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K. J. Somaiya School of Engineering ranked high among the nation’s best engineering colleges in 2024 | K J Somaiya School of Engineering",
+   "description": "K. J. Somaiya School of Engineering ranked high among the nation’s best engineering colleges in 2024",
+   "h1": "K. J. Somaiya School of Engineering ranked high among the nation’s best engineering colleges in 2024",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/666",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "SMART INDIA HACKATHON 2024 FINALIST  | K J Somaiya School of Engineering",
+   "description": "SMART INDIA HACKATHON 2024 FINALIST",
+   "h1": "SMART INDIA HACKATHON 2024 FINALIST",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/668",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Smart India Hackathon 2024 Finalists | K J Somaiya School of Engineering",
+   "description": "Smart India Hackathon 2024 Finalists",
+   "h1": "Smart India Hackathon 2024 Finalists",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/blogs/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Insights and Stories - Somaiya KJSSE Blog",
+   "description": "Blog",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/events-and-updates/events",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Events and Updates | K J Somaiya School of Engineering",
+   "description": "Browse our latest event updates and information of upcoming and past Events  at K J Somaiya School of Engineering.",
+   "h1": "Events",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/career/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Career at K J Somaiya School of Engineering",
+   "description": "Start your career at K J Somaiya School of Engineering: Discover our new job opening for students, graduates, and professionals. Get the current job vacancy in one click.",
+   "h1": "Career",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/contact-us/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Contact us | K J Somaiya School of Engineering",
+   "description": "We have explained everything in detail on the website still if you have any querie, you can contact us on our official email addresses and phone numbers",
+   "h1": "Contact Us",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/covid-update-list/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Stay Informed with the Latest COVID-19 Updates – Check Now!",
+   "description": "Lean more about the COVID -19 Updates at K J Somaiya School of Engineering.",
+   "h1": "Covid Updates",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/principal-message/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/gallery-view/701",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "FY Orientation Alumni Panel Session | K J Somaiya School of Engineering",
+   "description": "FY Orientation Alumni Panel Session",
+   "h1": "FY Orientation Alumni Panel Session",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/509",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Principal for the Year 2019 by ISTE | K J Somaiya School of Engineering",
+   "description": "Principal for the Year 2019 by ISTE",
+   "h1": "Principal for the Year 2019 by ISTE",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/510",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Most Inspiring Leader in Engineering Education 2023 | K J Somaiya School of Engineering",
+   "description": "Most Inspiring Leader in Engineering Education 2023",
+   "h1": "Most Inspiring Leader in Engineering Education 2023",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/511",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Best Principal of the Year 2019 Award by Computer Society of India | K J Somaiya School of Engineering",
+   "description": "Best Principal of the Year 2019 Award by Computer Society of India",
+   "h1": "Best Principal of the Year 2019 Award by Computer Society of India",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/512",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Best Principal of the Year 2018 Award by Computer Society of India | K J Somaiya School of Engineering",
+   "description": "Best Principal of the Year 2018 Award by Computer Society of India",
+   "h1": "Best Principal of the Year 2018 Award by Computer Society of India",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/515",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Best Engineering College Principal Award 2017 by Indian Society for Technical Education - Maharashtra and Goa Section | K J Somaiya School of Engineering",
+   "description": "Best Engineering College Principal Award 2017 by Indian Society for Technical Education - Maharashtra and Goa Section",
+   "h1": "Best Engineering College Principal Award 2017 by Indian Society for Technical Education - Maharashtra and Goa Section",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/513",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Exemplary Contribution in Higher Education | K J Somaiya School of Engineering",
+   "description": "Exemplary Contribution in Higher Education",
+   "h1": "Exemplary Contribution in Higher Education",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/514",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Felicitation by Indian Society for Technical Education for the initiative and leading development of ISTE Membership Portal. | K J Somaiya School of Engineering",
+   "description": "Felicitation by Indian Society for Technical Education for the initiative and leading development of ISTE Membership Portal.",
+   "h1": "Felicitation by Indian Society for Technical Education for the initiative and leading development of ISTE Membership Portal.",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/516",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Pillar of Hindustani Society Award 2021-22 by the Trans Asian Chamber of Commerce & Industry. | K J Somaiya School of Engineering",
+   "description": "Pillar of Hindustani Society Award 2021-22 by the Trans Asian Chamber of Commerce & Industry.",
+   "h1": "Pillar of Hindustani Society Award 2021-22 by the Trans Asian Chamber of Commerce & Industry.",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/599/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "NIRF Ranking 2024 | K J Somaiya School of Engineering",
+   "description": "NIRF Ranking 2024",
+   "h1": "NIRF Ranking 2024",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/593/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "THE WEEK-HANSA RESEARCH SURVEY 2024 | K J Somaiya School of Engineering",
+   "description": "THE WEEK-HANSA RESEARCH SURVEY 2024",
+   "h1": "THE WEEK-HANSA RESEARCH SURVEY 2024",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/592/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "India Today – MDRA Ranking 2024 Best Colleges of India Survey | K J Somaiya School of Engineering",
+   "description": "India Today – MDRA Ranking 2024 Best Colleges of India Survey",
+   "h1": "India Today – MDRA Ranking 2024 Best Colleges of India Survey",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/587/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Education World India Private Engineering Colleges Rankings 2024-2025 | K J Somaiya School of Engineering",
+   "description": "Education World India Private Engineering Colleges Rankings 2024-2025",
+   "h1": "Education World India Private Engineering Colleges Rankings 2024-2025",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/595/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "KJSSE RANKING IN CAREERS 360 SURVEY 2024 | K J Somaiya School of Engineering",
+   "description": "KJSSE RANKING IN CAREERS 360 SURVEY 2024",
+   "h1": "KJSSE RANKING IN CAREERS 360 SURVEY 2024",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/420",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Times Engineering Ranking 2023 | K J Somaiya School of Engineering",
+   "description": "Times Engineering Ranking 2023",
+   "h1": "Times Engineering Ranking 2023",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/428",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Ranked First under the category of Top Universities in Mumbai by Times Engineering Survey and Data Science Special | K J Somaiya School of Engineering",
+   "description": "Ranked First under the category of Top Universities in Mumbai by Times Engineering Survey and Data Science Special",
+   "h1": "Ranked First under the category of Top Universities in Mumbai by Times Engineering Survey and Data Science Special",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/421",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Education World Ranking 2023 | K J Somaiya School of Engineering",
+   "description": "Education World Ranking 2023",
+   "h1": "Education World Ranking 2023",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/353",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "National Institutional Ranking Framework (NIRF)  India Ranking 2022: Band of 251-300 | K J Somaiya School of Engineering",
+   "description": "National Institutional Ranking Framework (NIRF)  India Ranking 2022: Band of 251-300",
+   "h1": "National Institutional Ranking Framework (NIRF) India Ranking 2022: Band of 251-300",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/352",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "India Today Engineering College Ranking 2022 | K J Somaiya School of Engineering",
+   "description": "India Today Engineering College Ranking 2022",
+   "h1": "India Today Engineering College Ranking 2022",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/348",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Education World (EW) ranking of KJSSE -2022 | K J Somaiya School of Engineering",
+   "description": "Education World (EW) ranking of KJSSE -2022",
+   "h1": "Education World (EW) ranking of KJSSE -2022",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/350",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Times of India Engineering Institute Ranking 2022 | K J Somaiya School of Engineering",
+   "description": "Times of India Engineering Institute Ranking 2022",
+   "h1": "Times of India Engineering Institute Ranking 2022",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/317",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "NIRF - 2021 | K J Somaiya School of Engineering",
+   "description": "NIRF - 2021",
+   "h1": "NIRF - 2021",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/328",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "ARIIA RANKING 2021 | K J Somaiya School of Engineering",
+   "description": "ARIIA RANKING 2021",
+   "h1": "ARIIA RANKING 2021",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/295",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "India Today Ranking 2021 | K J Somaiya School of Engineering",
+   "description": "India Today Ranking 2021",
+   "h1": "India Today Ranking 2021",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/291",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Education World (EW) ranking of KJSSE | K J Somaiya School of Engineering",
+   "description": "Education World (EW) ranking of KJSSE",
+   "h1": "Education World (EW) ranking of KJSSE",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/183",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "NIRF - 2020 | K J Somaiya School of Engineering",
+   "description": "NIRF - 2020",
+   "h1": "NIRF - 2020",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/219",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "ARIIA 2020 -  Ranked in Top 50  | K J Somaiya School of Engineering",
+   "description": "ARIIA 2020 -  Ranked in Top 50",
+   "h1": "ARIIA 2020 - Ranked in Top 50",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/205",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "INDIA TODAY RANKING 2020 | K J Somaiya School of Engineering",
+   "description": "INDIA TODAY RANKING 2020",
+   "h1": "INDIA TODAY RANKING 2020",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/211",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Times Engineering Ranking Survey 2020 | K J Somaiya School of Engineering",
+   "description": "Times Engineering Ranking Survey 2020",
+   "h1": "Times Engineering Ranking Survey 2020",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/library/committees",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Library Committees| K J Somaiya College of Engineering",
+   "description": "At KJSSE we have a dedicated Library Advisory Committee which supports the functions of the college library   so that it can facilitate the library development plans.",
+   "h1": "Library committees",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/library/rules",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Library Rules and Regulations | K J Somaiya College of Engineering",
+   "description": "Check out the library rules and regulations for college students & staff.",
+   "h1": "Library Rules",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/library/eresource",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Library Electronic Resource at KJSSE",
+   "description": "At K J Somaiya College of Engineering, we have digital library resources and services for students & staff. Get online access to educational books & documents with our library",
+   "h1": "E Resource",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/library/services",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Library Services at K J Somaiya College of Engineering",
+   "description": "We offer the best library services to students & faculties. We help you to find sources, conduct research, and understand an assignment.",
+   "h1": "Library Services",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/library/facilities",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Library Facilities | K J Somaiya College of Engineering",
+   "description": "Explore more about the top Library Facilities KJSSE provide to their reads.   We provide access to IIT Bombay Central Library, Delnet & National Digital Library.",
+   "h1": "Library Facilities",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/library/activities",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Library at K J Somaiya College of Engineering",
+   "description": "Get the top facilities, services, resources & activity at KJSSE Library.   Our Library aims to serve the educational requirement of faculty and students.",
+   "h1": "Library Activities",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/library/eresource/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Library Electronic Resource at KJSSE",
+   "description": "At K J Somaiya College of Engineering, we have digital library resources and services for students & staff. Get online access to educational books & documents with our library",
+   "h1": "E Resource",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/btech/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology | Admission in B.tech",
+   "description": "The Admission in B.tech for First Year Bachelor of Technology at KJSSE is very seamless and easy. Bachelor of Technology programme admission is described in detail.",
+   "h1": "B.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/btech",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bachelor of Technology | Admission in B.tech",
+   "description": "The Admission in B.tech for First Year Bachelor of Technology at KJSSE is very seamless and easy. Bachelor of Technology programme admission is described in detail.",
+   "h1": "B.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-iot-and-automation/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in IoT and Automation| KJSCE Best B.Tech College",
+   "description": "The Honours in IoT and Automation is a 4-year B.Tech degree programme offered by K J Somaiya College of Engineering to skilled students in Industrial Internet of Things.",
+   "h1": "Honours in IoT and Automation | Honours in IoT & Automation",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/it/honours-in-high-performance-computing",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in High Performance Computing |KJSSE Best B.Tech IT College",
+   "description": "The Honours in High Performance Computing B.Tech degree programme aims to cover all the other aspects of high performance computing & Quantum computing. Enquire now.",
+   "h1": "Honours in High Performance Computing | Honours in High Performance Computing",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/mech/honours-in-computer-aided-engineering/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Computer Aided Engineering | B.Tech. (Mech) at K J Somaiya College",
+   "description": "An honour in Computer Aided Engineering is a 4-year degree programme that provides an opportunity to expertise in handling design modelling software. Enquire now",
+   "h1": "Honours in Computer Aided Engineering | Honours in Computer Aided Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/rai/honours-in-applied-data-science/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Applied Data Science Robotics and Artificial Intelligence",
+   "description": "B.Tech in Applied Data Science Robotics & AI program covers range of tools, techniques, and algorithms to get conclusions from both structured and unstructured data.",
+   "h1": "Applied Data Science | Honours in Data Science",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/mtech/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology M Tech Programme | KJSSE",
+   "description": "We offer M. tech courses in various Streams like Computer, IT, Electronics, Mechanical & more. Enquire now for the M.tech admission process, eligibility & scope",
+   "h1": "M.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/admission/mtech",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Master of Technology M Tech Programme | KJSSE",
+   "description": "We offer M. tech courses in various Streams like Computer, IT, Electronics, Mechanical & more. Enquire now for the M.tech admission process, eligibility & scope",
+   "h1": "M.Tech admission",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160120?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Deepak Hemandas Sharma - Somaiya Education Faculty",
+   "description": "Deepak Hemandas Sharma - K J Somaiya School of Engineering",
+   "h1": "Deepak Hemandas Sharma - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160188?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Manish Madhukar Potey - Somaiya Education Faculty",
+   "description": "Manish Madhukar Potey - K J Somaiya School of Engineering",
+   "h1": "Manish Madhukar Potey - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160993?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Jyoti Vishnu Joglekar - Somaiya Education Faculty",
+   "description": "Jyoti Vishnu Joglekar - K J Somaiya School of Engineering",
+   "h1": "Jyoti Vishnu Joglekar - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160117?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Prasanna Jaichand Shete - Somaiya Education Faculty",
+   "description": "Prasanna Jaichand Shete - K J Somaiya School of Engineering",
+   "h1": "Prasanna Jaichand Shete - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160129?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Sonali Atulkumar Patil - Somaiya Education Faculty",
+   "description": "Sonali Atulkumar Patil - K J Somaiya School of Engineering",
+   "h1": "Sonali Atulkumar Patil - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160063?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Bhakti Nilesh Palkar - Somaiya Education Faculty",
+   "description": "Bhakti Nilesh Palkar - K J Somaiya School of Engineering",
+   "h1": "Bhakti Nilesh Palkar - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160039?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Makarand Govind Kulkarni - Somaiya Education Faculty",
+   "description": "Makarand Govind Kulkarni - K J Somaiya School of Engineering",
+   "h1": "Makarand Govind Kulkarni - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160631?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Rupali Pankaj Patil - Somaiya Education Faculty",
+   "description": "Rupali Pankaj Patil - K J Somaiya School of Engineering",
+   "h1": "Rupali Pankaj Patil - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160055?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Anudeepa S Kholapure - Somaiya Education Faculty",
+   "description": "Anudeepa S Kholapure - K J Somaiya School of Engineering",
+   "h1": "Anudeepa S Kholapure - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160177?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Vaibhav Sureshrao Narwane - Somaiya Education Faculty",
+   "description": "Vaibhav Sureshrao Narwane - K J Somaiya School of Engineering",
+   "h1": "Vaibhav Sureshrao Narwane - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160021?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "K J Somaiya School of Engineering | KJSSE",
+   "description": "KJSSE is one of the best engineering colleges in India, ranking in the top amongst B.Tech and M.Tech colleges for its excellent education.",
+   "h1": "K J Somaiya School of Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-member/160523?type=faculty",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Shivangi Viral Thakker - Somaiya Education Faculty",
+   "description": "Shivangi Viral Thakker - K J Somaiya School of Engineering",
+   "h1": "Shivangi Viral Thakker - Somaiya Education Faculty",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/phd-in-computer-engineering",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "PhD in Computer Science in Mumbai | Doctorate in Computer Science",
+   "description": "Start Ph.D. in information technology at Somaiya University the best institute for a Ph.D. Enquire for eligibility & admission to Information Technology College",
+   "h1": "Ph.D. in Computer Engineering",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/certificate-program-in-space-science-technology",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-sensors-actuators-and-industrial-instrumentation/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "B.Tech Honours in Sensors Actuators and Industrial Instrumentation",
+   "description": "K J Somaiya College of Engineering offers B.Tech Honours in Sensors, Actuators and Industrial Instrumentation for students who want to study the area of sensing and actuating tech.",
+   "h1": "Honours in Sensors Actuators and Industrial Instrumentation | Honours in Sensors Actuators & Industrial Instrumentation",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-power-electronics-and-industrial-drives/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Honours in Power Electronics and Industrial Drives | KJSCE Best B.Tech College",
+   "description": ": Honours in Power Electronics and Industrial Drives is a 4-year B.Tech degree programme that helps students develop analytical and investigative skills needed to designing.",
+   "h1": "Honours in Power Electronics and Industrial Drives | Honours in Power Electronics & Industrial Drives",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/cultural-teams",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Cultural Teams | K J Somaiya School of Engineering",
+   "description": "At K J Somaiya School of Engineering we help students to strike a balance between technical skills & passion for art with our Cultural Teams.",
+   "h1": "Cultural Teams",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/annual-events",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Annual Events at K J Somaiya School of Engineering",
+   "description": "Explore Life at K J Somaiya School of Engineering. KJSSE hosts top Mega Events annually for the better technical and cultural growth of students.",
+   "h1": "Annual Events",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/placement/recruit",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Recruitment's & Placements | Placements Cell at KJSSE",
+   "description": "Explore the top reasons for Why recruit at K J Somaiya College of Engineering. Get the top Recruiter's Feedback for KJSSE’s students.",
+   "h1": "Why recruit at KJSSE",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/transcripts",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Student Transcripts|K J Somaiya College of Engineering",
+   "description": "Learn more about Student Transcripts How students can get their transcripts by applying for transcripts at the Admin office.",
+   "h1": "Transcripts",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/online-student-data-verification",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Online Student Data Verification | K J Somaiya College of Engineering",
+   "description": "Online Student Data Verification is for confirmation of educational verification of our alumni by an employer or higher education institute directly or through a hiring agency.",
+   "h1": "Online Student Data Verification",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/migration-certificate",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Migration Certificate |K J Somaiya College of Engineering",
+   "description": "Learn more about the Migration Certificate application, list of documents and process for application.",
+   "h1": "Migration Certificate",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-events/2141/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Prakalpa'25 : Innovate to Elevate | K J Somaiya School of Engineering",
+   "description": "Join PRAKALPA 2025 on April 4th! A national-level competition for UG/PG engineering students to showcase innovative projects & research papers.",
+   "h1": "Prakalpa'25 : Innovate to Elevate",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-events/2140/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Agri-Tech Hackathon 2025 | Innovate & Transform Agriculture | K J Somaiya School of Engineering",
+   "description": "Join Agri-Tech Hackathon  on March 27-28. Innovate with AI, IoT, and Blockchain to solve real-world agricultural challenges Register now!",
+   "h1": "Agri-Tech Hackathon 2025 | Innovate & Transform Agriculture",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-events/2035/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Parvaah Eco-Run 2025 | K J Somaiya School of Engineering",
+   "description": "Parvaah Eco-Run 2025",
+   "h1": "Parvaah Eco-Run 2025",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-events/2034/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "NAARI 2025 - Women's Day Celebration | K J Somaiya School of Engineering",
+   "description": "NAARI 2025 - Women's Day Celebration",
+   "h1": "NAARI 2025 - Women's Day Celebration",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/666/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "SMART INDIA HACKATHON 2024 FINALIST  | K J Somaiya School of Engineering",
+   "description": "SMART INDIA HACKATHON 2024 FINALIST",
+   "h1": "SMART INDIA HACKATHON 2024 FINALIST",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/668/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Smart India Hackathon 2024 Finalists | K J Somaiya School of Engineering",
+   "description": "Smart India Hackathon 2024 Finalists",
+   "h1": "Smart India Hackathon 2024 Finalists",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/665/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "SIH 2024 WINNER's Team Void | K J Somaiya School of Engineering",
+   "description": "SIH 2024 WINNER's Team Void",
+   "h1": "SIH 2024 WINNER's Team Void",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-announcement/678/",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Congratulations to K J Somaiya School of Engineering on their remarkable achievement at Climate Hackathon 2024! | K J Somaiya School of Engineering",
+   "description": "Congratulations to K J Somaiya School of Engineering on their remarkable achievement at Climate Hackathon 2024!",
+   "h1": "Congratulations to K J Somaiya School of Engineering on their remarkable achievement at Climate Hackathon 2024!",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/blog/how-can-a-masters-degree-in-ai-and-data-science-help-you-stand-out",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "How Can a Master's Degree in AI and Data Science Help You Stand Out?",
+   "description": "In today's data-driven world, where information is currency and insights drive decision-making, the fields of Artificial Intelligence (AI) and Data Science have become indispensable. Organizations…",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/blog/engineering-your-future-what-you-need-to-know-about-top-ranked-btech-and-mtech-degrees-in-india",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Engineering Your Future: What You Need to Know About Top-Ranked BTech and MTech Degrees in India",
+   "description": "Are you considering a career in engineering? Pursuing a top-ranked BTech or MTech degree in India can provide you with a solid foundation in the…",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/blog/the-ultimate-guide-to-choosing-your-path-in-computer-engineering",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "The Ultimate Guide to Choosing Your Path in Computer Engineering",
+   "description": "The Ultimate Guide to Choosing Your Path in Computer Engineering Career options in computer engineering are diverse and expanding. You can pursue a successful career…",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/blog/the-nuts-and-bolts-of-mechanical-engineering-opportunities-and-challenges-ahead",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "The Nuts and Bolts of Mechanical Engineering: Opportunities and Challenges Ahead",
+   "description": "Are you considering a career in mechanical engineering? Mechanical engineering is a dynamic field that offers immense growth opportunities. In this comprehensive guide, we will…",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/blog/discovering-the-unique-learning-experience-at-somaiya-vidyadhar-university",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Discovering the Unique Learning Experience at Somaiya Vidyadhar University",
+   "description": "Discover the unique learning experience at Somaiya Vidyadhar University, the top engineering college in Mumbai that offers courses across all streams. Contact us now",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/blog/which-different-specialization-courses-are-available-during-or-post-engineering",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Specialization Courses Available with Engineering | K J Somaiya College",
+   "description": "Looking for a bright future? Then you must learn K J Somaiya College of Engineering, which provides you different specialization courses during or after engineering.",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/966?type=research&id=160120",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Need Based Students’ Scholarship: PUSH KJSCE-A Success Story | K J Somaiya School of Engineering",
+   "description": "Need Based Students’ Scholarship: PUSH KJSCE-A Success Story",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/103?type=bookchapters&id=160120",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Low-Size Cipher Text Homomorphic Encryption Scheme for Cloud Data | K J Somaiya School of Engineering",
+   "description": "Low-Size Cipher Text Homomorphic Encryption Scheme for Cloud Data",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/102?type=ipr&id=160120",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "COMBINATORIAL METHOD FOR SECURITY CLOUD | K J Somaiya School of Engineering",
+   "description": "COMBINATORIAL METHOD FOR SECURITY CLOUD",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/1962?type=research&id=160188",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Review of Parameters, Approaches and Challenges in Reading Comprehension Systems | K J Somaiya School of Engineering",
+   "description": "Review of Parameters, Approaches and Challenges in Reading Comprehension Systems",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/492?type=proceeding&id=160188",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Development of Entrepreneurship Mindset of  Students through Curriculum: A Case Study | K J Somaiya School of Engineering",
+   "description": "Development of Entrepreneurship Mindset of  Students through Curriculum: A Case Study",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/502?type=proceeding&id=160188",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Review of Parameters, Approaches and Challenges in Reading Comprehension Systems | K J Somaiya School of Engineering",
+   "description": "Review of Parameters, Approaches and Challenges in Reading Comprehension Systems",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/510?type=proceeding&id=160188",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Graph based approach for Predicates Identification from Textual Data : A case study | K J Somaiya School of Engineering",
+   "description": "Graph based approach for Predicates Identification from Textual Data : A case study",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/103?type=bookchapters&id=160188",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Low-Size Cipher Text Homomorphic Encryption Scheme for Cloud Data | K J Somaiya School of Engineering",
+   "description": "Low-Size Cipher Text Homomorphic Encryption Scheme for Cloud Data",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/102?type=ipr&id=160188",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "COMBINATORIAL METHOD FOR SECURITY CLOUD | K J Somaiya School of Engineering",
+   "description": "COMBINATORIAL METHOD FOR SECURITY CLOUD",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/912?type=research&id=160993",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Dense Stereo Matching Based on Multiobjective Fitness Function—A Genetic Algorithm Optimization Approach for Stereo Correspondence, | K J Somaiya School of Engineering",
+   "description": "Dense Stereo Matching Based on Multiobjective Fitness Function—A Genetic Algorithm Optimization Approach for Stereo Correspondence,",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/910?type=research&id=160993",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Image Matching using SIFT Features and Relaxation Labeling Technique – A Constraint Initializing Method for Dense Stereo Matching, | K J Somaiya School of Engineering",
+   "description": "Image Matching using SIFT Features and Relaxation Labeling Technique – A Constraint Initializing Method for Dense Stereo Matching,",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/914?type=research&id=160993",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Area Based Image Matching Methods- A Survey | K J Somaiya School of Engineering",
+   "description": "Area Based Image Matching Methods- A Survey",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/144?type=ipr&id=160993",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "A SUTURE DEVICE | K J Somaiya School of Engineering",
+   "description": "A SUTURE DEVICE",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/156?type=ipr&id=160993",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "A METHOD AND A PROCESSING SYSTEM FOR FUNDAMENTAL MATRIX GENERATION TO ESTIMATE EFFICIENTLY EPIPOLAR GEOMETRY | K J Somaiya School of Engineering",
+   "description": "A METHOD AND A PROCESSING SYSTEM FOR FUNDAMENTAL MATRIX GENERATION TO ESTIMATE EFFICIENTLY EPIPOLAR GEOMETRY",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2509?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Closed Domain Question Answering System Tailored for Crime Events Using Deep Learning for Both Statistical and Contextualized Responses | K J Somaiya School of Engineering",
+   "description": "Closed Domain Question Answering System Tailored for Crime Events Using Deep Learning for Both Statistical and Contextualized Responses",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2271?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Evaluation of effect of pre-processing techniques in solar panel fault detection | K J Somaiya School of Engineering",
+   "description": "Evaluation of effect of pre-processing techniques in solar panel fault detection",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2079?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Semantic understanding of high spatial resolution remote sensing images using directional geospatial relationships | K J Somaiya School of Engineering",
+   "description": "Semantic understanding of high spatial resolution remote sensing images using directional geospatial relationships",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2065?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "How AI Can be Used for Governance of Messaging Services: A Study on Spam Classification Leveraging Multi-Channel Convolutional Neural Network | K J Somaiya School of Engineering",
+   "description": "How AI Can be Used for Governance of Messaging Services: A Study on Spam Classification Leveraging Multi-Channel Convolutional Neural Network",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2030?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Solar panel hotspot localization and fault classification using deep learning approach | K J Somaiya School of Engineering",
+   "description": "Solar panel hotspot localization and fault classification using deep learning approach",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/966?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Need Based Students’ Scholarship: PUSH KJSCE-A Success Story | K J Somaiya School of Engineering",
+   "description": "Need Based Students’ Scholarship: PUSH KJSCE-A Success Story",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/962?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Necessity of Dedicated Vulnerability Analysis and Data Centre Patch Management Process in Banking Sector in India | K J Somaiya School of Engineering",
+   "description": "Necessity of Dedicated Vulnerability Analysis and Data Centre Patch Management Process in Banking Sector in India",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/961?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Approach for Handling Cyber Security Incidents in an Organisation | K J Somaiya School of Engineering",
+   "description": "Approach for Handling Cyber Security Incidents in an Organisation",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/960?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Performance Evaluation of Hybrid Cryptography System | K J Somaiya School of Engineering",
+   "description": "Performance Evaluation of Hybrid Cryptography System",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/958?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Data mining Techniques for Digital Forensic Analysis | K J Somaiya School of Engineering",
+   "description": "Data mining Techniques for Digital Forensic Analysis",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/959?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Understanding File Upload Security for Web Applications | K J Somaiya School of Engineering",
+   "description": "Understanding File Upload Security for Web Applications",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/944?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Using Histogram Specification in a Hybrid  Preprocessing Technique for Segmentation of Malignant Skin Lesions from dermoscopic Images | K J Somaiya School of Engineering",
+   "description": "Using Histogram Specification in a Hybrid  Preprocessing Technique for Segmentation of Malignant Skin Lesions from dermoscopic Images",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/947?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Detection and Classification of Skin Lesion in Dermoscopy images | K J Somaiya School of Engineering",
+   "description": "Detection and Classification of Skin Lesion in Dermoscopy images",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/943?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "A Computer Aided Diagnostic System for Classification of Brain tumors using Texture features and Probabilistic Neural Network | K J Somaiya School of Engineering",
+   "description": "A Computer Aided Diagnostic System for Classification of Brain tumors using Texture features and Probabilistic Neural Network",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/946?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "A Robust system for Segmentation of primary Liver Tumor in CT images | K J Somaiya School of Engineering",
+   "description": "A Robust system for Segmentation of primary Liver Tumor in CT images",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/945?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Implementation of Breast Tumor Demarcation in Digital Mammograms using Local Thresholding and Mathematical Morphology | K J Somaiya School of Engineering",
+   "description": "Implementation of Breast Tumor Demarcation in Digital Mammograms using Local Thresholding and Mathematical Morphology",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/957?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Oil Spill Detection in SAR Images Using Texture Entropy Algorithm and Mahalanobis Classifier | K J Somaiya School of Engineering",
+   "description": "Oil Spill Detection in SAR Images Using Texture Entropy Algorithm and Mahalanobis Classifier",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/942?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Preprocessing to be considered for MRI and CT images containing tumors | K J Somaiya School of Engineering",
+   "description": "Preprocessing to be considered for MRI and CT images containing tumors",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2510?type=research&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Enhancing Solar Panel Fault Detection: An Efficient Multidomain Feature Analysis Model with Entropy-Guided Saliency Map Segmentation | K J Somaiya School of Engineering",
+   "description": "Enhancing Solar Panel Fault Detection: An Efficient Multidomain Feature Analysis Model with Entropy-Guided Saliency Map Segmentation",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/666?type=proceeding&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "A review on role of electric vehicle in reducing carbon footprint: A case study of Maharashtra | K J Somaiya School of Engineering",
+   "description": "A review on role of electric vehicle in reducing carbon footprint: A case study of Maharashtra",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/554?type=proceeding&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Secure E-Voting System using Blockchain technology and authentication via Face recognition and Mobile OTP | K J Somaiya School of Engineering",
+   "description": "Secure E-Voting System using Blockchain technology and authentication via Face recognition and Mobile OTP",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/308?type=proceeding&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Skin Cancer Detection and Classification | K J Somaiya School of Engineering",
+   "description": "Skin Cancer Detection and Classification",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/298?type=proceeding&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "An Efficient CAD System for Detection and Classification of Tumors in Mammographic Images using Variety Features and Probabilistic Neural Network | K J Somaiya School of Engineering",
+   "description": "An Efficient CAD System for Detection and Classification of Tumors in Mammographic Images using Variety Features and Probabilistic Neural Network",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/297?type=proceeding&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Segmentation of Preprocessed MR and CT Images Containing Tumors using Edge Detection and Watershed Segmentation | K J Somaiya School of Engineering",
+   "description": "Segmentation of Preprocessed MR and CT Images Containing Tumors using Edge Detection and Watershed Segmentation",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/160?type=bookchapters&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Leveled Approach of Context Setting in Semantic Understanding of Remote Sensing Images | K J Somaiya School of Engineering",
+   "description": "Leveled Approach of Context Setting in Semantic Understanding of Remote Sensing Images",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/205?type=bookchapters&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Rose Plant Disease Detection Using Machine Learning | K J Somaiya School of Engineering",
+   "description": "Rose Plant Disease Detection Using Machine Learning",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/82?type=bookchapters&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Analysis and Evaluation of Pre-processing Techniques for Fault Detection in Thermal Images of Solar Panels | K J Somaiya School of Engineering",
+   "description": "Analysis and Evaluation of Pre-processing Techniques for Fault Detection in Thermal Images of Solar Panels",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/96?type=bookchapters&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Geospatial Object Detection for Scene Understanding Using Remote Sensing Images | K J Somaiya School of Engineering",
+   "description": "Geospatial Object Detection for Scene Understanding Using Remote Sensing Images",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/97?type=bookchapters&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Applied Intelligence for Mental Health Detection: ManoVaidya – A Mental Health Therapist | K J Somaiya School of Engineering",
+   "description": "Applied Intelligence for Mental Health Detection: ManoVaidya – A Mental Health Therapist",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/147?type=bookchapters&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Proposed Infrastructure for Census Enumeration and Internet Voting Application in Digital India with Multichain Blockchain | K J Somaiya School of Engineering",
+   "description": "Proposed Infrastructure for Census Enumeration and Internet Voting Application in Digital India with Multichain Blockchain",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/149?type=bookchapters&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Brain Tumor Detection and Classification | K J Somaiya School of Engineering",
+   "description": "Brain Tumor Detection and Classification",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/148?type=bookchapters&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Agentless Automation Model for Post Exploitation Penetration Testing | K J Somaiya School of Engineering",
+   "description": "Agentless Automation Model for Post Exploitation Penetration Testing",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/144?type=ipr&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "A SUTURE DEVICE | K J Somaiya School of Engineering",
+   "description": "A SUTURE DEVICE",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/145?type=ipr&id=160129",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "SALIENCY MAP GUIDED MULTIDOMAIN ANALYSIS MODEL FOR IMPROVED SOLAR PANEL FAULT DETECTION AND CLASSIFICATION | K J Somaiya School of Engineering",
+   "description": "SALIENCY MAP GUIDED MULTIDOMAIN ANALYSIS MODEL FOR IMPROVED SOLAR PANEL FAULT DETECTION AND CLASSIFICATION",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/104?type=books&id=160063",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Discrete Mathematics | K J Somaiya School of Engineering",
+   "description": "Discrete Mathematics",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/729?type=research&id=160039",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "NOVEL COAXIAL CABLE IMPLEMENTATION OF MINIATURIZED WILKINSON POWER DIVIDER AND QUADRATURE HYBRID COUPLER FOR VHF APPLICATIONS | K J Somaiya School of Engineering",
+   "description": "NOVEL COAXIAL CABLE IMPLEMENTATION OF MINIATURIZED WILKINSON POWER DIVIDER AND QUADRATURE HYBRID COUPLER FOR VHF APPLICATIONS",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/728?type=research&id=160039",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Coplanar Waveguide Band Reject Filter Using Electromagnetic Band Gap Structure | K J Somaiya School of Engineering",
+   "description": "Coplanar Waveguide Band Reject Filter Using Electromagnetic Band Gap Structure",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/730?type=research&id=160039",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Novel Coaxial Cable Implementation of Miniaturized Wilkinson Power Divider and Quadrature Hybrid Coupler for VHF Applications | K J Somaiya School of Engineering",
+   "description": "Novel Coaxial Cable Implementation of Miniaturized Wilkinson Power Divider and Quadrature Hybrid Coupler for VHF Applications",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/169?type=proceeding&id=160039",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Design of a novel CPW filter using asymmetric DGS | K J Somaiya School of Engineering",
+   "description": "Design of a novel CPW filter using asymmetric DGS",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/1993?type=research&id=160631",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "COVID-19 cases prediction using regression and novel SSM model for non-converged countries | K J Somaiya School of Engineering",
+   "description": "COVID-19 cases prediction using regression and novel SSM model for non-converged countries",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/1156?type=research&id=160631",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Machine Learning based Approach for Detection of Cyberbullying Tweets | K J Somaiya School of Engineering",
+   "description": "Machine Learning based Approach for Detection of Cyberbullying Tweets",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/769?type=research&id=160631",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Image digitization of discontinuous and degraded electrocardiogram paper records using an entropy-based bit plane slicing algorithm | K J Somaiya School of Engineering",
+   "description": "Image digitization of discontinuous and degraded electrocardiogram paper records using an entropy-based bit plane slicing algorithm",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/768?type=research&id=160631",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Robust algorithm for digitization of degraded electrocardiogram paper records | K J Somaiya School of Engineering",
+   "description": "Robust algorithm for digitization of degraded electrocardiogram paper records",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/200?type=proceeding&id=160631",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Comparison of Deep Learning Approaches for Plant Disease Detection. | K J Somaiya School of Engineering",
+   "description": "Comparison of Deep Learning Approaches for Plant Disease Detection.",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/201?type=proceeding&id=160631",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Twitter Data Visualization and Sentiment Analysis of Article 370 | K J Somaiya School of Engineering",
+   "description": "Twitter Data Visualization and Sentiment Analysis of Article 370",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/202?type=proceeding&id=160631",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Digitization and Parameter Extraction of Preserved Paper Electrocardiogram Records. | K J Somaiya School of Engineering",
+   "description": "Digitization and Parameter Extraction of Preserved Paper Electrocardiogram Records.",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/203?type=proceeding&id=160631",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Digital signal preservation approaches of archived biomedical paper records—A review | K J Somaiya School of Engineering",
+   "description": "Digital signal preservation approaches of archived biomedical paper records—A review",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/204?type=proceeding&id=160631",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Digitization of documented signals using vertical scanning | K J Somaiya School of Engineering",
+   "description": "Digitization of documented signals using vertical scanning",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/766?type=research&id=160055",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "UWB Antenna With Reconfigurable Triple Band Notched Characteristics For Cognitive Radio | K J Somaiya School of Engineering",
+   "description": "UWB Antenna With Reconfigurable Triple Band Notched Characteristics For Cognitive Radio",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/508?type=proceeding&id=160055",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Microstrip Antenna as a Temperature Sensor for IoT Application | K J Somaiya School of Engineering",
+   "description": "Microstrip Antenna as a Temperature Sensor for IoT Application",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/184?type=proceeding&id=160055",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Printed MIMO antenna with Reconfigurable Single and Dual Band Notched Characteristics for Cognitive Radio | K J Somaiya School of Engineering",
+   "description": "Printed MIMO antenna with Reconfigurable Single and Dual Band Notched Characteristics for Cognitive Radio",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/186?type=proceeding&id=160055",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Emerging Techniques for Printed Reconfigurable Antenna: A Review | K J Somaiya School of Engineering",
+   "description": "Emerging Techniques for Printed Reconfigurable Antenna: A Review",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/187?type=proceeding&id=160055",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Reconfigurable Multiband Antenna for Wi-Fi and C – Band Application | K J Somaiya School of Engineering",
+   "description": "Reconfigurable Multiband Antenna for Wi-Fi and C – Band Application",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/198?type=proceeding&id=160055",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Design of Timing Signal Generator (TSG) for low and medium PRF RADAR using FPGA | K J Somaiya School of Engineering",
+   "description": "Design of Timing Signal Generator (TSG) for low and medium PRF RADAR using FPGA",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/199?type=proceeding&id=160055",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Design of a Timing Signal Generator (TSG) for RADAR using FPGA | K J Somaiya School of Engineering",
+   "description": "Design of a Timing Signal Generator (TSG) for RADAR using FPGA",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/168?type=ipr&id=160055",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "SOLAR WATER PURIFIER SYSTEM | K J Somaiya School of Engineering",
+   "description": "SOLAR WATER PURIFIER SYSTEM",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2453?type=research&id=160177",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "An adoption framework for agile new product development using hybrid RBWM-ISM-Fuzzy MICMAC approach | K J Somaiya School of Engineering",
+   "description": "An adoption framework for agile new product development using hybrid RBWM-ISM-Fuzzy MICMAC approach",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2447?type=research&id=160177",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Exploring the significant factors of reconfigurable manufacturing system adoption in manufacturing industries | K J Somaiya School of Engineering",
+   "description": "Exploring the significant factors of reconfigurable manufacturing system adoption in manufacturing industries",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2452?type=research&id=160177",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "A Framework for Adoption of Circular Economy Practices for Performance Improvement of Agile New Product Development | K J Somaiya School of Engineering",
+   "description": "A Framework for Adoption of Circular Economy Practices for Performance Improvement of Agile New Product Development",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2455?type=research&id=160177",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Quantum Machine Learning a New Frontier in Smart Manufacturing: A Systematic Literature Review from Period 1995 to 2021 | K J Somaiya School of Engineering",
+   "description": "Quantum Machine Learning a New Frontier in Smart Manufacturing: A Systematic Literature Review from Period 1995 to 2021",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/684?type=research&id=160177",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Relavance of database and information retrieval system in Mechanical Engineering Program: A case study | K J Somaiya School of Engineering",
+   "description": "Relavance of database and information retrieval system in Mechanical Engineering Program: A case study",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/140?type=proceeding&id=160177",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Relavance of database and information retrieval system in Mechanical Engineering Program: A case study | K J Somaiya School of Engineering",
+   "description": "Relavance of database and information retrieval system in Mechanical Engineering Program: A case study",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/202?type=bookchapters&id=160177",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Cloud-Based Manufacturing Service Selection Using Simulation Approaches. | K J Somaiya School of Engineering",
+   "description": "Cloud-Based Manufacturing Service Selection Using Simulation Approaches.",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2027?type=research&id=160021",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Experimental investigation and heat loss analysis of a three-coil solar cavity receiver of parabolic dish collector under wind condition | K J Somaiya School of Engineering",
+   "description": "Experimental investigation and heat loss analysis of a three-coil solar cavity receiver of parabolic dish collector under wind condition",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2026?type=research&id=160021",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Numerical study of Radiation Heat Loss from Solar Cavity Receiver of Parabolic Dish Collector | K J Somaiya School of Engineering",
+   "description": "Numerical study of Radiation Heat Loss from Solar Cavity Receiver of Parabolic Dish Collector",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2022?type=research&id=160021",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "HEAT LOSS ANALYSIS OF THREE COIL CYLINDRICAL SOLAR CAVITY RECEIVER OF PARABOLIC DISH FOR PROCESS HEAT | K J Somaiya School of Engineering",
+   "description": "HEAT LOSS ANALYSIS OF THREE COIL CYLINDRICAL SOLAR CAVITY RECEIVER OF PARABOLIC DISH FOR PROCESS HEAT",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2029?type=research&id=160021",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Modeling the Natural Convection HeatTransfer and Dryout Heat Flux in a PorousDebris Bed | K J Somaiya School of Engineering",
+   "description": "Modeling the Natural Convection HeatTransfer and Dryout Heat Flux in a PorousDebris Bed",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/507?type=proceeding&id=160021",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Heat recovery from condensing heat exchanger | K J Somaiya School of Engineering",
+   "description": "Heat recovery from condensing heat exchanger",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/511?type=proceeding&id=160021",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "The wind test on Heat Loss from Three coil Cavity Receiver for a Parabolic Dish Collector. | K J Somaiya School of Engineering",
+   "description": "The wind test on Heat Loss from Three coil Cavity Receiver for a Parabolic Dish Collector.",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/519?type=proceeding&id=160021",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "HEAT LOSS FROM CYLINDERICAL CAVITY RECEIVER IN SOLAR PARABOLIC DISH SYSTEM: A REVIEW | K J Somaiya School of Engineering",
+   "description": "HEAT LOSS FROM CYLINDERICAL CAVITY RECEIVER IN SOLAR PARABOLIC DISH SYSTEM: A REVIEW",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/520?type=proceeding&id=160021",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Mathematical Modeling of Heat Losses from Cylindrical Cavity Receiver in Solar Parabolic Dish | K J Somaiya School of Engineering",
+   "description": "Mathematical Modeling of Heat Losses from Cylindrical Cavity Receiver in Solar Parabolic Dish",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/523?type=proceeding&id=160021",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Effect of Boundary Condition on Heat Losses from Solar Cavity Receiver | K J Somaiya School of Engineering",
+   "description": "Effect of Boundary Condition on Heat Losses from Solar Cavity Receiver",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/2439?type=research&id=160523",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Implementation of blockchain – IoT-based integrated architecture in green supply chain | K J Somaiya School of Engineering",
+   "description": "Implementation of blockchain – IoT-based integrated architecture in green supply chain",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/1818?type=research&id=160523",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Systematic research of e-learning platforms for solving challenges faced by Indian engineering students | K J Somaiya School of Engineering",
+   "description": "Systematic research of e-learning platforms for solving challenges faced by Indian engineering students",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/1999?type=research&id=160523",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Stakeholders' involvement in green supply chain: a perspective of blockchain IoT-integrated architecture | K J Somaiya School of Engineering",
+   "description": "Stakeholders' involvement in green supply chain: a perspective of blockchain IoT-integrated architecture",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/647?type=research&id=160523",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Green procurement process model based on blockchain–IoT integrated architecture for a sustainable business | K J Somaiya School of Engineering",
+   "description": "Green procurement process model based on blockchain–IoT integrated architecture for a sustainable business",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/646?type=research&id=160523",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Implementation of green supplier development process model in Indian automobile industry | K J Somaiya School of Engineering",
+   "description": "Implementation of green supplier development process model in Indian automobile industry",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/504?type=proceeding&id=160523",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Performance Evaluation of Green supply chain using Fuzzy TOPSIS and Balanced Scorecard Method | K J Somaiya School of Engineering",
+   "description": "Performance Evaluation of Green supply chain using Fuzzy TOPSIS and Balanced Scorecard Method",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/503?type=proceeding&id=160523",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "Green Procurement Modelling using Fuzzy Logic and MCDM Methods | K J Somaiya School of Engineering",
+   "description": "Green Procurement Modelling using Fuzzy Logic and MCDM Methods",
+   "h1": "",
+   "kind": "page"
+  },
+  {
+   "url": "https://kjsce.somaiya.edu/en/view-publication/10.1109/ACCESS.2023.3293756",
+   "lastmod": "2025-02-28T07:56:22+00:00",
+   "status": 200,
+   "title": "404 ERROR",
+   "description": "",
+   "h1": "",
+   "kind": "page"
+  }
+ ]
+}

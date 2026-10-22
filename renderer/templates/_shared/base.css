@@ -1,0 +1,51 @@
+/* AgentReel shared renderer CSS. Aspect-agnostic: render_hyperframes.mjs sets the variables below on
+   #root from scene.json (--w/--h, zone rectangles), so 9:16 and 16:9 share every template. */
+@font-face { font-family: "Fira Sans"; font-weight: 400; src: url("assets/fonts/FiraSans-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Fira Sans"; font-weight: 700; src: url("assets/fonts/FiraSans-Bold.ttf") format("truetype"); }
+@font-face { font-family: "Fira Sans"; font-weight: 800; src: url("assets/fonts/FiraSans-ExtraBold.ttf") format("truetype"); }
+@font-face { font-family: "Noto Sans"; font-weight: 100 900; src: url("assets/fonts/NotoSans-Variable.ttf") format("truetype"); }
+
+:root {
+  --red: #B7202E;          /* Somaiya Power Red */
+  --red-2: #ED1C24;        /* Vitality Red */
+  --gray: #58595B;         /* Cool Gray */
+  --dark: #231F20;         /* Dark Gray */
+  --ink: #FFFFFF;
+  --card: rgba(24, 21, 22, 0.80);
+  --font: "Fira Sans", "Noto Sans", sans-serif;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: var(--w); height: var(--h); overflow: hidden; background: #2b2728; }
+#root { position: relative; width: var(--w); height: var(--h); overflow: hidden; font-family: var(--font);
+        color: var(--ink); -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+
+/* one shot = one clip */
+.ar-shot { position: absolute; left: 0; top: 0; width: var(--w); height: var(--h); overflow: hidden; z-index: 1; }
+.ar-bg { position: absolute; inset: 0; overflow: hidden;
+         background: linear-gradient(160deg, #3d3839 0%, #2c2829 55%, #4b2427 100%); }
+.ar-bg img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 50%; will-change: transform; }
+.ar-bg .ar-accent { position: absolute; width: 140%; height: 18%; left: -20%; top: 74%; background: var(--red);
+                    opacity: 0.18; transform: rotate(-8deg); }
+.ar-scrim { position: absolute; inset: 0; pointer-events: none; }
+.ar-shot.has-image .ar-scrim { background: linear-gradient(180deg, rgba(14,12,13,0.55) 0%, rgba(14,12,13,0.35) 45%, rgba(14,12,13,0.55) 100%); }
+.ar-shot.has-image.t-illustration_kenburns .ar-scrim { background: linear-gradient(180deg, rgba(14,12,13,0.35) 0%, rgba(14,12,13,0) 40%, rgba(14,12,13,0) 60%, rgba(14,12,13,0.35) 100%); }
+.ar-zone { position: absolute; display: flex; flex-direction: column; align-items: stretch; justify-content: center; }
+
+/* text: lines are pre-broken by the renderer (fontkit) -> no browser re-wrapping */
+.txt { display: inline-block; white-space: nowrap; font-family: var(--font); color: var(--ink); }
+.row { display: block; text-align: center; }
+.row.left { text-align: left; }
+.w400 { font-weight: 400; } .w700 { font-weight: 700; } .w800 { font-weight: 800; }
+.shadow { text-shadow: 0 3px 14px rgba(0,0,0,0.55); }
+.red { color: var(--red); }
+.bar { height: 12px; width: 180px; background: var(--red); border-radius: 6px; margin: 28px auto; }
+
+/* captions */
+.ar-captions { position: absolute; z-index: 10; display: block; }
+.ar-cap { position: absolute; left: 0; top: 0; width: 100%; text-align: center; }
+.ar-cap-line { display: block; white-space: nowrap; }
+.ar-cap .tx { -webkit-text-stroke: calc(var(--cap-outline) * 2) var(--cap-outline-color); paint-order: stroke fill;
+              color: var(--cap-color); font-weight: 700; }
+.ar-cap .w { position: relative; z-index: 0; }
+.ar-cap .hl { position: absolute; left: -0.14em; right: -0.14em; top: 0.06em; bottom: 0.0em; background: var(--cap-highlight);
+              border-radius: 0.18em; opacity: 0; z-index: -1; }
