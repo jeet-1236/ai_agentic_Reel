@@ -159,3 +159,14 @@ def test_shell_scripts_are_bash_with_lf(name):
     raw = (ROOT / "scripts" / name).read_bytes()
     assert raw.startswith(b"#!/usr/bin/env bash\n")
     assert b"\r\n" not in raw
+
+
+def test_notebook_code_cells_compile():
+    """Every code cell of the Kaggle notebook must be valid Python (shell `!` lines excluded)."""
+    import ast
+
+    nb = json.loads((ROOT / "notebooks" / "kaggle_live.ipynb").read_text(encoding="utf-8"))
+    for i, c in enumerate(nb["cells"]):
+        if c["cell_type"] == "code":
+            code = "\n".join(l for l in "".join(c["source"]).split("\n") if not l.lstrip().startswith("!"))
+            ast.parse(code, filename=f"cell {i}")
