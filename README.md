@@ -85,7 +85,7 @@ Every Hugging Face download uses the commit SHA in `config/models.yaml` (verifie
 to `config/models.lock.yaml`. Total ≈ 28 GB, written to the scratch disk `/tmp/agentreel` because
 `/kaggle/working` is capped at 20 GB.
 
-1. The repo lives at https://github.com/jeet-1236/agentic_reel (private is fine: add a `GITHUB_TOKEN` Kaggle Secret); its URL is already in
+1. The repo lives at https://github.com/jeet-1236/ai_agentic_Reel (private is fine: add a `GITHUB_TOKEN` Kaggle Secret); its URL is already in
    notebook cell 1 (`REPO_URL_DEFAULT`).
 2. Notebook settings: **GPU T4 x2**, **Internet on**, **Persistence: Files**, Kaggle Secrets `TAVILY_API_KEY`
    (optional `HF_TOKEN`, `GITHUB_TOKEN`).
