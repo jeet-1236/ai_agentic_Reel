@@ -9,20 +9,31 @@
 """
 from __future__ import annotations
 
-import argparse
-import json
-import sqlite3
-import sys
-from pathlib import Path
+import os
 
-import yaml
+# The orchestrator process never uses a GPU: llama-server and every media worker get CUDA_VISIBLE_DEVICES
+# explicitly. Hiding the GPUs here (before any import) stops preinstalled JAX/TensorFlow, pulled in by optional
+# library backends, from preallocating ~75% of a T4 that the LLM (GPU0) or SDXL/TTS (GPU1) need.
+os.environ["AGENTREEL_VISIBLE_GPUS"] = os.environ.get("CUDA_VISIBLE_DEVICES", "")
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+os.environ.setdefault("JAX_PLATFORMS", "cpu")
+os.environ.setdefault("XLA_PYTHON_CLIENT_PREALLOCATE", "false")
+os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "2")
 
-from core.context import ROOT, RunContext, now_iso
-from core.graph import build_graph
-from core.llm import LLM
-from core.logging import RunLogger
-from core.schemas import Brief, ReviewDecision
-from core.seeds import seed_everything
+import argparse  # noqa: E402
+import json  # noqa: E402
+import sqlite3  # noqa: E402
+import sys  # noqa: E402
+from pathlib import Path  # noqa: E402
+
+import yaml  # noqa: E402
+
+from core.context import ROOT, RunContext, now_iso  # noqa: E402
+from core.graph import build_graph  # noqa: E402
+from core.llm import LLM  # noqa: E402
+from core.logging import RunLogger  # noqa: E402
+from core.schemas import Brief, ReviewDecision  # noqa: E402
+from core.seeds import seed_everything  # noqa: E402
 
 
 def parse_args(argv=None):

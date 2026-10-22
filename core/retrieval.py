@@ -179,7 +179,9 @@ class HybridRetriever:
         toks = terms(q)
         if not toks or not self.chunks:
             return []
-        docs, scores = self.bm25.retrieve([toks], k=min(n, len(self.chunks)), show_progress=False)
+        # backend "auto" picks JAX when it is installed (Kaggle preinstalls it) and XLA then grabs ~75% of a GPU
+        docs, scores = self.bm25.retrieve([toks], k=min(n, len(self.chunks)), show_progress=False,
+                                          backend_selection="numpy")
         return [int(d) for d, s in zip(docs[0], scores[0]) if s > 0]
 
     def search_many(self, queries: list[str], k: int = TOP_K, pool: int = POOL) -> dict[str, list[tuple[Chunk, float]]]:
