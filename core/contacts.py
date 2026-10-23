@@ -201,9 +201,19 @@ def _sid(s: str) -> int:
     return int(s[1:]) if s[1:].isdigit() else 0
 
 
-def extract_contacts(docs: list[tuple[str, str, str]]) -> list[Contact]:
-    """docs: [(source_id, authority, text)] -> whitelist."""
+def extract_contacts(docs: list[tuple[str, str, str]], allowlist=None) -> list[Contact]:
+    """docs: [(source_id, authority, text)] -> whitelist.
+
+    With an `allowlist` (core.sources.Allowlist), a URL is judged by its OWN host: URLs on non-official hosts are
+    dropped and an official URL takes its host's authority. Without this, the bibliography of one government PDF
+    whitelisted 88 arbitrary URLs as "gov" contacts (first Kaggle run, 2026-10-22)."""
     mentions: list[Mention] = []
     for sid, authority, text in docs:
-        mentions += find_mentions(text, sid, authority)
+        for m in find_mentions(text, sid, authority):
+            if m.kind == "url" and allowlist is not None:
+                full = m.value if "://" in m.value else f"https://{m.value}"   # values are stored scheme-less
+                if not allowlist.is_allowed(full):
+                    continue
+                m = Mention(m.kind, m.value, m.display, m.label, m.source_id, allowlist.authority(full), m.note)
+            mentions.append(m)
     return build_whitelist(mentions)

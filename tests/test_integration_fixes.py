@@ -69,3 +69,33 @@ def test_silence_after_voiceover_is_planned():
     without = {c.check_id: c for c in check_dead_air(m, allowed_windows(40.3, [10.0, 20.0]))}
     with_vo = {c.check_id: c for c in check_dead_air(m, allowed_windows(40.3, [10.0, 20.0], vo_end=34.98))}
     assert not without["dead_air"].passed and with_vo["dead_air"].passed
+
+
+def _script(hook: str) -> dict:
+    s = {"display": hook, "spoken": hook, "fact_ids": []}
+    return {"hook": {"style": "question", **s}, "hook_index": 0, "body": [], "cta": {**s, "display": "Bye.", "spoken": "Bye."},
+            "word_count": 3}
+
+
+def test_voice_regenerated_when_script_changes():
+    from core.graph import dispatch_assets, script_fingerprint, voice_is_current
+
+    old, new = _script("Are you worried about exam rules?"), _script("Confused about exam rules?")
+    voice = {"wav_path": "v.wav", "script_sha": script_fingerprint(old)}
+    assert voice_is_current({"script": old, "voice": voice})
+    state = {"script": new, "voice": voice, "storyboard": {"shots": []}, "shot_assets": {}, "plan": {}, "brief": {}}
+    assert not voice_is_current(state)
+    assert [s.node for s in dispatch_assets(state)] == ["voice"]
+
+
+def test_url_contacts_judged_by_their_own_host():
+    from core.contacts import extract_contacts
+    from core.sources import Allowlist
+
+    gov_pdf = "See https://www.bloomberg.com/news/x and https://www.ugc.gov.in/pdfnews/rules.pdf for details."
+    som = "Read https://www.somaiya.edu/en/center-of-examination/ before exams."
+    urls = {c.value: c.authority for c in extract_contacts([("S1", "gov", gov_pdf), ("S2", "somaiya", som)], Allowlist())
+            if c.kind == "url"}
+    assert not any("bloomberg" in u for u in urls)
+    assert any("ugc.gov.in" in u and a == "gov" for u, a in urls.items())
+    assert any("somaiya.edu" in u and a == "somaiya" for u, a in urls.items())

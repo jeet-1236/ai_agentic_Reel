@@ -251,6 +251,7 @@ class VoiceAsset(BaseModel):
     words: list[WordTiming]
     asr_text: str = ""
     wer: float = 0.0
+    script_sha: str = ""              # fingerprint of the spoken script it narrates (stale if the script changes)
 
 
 class AssetRecord(BaseModel):

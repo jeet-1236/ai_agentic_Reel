@@ -308,7 +308,7 @@ def replay(ctx: RunContext, log: RunLogger, brief: Brief) -> tuple[list[Doc], st
 
 
 # ---------------------------------------------------------------- build outputs
-def build_outputs(ctx: RunContext, docs: list[Doc]) -> tuple[list[SourceDoc], list[Chunk], list]:
+def build_outputs(ctx: RunContext, docs: list[Doc], allow=None) -> tuple[list[SourceDoc], list[Chunk], list]:
     sources: list[SourceDoc] = []
     chunks: list[Chunk] = []
     texts: list[tuple[str, str, str]] = []
@@ -327,7 +327,7 @@ def build_outputs(ctx: RunContext, docs: list[Doc]) -> tuple[list[SourceDoc], li
                                  authority=d.authority))  # type: ignore[arg-type]
         chunks += chunk_text(sid, d.url, ex.text)
         texts.append((sid, d.authority, ex.text))
-    return sources, chunks, extract_contacts(texts)
+    return sources, chunks, extract_contacts(texts, allow)
 
 
 def resolve_data_path(ctx: RunContext, p: str) -> Path:
@@ -356,7 +356,7 @@ def make_node(ctx: RunContext, log: RunLogger, llm: LLM) -> Callable[[AgentState
             seeds, dtrace = discover(ctx, log, allow, queries)
             docs, skipped = crawl(ctx, log, allow, brief, seeds, queries, batch)
             trace.update(dtrace, batch=batch, seeds=[c.__dict__ for c in seeds], skipped=skipped)
-        sources, chunks, contacts = build_outputs(ctx, docs)
+        sources, chunks, contacts = build_outputs(ctx, docs, allow)
         trace["fetched"] = [{"url": d.url, "final_url": d.final_url, "referrer": d.referrer, "via": d.via,
                              "authority": d.authority, "hop": d.hop, "method": d.extracted.method if d.extracted else "",
                              "chars": len(d.extracted.text) if d.extracted else 0} for d in docs]

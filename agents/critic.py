@@ -26,7 +26,7 @@ from core import qa_checks as q
 AGENT_PRIORITY = ["researcher", "scriptwriter", "storyboarder", "asset_generator", "editor"]
 SOFT_AGENTS = set(AGENT_PRIORITY)
 IMAGE_CHECKS = ("faces:", "nsfw:", "frame_judge:")
-VOICE_CHECKS = ("voice_wer",)
+VOICE_CHECKS = ("voice_wer", "voice_matches_script")
 # soft checks that are reported but never trigger a repair loop on their own
 COSMETIC_SOFT = {"caption_cps", "caption_min_duration", "word_budget", "duration_target", "end_card_logo",
                  "caption_contrast", "on_screen_words"}
@@ -61,6 +61,7 @@ FIX_HINTS: dict[str, str] = {
     "nsfw:": "Regenerate this shot with a safer prompt.",
     "frame_judge:": "Regenerate this shot to match intent: no realistic faces, no garbled text, no fear imagery.",
     "voice_wer": "Regenerate the voice; add lexicon entries for mispronounced words.",
+    "voice_matches_script": "Re-voice the current script (the voice-over narrates an older script).",
     "licences": "Replace assets whose licence is not on the allowlist.",
     "soft_review": "Apply the reviewer's fix instructions.",
     "render_output": "Render failed or produced no video; re-run the renderer (fallback: ffmpeg).",
@@ -399,6 +400,12 @@ def run_hard_checks(ctx: RunContext, log: RunLogger, state: AgentState) -> tuple
               if sid in shots_by_id and image_is_current(shots_by_id[sid], a)}
     checks += q.check_shot_images(in_use, float(models.get("qa", {}).get("nsfw", {}).get("max_score", 0.2)))
     checks.append(q.check_wer(state.get("voice") or {}, float(models.get("voice", {}).get("wer_max", 0.08))))
+    from core.graph import voice_is_current
+
+    # every script check above is only meaningful if the video actually narrates that script
+    checks.append(q.qc("voice_matches_script", voice_is_current(state), "asset_generator",
+                       value="current" if voice_is_current(state) else "stale", threshold="voice = current script",
+                       evidence="voice.script_sha vs sha256 of the current script's spoken lines"))
     checks.append(q.check_licences(_manifest_rows(ctx), _licence_predicate()))
     return checks, media
 

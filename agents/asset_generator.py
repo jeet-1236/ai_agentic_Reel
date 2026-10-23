@@ -17,6 +17,7 @@ from typing import Callable
 
 from core.captions import align_display_words, check_pages, paginate, wer, write_srt
 from core.context import ROOT, RunContext, load_yaml
+from core.graph import script_fingerprint
 from core.logging import RunLogger, sha256_file, sha256_text
 from core.manifest import add_asset
 from core.schemas import AssetRecord, Script, ShotAsset, VoiceAsset
@@ -384,7 +385,8 @@ def make_voice_node(ctx: RunContext, log: RunLogger, llm) -> Callable[[AgentStat
         srt = write_srt(pages, ctx.artifact("captions.srt"))
         va = VoiceAsset(wav_path=t["wav_path"], duration_s=float(t["duration_s"]), voice=voice,
                         sentence_spans=[(float(s), float(e)) for s, e in t["sentence_spans"]], words=words,
-                        asr_text=a.get("text", ""), wer=float(best["wer"]))
+                        asr_text=a.get("text", ""), wer=float(best["wer"]),
+                        script_sha=script_fingerprint(state["script"]))
         ctx.write_json("voice.json", {**va.model_dump(mode="json"), "seed": best["seed"], "attempts":
                                       [{"seed": x["seed"], "wer": x["wer"]} for x in attempts], "notes": notes})
         ctx.write_json("captions.json", [p.model_dump(mode="json") for p in pages])
@@ -413,12 +415,12 @@ def make_join_node(ctx: RunContext, log: RunLogger, llm) -> Callable[[AgentState
         loop = int(state.get("loop", 0) or 0)
         shots = (state.get("storyboard") or {}).get("shots", [])
         have = state.get("shot_assets") or {}
-        from core.graph import image_is_current
+        from core.graph import image_is_current, voice_is_current
 
         missing = [int(s["shot_id"]) for s in shots if s.get("visual_prompt")
                    and not (image_is_current(s, have.get(str(s["shot_id"])))
                             and Path(have[str(s["shot_id"])]["image_path"]).exists())]
-        voice_ok = bool((state.get("voice") or {}).get("wav_path"))
+        voice_ok = voice_is_current(state)
         ready = not missing and voice_ok
         with _T0_LOCK:
             t0 = _T0.pop((ctx.run_id, loop), None)

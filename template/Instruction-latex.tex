@@ -1,0 +1,248 @@
+\documentclass[twoside,11pt]{article}
+
+% Any additional packages needed should be included after jagi.
+% Note that jagi.sty includes epsfig, amssymb, natbib and graphicx,
+% and defines many common macros, such as 'proof' and 'example'.
+%
+% It also sets the bibliographystyle to agi; for more information on
+% natbib citation styles, see the natbib documentation
+
+\usepackage{jagi}
+\usepackage{times}
+
+% Definitions of handy macros can go here
+
+\newcommand{\dataset}{{\cal D}}
+\newcommand{\fracpartial}[2]{\frac{\partial #1}{\partial  #2}}
+
+% Heading arguments are {volume}{issue}{pages}{year}{submitted}{accepted}{DOI}{short authors}
+\jagiheading{10}{1}{1-9}{2019}{2019-06-21}{2019-10-22}{10.2478/jagi-2019-0001}{Waser et al}
+
+% Short headings should be running head and authors last names
+\ShortHeadings{Formatting JAGI Articles}{Waser et al}
+\firstpageno{1}
+
+\begin{document}
+
+\title{Instructions for Formatting JAGI Articles}
+
+\author{\name Mark Waser \email MWaser@BooksIntl.Com \\
+       \name Sal Signorino \email Sal@BooksIntl.Com \\
+       \addr Books International \\
+       22883 Quicksilver Drive \\
+       Dulles, VA 20166, USA
+       \AND
+       \name David Pallai \email DPallai@InfinitySciencePress.Com \\
+       \addr Infinity Science Press \\
+       11 Leavitt Street \\
+       Hingham, MA 02043, USA}
+
+\editor{Pei Wang}
+
+\maketitle
+
+\begin{abstract}
+This document, which is based upon earlier documents by \citet{minton:99}; \citet{kaelbling:00}; and \citet{aaai:07} describes the required formatting for JAGI papers, including page size, margins, fonts, citation styles, and figure placement. It describes how authors can obtain and use sample and style files that will ease adherence to the requirements. It also contains a section on avoiding formatting errors that frequently appear in submissions. While the format requirements are only compulsory for final submissions, we strongly encourage authors to adopt and adhere to its recommendations throughout the submission process.
+\end{abstract}
+
+\begin{keywords}
+  formatting instructions, \LaTeX{}, MS-Word, JAGI, citations
+\end{keywords}
+
+\section{Introduction}
+To ensure that all articles published in the journal have a uniform appearance, authors must produce both source and PDF files that meet the formatting specifications outlined here. These files will be used for both the hardcopy and electronic versions of the journal.  This document briefly describes and is a sample of the journal format. It draws very heavily upon earlier documents by \citet{minton:99}; \citet{kaelbling:00}; and \citet{aaai:07}. Your article should look as similar as possible to the PDF version of this document. Below we outline the basic specifications, including font sizes, margins, etc. However, the point is to have your articles look similar to this sample, and when in doubt you should use the appearance of this sample as your guide. Please feel free to contact the editor of JAGI if you have any questions. The remainder of this document is organized as follows. Section 2 describes the formatting templates that should simplify following the requirements and how to obtain them. Section 3 describes the required formatting, and Section 4 describes common formatting errors that should be avoided. 
+
+The document ``Accessible Document Step-by-Step Instructions'' contains the accessibility requirements that will apply to all journal content published after 1 July 2026.  
+
+\section{Formatting Templates}
+Authors should download and use the author kit available from the JAGI website.  The author kit contains the \LaTeX{} version of this document, along with all the necessary supporting style and bibliography files, and the MS-Word version of this document.  If you must use a document preparation system other than \LaTeX{} or MS-Word, please discuss this with the editor as early as possible.  If you do not have the software necessary to produce acceptable PDF files, the editor will recommend a professional service for formatting your article.  (Authors will be responsible for paying for this service).
+
+\paragraph{\LaTeX{}:} If you are not an experienced \LaTeX{} user, we do {\bf not}  recommend that you use \LaTeX{} to format your paper. No support for \LaTeX{} is provided by us, and these instructions and the accompanying style files are {\bf not} guaranteed to work. If the results you obtain are not in accordance with the formatting specifications, you must correct the style files or macro to achieve the correct result. We {\bf cannot} help you with this task. These instructions are provided merely as a general guide for the experienced \LaTeX{} user.
+
+\paragraph{MS-Word:} We have provided a MS-Word sample that you can use to create your paper; however, you must be careful not to change the page set-up of this document and you will encounter problems if you use Identity-H or CID fonts. If your paper contains many in-line equations, and a significant amount of display mathematics, you may achieve better results using \LaTeX{}, although the learning curve for it is significantly higher. We do not offer support in the use of MS-Word.
+
+\section{Style and Format}
+Authors should always use the most recent JAGI \LaTeX{} or MS-Word template.  Documents may not be password protected.  Final versions may not contain embedded external links or bookmarks and articles submitted for review should always spell out URLs in text form.  You may not remove the Creative Common license.  No \LaTeX{} 209 or Word 97 (or earlier versions) may be used or submitted.  Single PDF files should be submitted for review.  For accepted articles, please include your PDF file and all source files (but nothing else) in a single zip file for uploading to the JAGI website.
+
+Articles must be US letter size (8.5 x 11 in.), not A4.  A single column format is required.  Margins should be 1 1/4 inch left and right.  Headers should be 1/2 inch from top and footer should be 1 inch from bottom of page. The title should start 1 1/2 inches from the top of the page.  Do not use ``shrink to fit''. The body of the paper should be in 11-pt type.
+
+\paragraph{\LaTeX{}:} The paper should begin with a specification of the document class and JAGI style file: 
+\begin{verbatim}\documentclass[twoside,11pt]{article} 
+\usepackage{jagi} 
+\end{verbatim}
+
+\subsection{Fonts}
+All fonts must be embedded in the PDF file.  You should use Times Roman style fonts (Times Roman, Times New Roman, or Nimbus).  Sans serif, when used, should be Courier.  Use Symbol or Lucida or Computer Modern for mathematics only.  Please be very careful not to use nonstandard or unusual fonts in the paper since including such fonts will cause problems for many printers.  \LaTeX{} documents must use the Times/Nimbus font package.
+
+Do not use Type 3 or other bitmapped fonts (even in illustrations).  Fonts that require non-English language support (CID or Identity-H) must be converted to outlines or removed from the document; however, please remember that outline text cannot be indexed.
+
+\subsection{Headers and Footers}
+Headers and footers should be in 9pt type.  The headers on all pages except the first should be in small capitals.
+
+The first page of your article will include the standard header with the AGI Society logo and the Creative Common license, the journal name, volume number, issue number, page numbers, year, and DOI in the upper left corner, and the submission date and acceptance date in yyyy-mm-dd format in the upper right corner.  When you first submit the paper, only the submission date and the (short) author name are required, and all the other information will be provided by the Action Editor when the final version is prepared if the submission is accepted.  On the even numbered pages, the header of the page should be the authors' names. On the odd pages, starting with page 3, the header should be the title of the paper (shortened if necessary, as in this sample).  The page number should appear centered in the footer of all pages except the first.
+
+\paragraph{\LaTeX{}:} The following macro command should be used to set the first page header: 
+\begin{verbatim}\jagiheading{volume}{issue}{pages}{year}{submitted}{accepted}{DOI}
+{short authors}
+\end{verbatim}
+
+To set your title and authors for headings: 
+\begin{verbatim}\ShortHeadings{short title}{short authors} 
+\end{verbatim}
+
+For example: 
+\begin{verbatim}\ShortHeadings{Formatting JAGI Articles}{Waser et al.} 
+\end{verbatim}
+
+\paragraph{MS-Word:} The small-caps font is simulated by using a font size of 10 for capital letters and 8 for non-capital letters.
+
+\subsection{Title and Authors}
+The title appears near the top of the first page, centered, in 16pt bold type.  Your title must follow US capitalization rules.  Authors' names should appear in designated areas below the title of the paper in 11pt bold type. Authors' affiliations and complete addresses should be in 10pt italics, and their electronic addresses should be in small capitals.  The editor's name should appear in 11pt type after a bold {\bf ``Editor:''} heading. In an initial submission, this field can be blank.
+
+\paragraph{\LaTeX{}:} Authors should be specified with the ``author'' macro: 
+\begin{verbatim}\author{\name Author One \email author-one-email\\
+       \addr Author One address line one\\ 
+             Author One address line two\ 
+             Author One address line three... 
+       \AND 
+       \name Author Two \email author-two-email\\
+       \addr Author Two address line one\\ 
+             Author Two address line two\\ 
+             Author Two address line three...} 
+\end{verbatim}
+
+If multiple authors share an affiliation, it may be appended to the group by specifying: 
+\begin{verbatim}\author{\name Author One \email author-one-email\\ 
+       \name Author Two \email author-two-email\\ 
+       \addr Authors' address line one\\
+             Authors' address line two\\ 
+             Authors' address line three...} 
+\end{verbatim}
+
+\paragraph{MS-Word:}  A borderless table is the easiest way in which to properly format author names, addresses, and e-mails.  Once again, the smallcaps font is simulated by using a font size of 10 for capital letters and 8 for non-capital letters.
+
+\subsection{Abstract}
+The abstract appears at the beginning of the paper, indented 1/4 of an inch from the left and right margins. The title ``{\bf Abstract}'' should appear in bold face 12 point type, centered above the body of the abstract. The abstract body should be in 10 point type.  Keywords should be included as part of the abstract separated from the abstract body by a blank line and prefaced with a bold ``{\bf Keywords:}" heading. 
+
+\subsection{Headings and Sections}
+When necessary, headings should be used to separate major sections of your paper. First-level headings should be in 12 point bold type and second-level headings should be in 11 point bold type. Do not skip a line between paragraphs. Third-level headings should also be in 11 point bold type. All headings should be capitalized. After a heading, the first sentence should not be indented. 
+
+References to sections (as well as figures, tables, theorems and so on), should be capitalized, as in ``In Section 4, we show that...''. 
+
+\subsubsection{Acknowledgements}
+The acknowledgments section, if included, appears after the main body of the text and is headed ``Acknowledgments.'' The section should not be numbered. This section includes acknowledgments of help from associates and colleagues, financial support, and permission to publish. 
+
+\subsubsection{Appendices}
+Appendices, if included, follow the acknowledgments. Each appendix should be lettered, e.g., ``Appendix A''. If online appendices are submitted, they should be numbered and referred to as Online Appendix 1, Online Appendix 2, etc. 
+
+\subsection{Figures and Tables}
+Figures and tables should be inserted in proper places throughout the text. Do not group them together at the beginning of a page, nor at the bottom of the paper. Number figures 
+sequentially, e.g., Figure 1, and so on. 
+
+The figure or table number and the caption should appear under the illustration. Leave a margin of one-quarter inch around the area covered by the figure and caption. Captions, labels, and other text in illustrations must be at least nine-point type. 
+
+\paragraph{\LaTeX{}:} \LaTeX{} will sometimes put portions of the figure or table in the margin. If this happens, you need to scale the figure or table down, because {\bf nothing} (not even a rule!) is allowed to intrude into the margins. Check your log file! You must fix any overflow into the margin. If you don't, whatever is in the margin will simply be eliminated by the printer. {\bf Nothing is permitted to intrude into the margins.}
+
+\subsubsection{Low-Resolution Bitmaps}
+Avoid low-resolution (such as 72 dpi) screen dumps and GIF files---these files contain so few pixels that they are always blurry, and often illegible when 
+printed. Your figures should be a minimum of 266 dpi when displayed at 100 percent.
+
+\subsubsection{Using Color}
+Your paper will be printed in black and white and grayscale. Consequently, because conversion to grayscale can cause undesirable effects (red changes to black, yellow can disappear, and so forth), we strongly suggest you avoid placing color figures in your document. Of course, any reference to color will be indecipherable to your hard-copy reader. 
+
+\subsubsection{Drawings}
+We suggest you use computer-drawing software (such as Adobe Illustrator, Macromedia Freehand, or the drawing tools in MS-Word) to create your illustrations. These illustrations will look best if all line widths are uniform (half- to two-point in size), and you do not create labels over shaded areas. Shading should be 133 lines per inch if possible. Use Times Roman for all figure call-outs. {\bf Do not use hairline width lines} --- be sure that the stroke width of all lines is at least one-half-pt. Zero point lines will print on a laser printer, but will completely disappear on the high-resolution printers.
+
+\subsubsection{Photographs and Images}
+Photographs and other images should be in grayscale (color photographs will not reproduce well; for example, red tones will reproduce as black, yellow may turn to white, and so forth) and set to a minimum of 266 dpi.
+
+\subsection{Footnotes}
+We encourage authors to use footnotes sparingly, especially since they may be difficult to read online. Footnotes should be numbered sequentially and should appear at the bottom of the page, as shown below.\footnote{A footnote should appear like this.  Please ensure that footnotes are complete, fully punctuated sentences.}
+
+\subsection{References and Citations}
+The reference section should be labeled ``References'' and should appear at the end of the paper in modified APA format. A sample list of references is given in Appendix A. Poorly prepared, incomplete or sloppy references reflect badly on the quality of your scholarship. Please prepare complete and accurate citations.
+
+Citations within the text should include the author's last name and year, for example (Cheeseman, 1992). Append lower-case letters to the year in cases of ambiguity, as in 
+(Cheeseman, 1993a). Multiple authors should be treated as follows: (Cheeseman and Englemore, 1988) or (Englemore, Cheeseman, and Buchanan, 1992). In the case of three or more authors, the citation can be shortened by referring only the first author, followed by ``et al.'', as in (Clancey et al., 1991). Multiple citations should be separated by a semi-colon, as in (Cheeseman, 1993a; Buntine, 1992). If two works have the same author or authors, the appropriate format is as follows: (Drummond, 1990, 1991). If the authors' names are mentioned in the text, the citation need only refer to the year, as in ``Cheeseman and Englemore (1988) showed that...''. 
+
+In general, you shouldn't have parenthetical statements embedded in parenthetical statements. Therefore, citations within parenthetical statements should not be embedded in parentheses. Use commas as separators instead. For instance, rather than ``(as shown by Bresina (1992))'' you should write ``(as shown by Bresina, 1992)''. Similarly, ``(e.g., (Bresina, 1992))'' should be ``(e.g., Bresina, 1992)''. Note that the natbib style file supports the inclusion of prefixes in citations. 
+
+\paragraph{\LaTeX{}:} References and citations should be done with BibTeX.  The recommended bibliography style file, agi.bst, and citation style file, natbib, are included in jagi.sty. It supports the above citation styles with macros such as $\backslash$citep{} and $\backslash$citet{}. The basic uses of $\backslash$citep{} and $\backslash$citet{} are as follows: 
+\begin{verbatim}   \citet{jon90} => Jones et al. (1990) 
+   \citet[chap.~2]{jon90} => Jones et al. (1990, chap. 2) 
+   \citep{jon90} => (Jones et al., 1990) 
+   \citep[chap.~2]{jon90} => (Jones et al., 1990, chap. 2) 
+   \citep[see][]{jon90} => (see Jones et al., 1990) 
+   \citep[see][ch.~2]{jon90} => (see Jones et al., 1990, ch. 2) 
+   \citet*{jon90} => Jones, Baker, and Williams (1990) 
+   \citep*{jon90} => (Jones, Baker, and Williams, 1990) 
+\end{verbatim}
+
+\paragraph{MS-Word:}  References should be listed alphabetically by first author.  The MS-Word sample document/template has bibliographic reference examples for the various types of publications as Appendix A. Please refer there for order of information, spacing, and other style questions (such as when to use italics).
+
+\section{Avoiding Common Errors}
+Editors generally find a fairly consistent set of problems repeated over and over. Here's a list of them. JAGI won't enforce conformity with these rules, but it would certainly be nice if you followed them. 
+
+\paragraph{Dashes}
+Dashes should be used--with care--to set off interjections in a sentence. They should be long and there should not be spaces between them and the preceding and following words. Thus, in \LaTeX{}, the input should look like this: 
+\begin{verbatim}
+    Dashes should be used---with care---to set off ...
+\end{verbatim}
+
+\paragraph{Lower case names}
+The names of fields, algorithms, methods, etc., should be in lower case: cognitive science, reinforcement learning, principal components analysis. Exceptions are when they are in names of organizational entities, like Cognitive Science Department, or when they include proper names, such as Markov decision processes or Gaussian densities, or Bayes' rule. 
+
+\paragraph{Latin abbreviations}
+Scientists seem to like to use the Latin abbreviations i.e. and e.g. First, try to do without them. If you can't, then use the English equivalents (``that is'' instead of i.e. and ``for example'' instead of e.g.) If you really love the Latin, you should at least do it right. There should be a period after each letter (because they're abbreviations), and there should be a comma after the expression.
+
+\paragraph{Equation numbers}
+Only number equations that are actually referred to later in the text. 
+
+\paragraph{Citations}
+Citations are not nouns. It is not correct to say ``Using the method of (Smith, 1999), we ...'' Instead, say ``Using the method of Smith (1999), we ...'' or ``Using the method of partial discombobulation (Smith, 1999), we ....''. 
+
+\paragraph{Punctuate math}
+Sentences with mathematical statements in them are still sentences, subject to the usual rules of grammar and punctuation. As Knuth et al.,(1989) say, you should test this by reading out your paper with things like ``snort'' and ``grunt'' substituted in for the mathematics and listening to see whether it's grammatically correct. Never put a footnote directly after a mathematical expression; it is too easily confused with an exponent. 
+
+\paragraph{Hyphenating compound nouns}
+When you have a long string of nouns together, they often need hyphenation to make the meaning clear (and to make your editor happy). Here are some examples of correct expressions: 
+\begin{itemize}
+\item reinforcement learning 
+\item reinforcement-learning algorithm 
+\item delayed-reinforcement learning (learning from delayed reinforcement) 
+\item delayed reinforcement learning (reinforcement learning that is delayed) 
+\end{itemize}
+What are the rules? Here's a simple view: by default, modifiers bind to the phrase to their right. If you want to override that, then you need to use a hyphen. Consider the string of words ``country chicken pump dispenser'' (seen in an actual catalog). A ``pump dispenser'' is either something that dispenses pumps or that dispenses by pumping. A ``chicken pump dispenser'' is, perhaps, a pump dispenser in the shape of a chicken. But a ``chicken-pump dispenser'' is something that dispenses chicken pumps. The object in the catalog was a soap dispenser in the shape of a country chicken (as opposed to a city chicken, I guess) with a pump. So, probably, it should have been a ``country-chicken pump dispenser'', since ``pump'' modifies ``dispenser,'' ``country'' modifies ``chicken,'' and the phrase ``country chicken'' modifies ``pump dispenser.'' Whew. Many people think it's bad form to use such long strings of nouns anyway. 
+
+\paragraph{Don't use ``utilize.''}
+
+\paragraph{Don't start a section with a subsection}
+A section heading should never immediately follow another section heading without intervening text. So don't do this: 
+\begin{verbatim}      5. Experimental Results 
+
+      5.1 Results on a Simulated Domain 
+\end{verbatim}
+
+Instead, do this: 
+\begin{verbatim}      5. Experimental Results 
+
+      In this section, we first describe blah, blah, blah... 
+
+      5.1 Results on a Simulated Domain 
+\end{verbatim}
+
+\acks{We would also like to acknowledge Oren Patashnik who originally produced and Peter F. Patel-Schneider who modified the BibTex style file for AAAI that we modified for JAGI use.}
+
+% Manual newpage inserted to improve layout of sample file - not
+% needed in general before appendices/bibliography.
+
+\newpage
+
+\appendix
+\section{Bibliography Reference Examples}
+
+The MS-Word sample has Bibliographic Reference examples instead of this text.  \LaTeX{} users should use BibTeX and not need examples.
+
+\bibliography{jagi-sample}
+
+\end{document}

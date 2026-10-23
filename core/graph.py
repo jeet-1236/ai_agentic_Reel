@@ -64,6 +64,23 @@ def image_is_current(shot: dict, asset: dict | None) -> bool:
     return bool(asset and asset.get("image_path")) and asset.get("visual_prompt", "") == shot.get("visual_prompt", "")
 
 
+def script_fingerprint(script: dict | None) -> str:
+    """sha256 of the spoken lines of a script: what the voice-over must narrate."""
+    from core.schemas import Script
+
+    if not script:
+        return ""
+    spoken = "\n".join(s.spoken for s in Script.model_validate(script).sentences())
+    return hashlib.sha256(spoken.encode("utf-8")).hexdigest()
+
+
+def voice_is_current(state: AgentState) -> bool:
+    """The voice-over (and the captions built from it) narrates the CURRENT script. A repair loop that rewrites
+    the script must also re-voice it: the first Kaggle run narrated its loop-0 script after 3 rewrites."""
+    voice = state.get("voice") or {}
+    return bool(voice.get("wav_path")) and voice.get("script_sha", "") == script_fingerprint(state.get("script"))
+
+
 def dispatch_assets(state: AgentState) -> list[Send]:
     """Fan out one image job per shot that needs an image, plus the voice job when needed."""
     shots = state["storyboard"]["shots"]
@@ -75,7 +92,7 @@ def dispatch_assets(state: AgentState) -> list[Send]:
         for s in shots
         if s.get("visual_prompt") and (not image_is_current(s, have.get(str(s["shot_id"]))) or s["shot_id"] in redo)
     ]
-    if not state.get("voice") or (state.get("extra") or {}).get("redo_voice"):
+    if not voice_is_current(state) or (state.get("extra") or {}).get("redo_voice"):
         sends.append(Send("voice", state))
     return sends or [Send("assets_join", state)]
 
