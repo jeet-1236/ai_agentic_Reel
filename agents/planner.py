@@ -14,7 +14,7 @@ from core.state import AgentState
 
 AGENT = "planner"
 PROMPT_ID = "planner_v1"
-WORDS_PER_S = 2.6   # measured: Kokoro af_heart read 91 words in 34.98 s on Kaggle (2026-10-22)
+WORDS_PER_S = 2.1   # measured on Kaggle 2026-10-22: Kokoro af_heart, 72 words in 34.98 s incl. sentence pauses
 SIZES = {"9x16": (1080, 1920), "16x9": (1920, 1080)}
 MANDATORY_REVIEW = {"A", "C"}
 # PLAN §14 (minutes, retry caps)

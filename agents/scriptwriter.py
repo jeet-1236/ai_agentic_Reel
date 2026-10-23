@@ -25,7 +25,7 @@ from core.textnorm import count_words, short_urls, strip_unlisted_contacts, to_s
 AGENT = "scriptwriter"
 PROMPT_ID = "scriptwriter_v1"
 HOOK_STYLES = ("question", "surprising_fact", "direct_address")
-WORDS_PER_S = 2.6   # measured: Kokoro af_heart read 91 words in 34.98 s on Kaggle (2026-10-22)
+WORDS_PER_S = 2.1   # measured on Kaggle 2026-10-22: Kokoro af_heart, 72 words in 34.98 s incl. sentence pauses
 
 CONNECTIVES = [
     "Here's what the official sources say.",
